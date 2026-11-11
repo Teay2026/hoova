@@ -46,7 +46,7 @@ SIGN_IDENTITY=- ./scripts/build-app.sh
 
 ## The code
 
-- The code and its comments are written in French, the author's language. Write yours in French or in English: both are fine.
+- Code and comments are written in English. Some older comments are still in French, and will move to English over time.
 - The app's text is in `Resources/Localizable.xcstrings`. French is the source language. The English is rewritten for English readers, never translated word for word. A new text needs both.
 - Match the code around yours: its names, its comments and its style.
 
