@@ -1,0 +1,2184 @@
+/* Hoova : le haut de la page, « une nuit, un mot ». */
+
+@font-face {
+  font-family: "Nunito";
+  src: url("fonts/nunito.woff") format("woff");
+  font-weight: 400 1000;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("fonts/source-serif-4.woff") format("woff");
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+/* La nuit (mode sombre), puis l'aube pastel de l'accueil (mode clair). */
+:root {
+  --sky-0: #0D0830;
+  --sky-1: #170E47;
+  --sky-2: #22155B;
+  --ink: #FBF8EE;
+  --ink-soft: rgb(251 248 238 / .74);
+  --ink-faint: rgb(251 248 238 / .64);
+  --star: #FBF8EE;
+  --iris: #B8A1EE;
+  --night: #22155B;
+  --sel: #B8A1EE;
+  --sel-ink: #22155B;
+  --btn: #FBF8EE;
+  --btn-ink: #22155B;
+  --btn-hover: #FFFFFF;
+  --btn-glow: 0 16px 38px -18px rgb(251 248 238 / .55);
+  --focus: #C9F4DC;
+  --key-top: #3A2E7C;
+  --key-bottom: #2A1F66;
+  --key-edge: #100A36;
+  --key-ink: #FBF8EE;
+  --card-shadow: 0 26px 60px -20px rgb(4 2 22 / .75), 0 2px 8px rgb(4 2 22 / .3);
+  --hv-ground: .35;
+  --aurora: .62;
+  --aurora-blend: screen;
+  --stars: 1;
+  --hv-size: clamp(84px, 10.5vw, 152px);
+  --ease-out: cubic-bezier(.23, 1, .32, 1);
+  --ease-in-out: cubic-bezier(.77, 0, .175, 1);
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --sky-0: #E2D8FB;
+    --sky-1: #EEE8FB;
+    --sky-2: #FBF8EE;
+    --ink: #22155B;
+    --ink-soft: rgb(34 21 91 / .78);
+    --ink-faint: rgb(34 21 91 / .72);
+    --star: #6A4FD0;
+    --btn: #22155B;
+    --btn-ink: #FBF8EE;
+    --btn-hover: #31207D;
+    --btn-glow: 0 16px 34px -18px rgb(34 21 91 / .6);
+    --focus: #6A4FD0;
+    --key-top: #FFFFFF;
+    --key-bottom: #F1ECFB;
+    --key-edge: #C7B9EC;
+    --key-ink: #22155B;
+    --card-shadow: 0 22px 50px -22px rgb(34 21 91 / .5), 0 2px 6px rgb(34 21 91 / .12);
+    --hv-ground: .16;
+    --aurora: .5;
+    --aurora-blend: normal;
+    --stars: .5;
+    color-scheme: light;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--sky-2);
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Nunito", ui-rounded, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--sel);
+  color: var(--sel-ink);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip {
+  position: absolute;
+  left: 16px;
+  top: -80px;
+  z-index: 10;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: var(--btn);
+  color: var(--btn-ink);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.skip:focus {
+  top: 16px;
+}
+
+:focus-visible {
+  outline: 2.5px solid var(--focus);
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
+/* La scène */
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  min-height: 100vh;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 clamp(16px, 5vw, 72px) clamp(22px, 4vh, 44px);
+  overflow: clip;
+  background: linear-gradient(180deg, var(--sky-0) 0%, var(--sky-1) 50%, var(--sky-2) 100%);
+}
+
+.sky {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.aurora {
+  position: absolute;
+  left: -2%;
+  top: 0;
+  width: 104%;
+  height: 74%;
+  opacity: var(--aurora);
+  mix-blend-mode: var(--aurora-blend);
+  will-change: translate;
+}
+
+.aurora-glow {
+  opacity: .5;
+}
+
+.stars {
+  position: absolute;
+  inset: -12px;
+  width: calc(100% + 24px);
+  height: calc(100% + 24px);
+  opacity: var(--stars);
+  color: var(--star);
+  will-change: translate;
+}
+
+.stars circle {
+  fill: currentColor;
+}
+
+.spark {
+  fill: none;
+  stroke-linecap: round;
+}
+
+.spark-ink {
+  stroke: currentColor;
+}
+
+.spark-mint {
+  stroke: #C9F4DC;
+}
+
+.spark-iris {
+  stroke: #B8A1EE;
+}
+
+.spark-gold {
+  stroke: #FFCC3D;
+}
+
+@media (prefers-color-scheme: light) {
+  .spark-mint {
+    stroke: #6CC79F;
+  }
+
+  .spark-iris {
+    stroke: #9276E8;
+  }
+
+  .spark-gold {
+    stroke: #E2A400;
+  }
+}
+
+.shooting {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 170px;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, rgb(255 250 230 / 0), rgb(255 250 230 / .95));
+  opacity: 0;
+  transform-origin: 100% 50%;
+}
+
+@media (prefers-color-scheme: light) {
+  .shooting {
+    background: linear-gradient(90deg, rgb(146 118 232 / 0), rgb(146 118 232 / .9));
+  }
+}
+
+/* Le haut */
+
+.bar {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: clamp(18px, 3.4vh, 32px);
+}
+
+.wordmark {
+  color: var(--ink);
+  font-weight: 1000;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -.06em;
+  text-decoration: none;
+}
+
+.wordmark span {
+  color: var(--iris);
+}
+
+.headline {
+  /* Sur un écran haut, l'espace libre se partage entre le haut de la phrase et l'appel. */
+  margin: auto 0 0;
+  padding-top: clamp(14px, 4.6vh, 60px);
+  font-weight: 900;
+  font-size: clamp(36px, min(4.7vw, 7.2vh), 82px);
+  line-height: 1.02;
+  letter-spacing: -.028em;
+  text-align: center;
+}
+
+.hl-line {
+  display: block;
+}
+
+.w {
+  display: inline-block;
+}
+
+/* La réponse d'une IA, en grand, et le mot qu'on ne comprend pas */
+
+:root {
+  --reply-glass: rgb(251 248 238 / .07);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --reply-glass: rgb(255 255 255 / .62);
+  }
+}
+
+.demo {
+  position: relative;
+  display: grid;
+  justify-items: stretch;
+  width: min(100%, 46rem);
+  /* Assez d'air pour que Hoova, qui dépasse du haut de la bulle, ne touche jamais le titre. */
+  margin-top: clamp(36px, 6.4vh, 76px);
+}
+
+.reply {
+  padding: clamp(18px, 2.4vw, 30px) clamp(20px, 2.8vw, 36px) clamp(22px, 2.8vw, 34px);
+  border: 1px solid var(--card-line);
+  border-radius: clamp(22px, 2.4vw, 30px);
+  background: var(--reply-glass);
+  box-shadow: 0 40px 80px -44px rgb(0 0 0 / .7);
+}
+
+.reply-who {
+  display: inline-flex;
+  align-items: center;
+  gap: .32em;
+  margin: 0 0 .8em;
+  padding: .2em .65em .2em .55em;
+  border: 1.5px solid var(--card-line);
+  border-radius: 99px;
+  color: var(--ink-soft);
+  font-weight: 800;
+  font-size: .8rem;
+}
+
+.reply-who svg {
+  width: .95em;
+  height: .95em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+}
+
+.reply-text {
+  margin: 0;
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 420;
+  font-size: clamp(23px, min(2.9vw, 4.6vh), 44px);
+  font-optical-sizing: auto;
+  line-height: 1.32;
+  letter-spacing: -.012em;
+  text-wrap: pretty;
+}
+
+.tok {
+  display: inline-block;
+}
+
+.word {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.word:focus-visible {
+  outline-offset: 4px;
+  border-radius: .16em;
+}
+
+.word-base,
+.word-lit {
+  display: inline-block;
+  padding: .02em .1em .05em;
+  border-radius: .16em;
+  white-space: nowrap;
+}
+
+.word-lit {
+  position: absolute;
+  inset: 0;
+  background: var(--sel);
+  color: var(--sel-ink);
+  clip-path: inset(0 100% 0 0);
+}
+
+html:not(.js) .word-lit {
+  clip-path: none;
+}
+
+/* Le curseur de texte qui sélectionne le mot */
+.caret {
+  position: absolute;
+  left: .1em;
+  top: .12em;
+  width: 2px;
+  height: 1.06em;
+  background: var(--ink);
+  border-radius: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.caret::before,
+.caret::after {
+  content: "";
+  position: absolute;
+  left: -5px;
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: inherit;
+}
+
+.caret::before {
+  top: 0;
+}
+
+.caret::after {
+  bottom: 0;
+}
+
+/* Sous le mot : la fin de la phrase et le geste, ou le pop-up de Hoova */
+
+.zone {
+  display: grid;
+  justify-self: stretch;
+  margin-top: .5rem;
+}
+
+.zone > * {
+  grid-area: 1 / 1;
+}
+
+.after {
+  display: grid;
+  justify-items: center;
+  align-content: start;
+  transition: opacity 200ms ease;
+}
+
+.hint {
+  justify-self: center;
+  margin: clamp(18px, 3.2vh, 32px) 0 0;
+  font-weight: 800;
+  font-size: clamp(17px, 1.45vw, 21px);
+}
+
+.hint .hint-keys {
+  display: inline-flex;
+  align-items: center;
+  gap: .5em;
+}
+
+.hint-touch {
+  display: none;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .hint-keys,
+  .hint .hint-keys {
+    display: none;
+  }
+
+  .hint-touch {
+    display: inline;
+  }
+}
+
+/* La touche ⌃, dessinée comme une vraie touche */
+.key {
+  display: inline-grid;
+  place-items: center;
+  width: 2em;
+  height: 1.8em;
+  border-radius: .38em;
+  background: linear-gradient(180deg, var(--key-top), var(--key-bottom));
+  color: var(--key-ink);
+  box-shadow:
+    0 .15em 0 var(--key-edge),
+    0 .34em .7em -.24em rgb(0 0 0 / .5),
+    inset 0 1px 0 rgb(255 255 255 / .16);
+  cursor: pointer;
+  user-select: none;
+  transition:
+    transform 90ms ease-out,
+    box-shadow 90ms ease-out,
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.key svg {
+  width: 1.2em;
+  height: 1.2em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.key.is-down {
+  transform: translateY(.11em);
+  box-shadow:
+    0 .04em 0 var(--key-edge),
+    0 .12em .3em -.1em rgb(0 0 0 / .45),
+    inset 0 1px 0 rgb(255 255 255 / .12);
+}
+
+.key.is-lit {
+  background: linear-gradient(180deg, #D3C3FF, var(--iris));
+  color: var(--night);
+  box-shadow:
+    0 .15em 0 #7A5FD4,
+    0 0 1.3em rgb(184 161 238 / .6),
+    inset 0 1px 0 rgb(255 255 255 / .55);
+}
+
+.key.is-lit.is-down {
+  box-shadow:
+    0 .04em 0 #7A5FD4,
+    0 0 1.3em rgb(184 161 238 / .6),
+    inset 0 1px 0 rgb(255 255 255 / .45);
+}
+
+/* Le pop-up « Pastel doux » de l'app */
+.card {
+  justify-self: end;
+  align-self: start;
+  width: min(25.5rem, 100%);
+  /* Le pop-up n'élargit jamais la phrase : c'est le mot qui donne la largeur. */
+  contain: inline-size;
+  margin: 0;
+  padding: 1rem 1.25rem 1.15rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 1rem;
+  border-radius: 1.4rem;
+  color: #22155B;
+  background:
+    radial-gradient(120% 95% at 0% 0%, rgb(201 244 220 / .95), rgb(201 244 220 / 0) 62%),
+    radial-gradient(110% 90% at 100% 0%, rgb(206 190 255 / .95), rgb(206 190 255 / 0) 64%),
+    radial-gradient(120% 110% at 40% 125%, rgb(255 206 168 / .95), rgb(255 206 168 / 0) 66%),
+    #EFE8FA;
+  box-shadow: var(--card-shadow), inset 0 0 0 1px rgb(255 255 255 / .6);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-6px) scale(.96);
+  transform-origin: 88% 0;
+  transition:
+    opacity 160ms ease-out,
+    transform 200ms var(--ease-out),
+    visibility 0s linear 200ms;
+}
+
+.demo.card-side .card {
+  translate: var(--card-shift, 0) 0;
+}
+
+.demo:not(.card-side) .card {
+  justify-self: stretch;
+  width: auto;
+  margin-top: calc(var(--hv-size) * .92);
+}
+
+html.is-open .card,
+html:not(.js) .card {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition:
+    opacity 180ms ease-out,
+    transform 260ms var(--ease-out),
+    visibility 0s;
+}
+
+html.is-open .after,
+html:not(.js) .after {
+  opacity: 0;
+}
+
+.card-context {
+  grid-column: 1;
+  margin: 0;
+  font-weight: 600;
+  font-size: .84rem;
+  opacity: .74;
+}
+
+.card-badge {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: start;
+  display: inline-flex;
+  align-items: center;
+  gap: .32em;
+  margin: 0;
+  padding: .2em .62em .2em .5em;
+  border: 1.5px solid rgb(34 21 91 / .3);
+  border-radius: 99px;
+  font-weight: 800;
+  font-size: .8rem;
+}
+
+.card-badge svg {
+  width: .9em;
+  height: .9em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.4;
+  stroke-linecap: round;
+}
+
+.card-term {
+  grid-column: 1;
+  margin: .15rem 0 0;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 1.15;
+  letter-spacing: -.012em;
+}
+
+.card-text {
+  grid-column: 1 / -1;
+  margin: .4rem 0 0;
+  font-weight: 600;
+  font-size: 1.07rem;
+  line-height: 1.45;
+}
+
+/* Hoova */
+
+.perch {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: var(--hv-size);
+  height: var(--hv-size);
+  /* Il disparaît sous le bord où il se tient : rien n'est coupé ailleurs. */
+  clip-path: inset(-300% -300% 0 -300%);
+  pointer-events: none;
+}
+
+.hv {
+  width: 100%;
+  height: 100%;
+  transform: translateY(101%);
+}
+
+.hoova {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  --hv-shadow: #9F88EE;
+  --hv-tone: #C4B1FB;
+  --hv-ear: #A890F1;
+  --hv-crease: #6A4FD0;
+  --hv-feet: #8A6FE4;
+}
+
+.hoova.is-awake {
+  --hv-shadow: #A3E6C4;
+  --hv-tone: #C9F4DD;
+  --hv-ear: #B3EDCF;
+  --hv-crease: #6CC79F;
+  --hv-feet: #86D6AF;
+}
+
+.hv-fig {
+  pointer-events: visiblePainted;
+  cursor: pointer;
+  transform-origin: 515px 748px;
+  transition: transform 700ms var(--ease-out);
+}
+
+.hv-tone-shadow {
+  fill: var(--hv-shadow);
+}
+
+.hv-tone-body {
+  fill: var(--hv-tone);
+}
+
+.hv-tone-ear {
+  fill: var(--hv-ear);
+}
+
+.hv-tone-crease {
+  fill: var(--hv-crease);
+}
+
+.hv-feet,
+.hv-tiptoes {
+  fill: var(--hv-feet);
+}
+
+.hv-body > *,
+.hv-feet,
+.hv-tiptoes {
+  transition: fill 420ms ease;
+}
+
+.foot {
+  transform-box: view-box;
+}
+
+.moon-disc {
+  fill: #C9F4DD;
+  fill-opacity: .22;
+}
+
+.moon-phase {
+  fill: #C9F4DD;
+}
+
+.hv-moon,
+.hv-gold,
+.hv-feet,
+.hv-tiptoes,
+.hv-final-eyes,
+.hv-aura,
+.hv-shadow {
+  transition: opacity 450ms ease;
+}
+
+.hv-gold,
+.hv-tiptoes,
+.hv-final-eyes,
+.hv-aura,
+.hv-shadow {
+  opacity: 0;
+}
+
+.hoova.is-awake .hv-gold {
+  opacity: 1;
+}
+
+.hoova.is-awake .hv-moon {
+  opacity: 0;
+}
+
+.gold-ring {
+  fill: none;
+  stroke: #FFCC3D;
+  stroke-opacity: .9;
+  stroke-width: 7;
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: scale(1.64);
+  transition:
+    opacity 500ms ease,
+    transform 500ms var(--ease-out);
+}
+
+.hv-face {
+  fill: #26174F;
+}
+
+.hv-face .stroke {
+  fill: none;
+  stroke: #26174F;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.mood {
+  display: none;
+  transition: opacity 400ms ease;
+}
+
+.hoova[data-mood="happy"] .m-happy,
+.hoova[data-mood="reading"] .m-reading,
+.hoova[data-mood="proud"] .m-proud,
+.hoova[data-mood="hurt"] .m-hurt {
+  display: inline;
+}
+
+.eye {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+/* L'éveil final : yeux blancs qui brillent, plus de bouche, anneau, aura, et il flotte */
+.hoova.is-final .gold-ring {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.hoova.is-final .mood {
+  opacity: 0;
+}
+
+.hoova.is-final .hv-final-eyes,
+.hoova.is-final .hv-aura {
+  opacity: 1;
+}
+
+.hoova.is-floating .hv-fig {
+  transform: translateY(-24px);
+}
+
+.hoova.is-floating .hv-feet {
+  opacity: 0;
+}
+
+.hoova.is-floating .hv-tiptoes {
+  opacity: 1;
+}
+
+.hoova.is-floating .hv-shadow {
+  opacity: var(--hv-ground);
+}
+
+.hv-shadow {
+  fill: #000;
+}
+
+.aura-outer use {
+  fill: #C9F4DD;
+  fill-opacity: .6;
+}
+
+.aura-inner use {
+  fill: #FFCC3D;
+  fill-opacity: .5;
+}
+
+.aura-outer,
+.aura-inner {
+  transform-origin: 515px 735px;
+}
+
+.aura-outer {
+  animation: aura-outer 1.1s ease-in-out infinite alternate;
+}
+
+.aura-inner {
+  animation: aura-inner .9s ease-in-out infinite alternate;
+}
+
+.tongue {
+  opacity: 0;
+  animation: tongue 1.2s linear infinite;
+}
+
+.t1,
+.t3 {
+  fill: #C9F4DD;
+}
+
+.t2 {
+  fill: #FFCC3D;
+  animation-delay: -.44s;
+}
+
+.t3 {
+  animation-delay: -.89s;
+}
+
+.hv-aura *,
+.hv-final-eyes circle {
+  animation-play-state: paused;
+}
+
+.hoova.is-final .hv-aura *,
+.hoova.is-final .hv-final-eyes circle {
+  animation-play-state: running;
+}
+
+.hv-final-eyes circle:nth-child(-n + 2) {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: sun 1.6s ease-in-out infinite;
+}
+
+.perch.is-floating .hv {
+  animation: bob 3.2s ease-in-out infinite;
+}
+
+@keyframes aura-outer {
+  from {
+    transform: translateX(-5px) scale(1, .97);
+  }
+
+  to {
+    transform: translateX(5px) scale(1.02, 1.04);
+  }
+}
+
+@keyframes aura-inner {
+  from {
+    transform: scale(1, .96);
+  }
+
+  to {
+    transform: scale(1, 1.04);
+  }
+}
+
+@keyframes tongue {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: .7;
+  }
+
+  100% {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+}
+
+@keyframes sun {
+  50% {
+    transform: scale(1.09);
+  }
+}
+
+@keyframes bob {
+  50% {
+    translate: 0 -2.5%;
+  }
+}
+
+/* L'appel */
+
+.cta {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  margin-top: auto;
+  padding-top: clamp(20px, 3.6vh, 44px);
+  text-align: center;
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px 28px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  padding: 0 1.7em;
+  border-radius: 999px;
+  background: var(--btn);
+  color: var(--btn-ink);
+  box-shadow: var(--btn-glow);
+  font-weight: 800;
+  font-size: 1.12rem;
+  letter-spacing: -.005em;
+  text-decoration: none;
+  transition:
+    transform 160ms var(--ease-out),
+    background-color 200ms ease;
+}
+
+.btn:active {
+  transform: scale(.97);
+}
+
+.btn:focus-visible {
+  border-radius: 999px;
+}
+
+.link {
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 1.04rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: .3em;
+  text-decoration-color: var(--ink-faint);
+  transition: text-decoration-color 160ms ease;
+}
+
+.fine {
+  max-width: 34em;
+  margin: 0;
+  color: var(--ink-faint);
+  font-weight: 600;
+  font-size: .92rem;
+  text-wrap: balance;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .btn:hover {
+    background: var(--btn-hover);
+  }
+
+  .link:hover {
+    text-decoration-color: currentColor;
+  }
+}
+
+@media (max-width: 640px) {
+  .cta-row {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .btn {
+    width: min(100%, 360px);
+  }
+
+}
+
+/* L'entrée : la nuit apparaît, la phrase s'écrit, le mot prend la lumière */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(var(--rise, .35em));
+    filter: blur(var(--blur, 6px));
+  }
+}
+
+@keyframes aurora-in {
+  from {
+    opacity: 0;
+    transform: translateY(5%) scaleY(.9);
+  }
+}
+
+html.js:not(.is-in) .hero :is(.aurora, .stars > *, .bar, .w, .reply, .tok, .after, .cta) {
+  opacity: 0;
+}
+
+html.is-in .hero .stars > * {
+  animation: fade-in 1100ms ease-out backwards;
+  animation-delay: calc(var(--d, 0ms) + 100ms);
+}
+
+html.is-in .hero .aurora {
+  transform-origin: 50% 0;
+  animation: aurora-in 2400ms var(--ease-out) 150ms backwards;
+}
+
+html.is-in .hero .bar {
+  animation: fade-in 700ms ease-out 250ms backwards;
+}
+
+html.is-in .hero .w {
+  animation: rise-in 760ms var(--ease-out) backwards;
+  animation-delay: calc(320ms + var(--i) * 70ms);
+}
+
+html.is-in .hero .reply {
+  --rise: 14px;
+  --blur: 0px;
+  animation: rise-in 800ms var(--ease-out) 600ms backwards;
+}
+
+/* La réponse s'écrit mot à mot, comme une IA qui répond. */
+html.is-in .hero .tok {
+  --rise: .3em;
+  --blur: 4px;
+  animation: rise-in 520ms var(--ease-out) backwards;
+  animation-delay: calc(950ms + var(--i) * 55ms);
+}
+
+html.is-in .hero .after {
+  --rise: .5em;
+  --blur: 3px;
+  animation: rise-in 700ms var(--ease-out) 2900ms backwards;
+}
+
+html.is-in .hero .cta {
+  --rise: 12px;
+  --blur: 0px;
+  animation: rise-in 800ms var(--ease-out) 2100ms backwards;
+}
+
+/* Les blocs suivants : la nuit avance, jusqu'à la pleine lune. Chaque bloc a son ciel, raccordé au suivant. */
+
+:root {
+  --film-bottom: #1A1050;
+  --how-glow: rgb(201 244 220 / .11);
+  --how-bottom: #1D1257;
+  --private-glow: rgb(201 244 220 / .16);
+  --private-mid: #100A38;
+  --private-bottom: #20155A;
+  --install-glow: rgb(184 161 238 / .17);
+  --install-bottom: #281B64;
+  --faq-glow: rgb(255 196 140 / .1);
+  --faq-bottom: #2F206B;
+  --end-bottom: #3B2A75;
+  --card-glass: rgb(251 248 238 / .055);
+  --card-line: rgb(251 248 238 / .14);
+  --deep: #B8A1EE;
+  --screen-frame: linear-gradient(160deg, #3A2E78, #191043);
+  --desk-wallpaper:
+    radial-gradient(70% 80% at 8% 0%, rgb(201 244 220 / .5), rgb(201 244 220 / 0) 62%),
+    radial-gradient(70% 80% at 100% 8%, rgb(184 161 238 / .7), rgb(184 161 238 / 0) 62%),
+    radial-gradient(80% 70% at 50% 120%, rgb(255 196 140 / .5), rgb(255 196 140 / 0) 62%),
+    #3B2C7C;
+  --glow-boost: 1;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --film-bottom: #F6F1FB;
+    --how-glow: rgb(201 244 220 / .55);
+    --how-bottom: #F2F7F3;
+    --private-glow: rgb(184 161 238 / .34);
+    --private-mid: #ECE5FB;
+    --private-bottom: #F4EFFB;
+    --install-glow: rgb(255 196 140 / .3);
+    --install-bottom: #FFF5EC;
+    --faq-glow: rgb(201 244 220 / .35);
+    --faq-bottom: #FBF8EE;
+    --end-bottom: #F7F0E2;
+    --card-glass: rgb(255 255 255 / .6);
+    --card-line: rgb(34 21 91 / .12);
+    --deep: #9276E8;
+    --screen-frame: linear-gradient(160deg, #FFFFFF, #E6DDFA);
+    --desk-wallpaper:
+      radial-gradient(70% 80% at 8% 0%, rgb(201 244 220 / .9), rgb(201 244 220 / 0) 62%),
+      radial-gradient(70% 80% at 100% 8%, rgb(206 190 255 / .95), rgb(206 190 255 / 0) 62%),
+      radial-gradient(80% 70% at 50% 120%, rgb(255 206 168 / .9), rgb(255 206 168 / 0) 62%),
+      #EDE6FB;
+    --glow-boost: 1.5;
+  }
+}
+
+.scene:not(.hero) {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  padding: clamp(80px, 14vh, 160px) clamp(16px, 5vw, 72px);
+}
+
+.scene:not(.hero) .stars {
+  z-index: -1;
+  will-change: auto;
+}
+
+.stage {
+  position: relative;
+}
+
+.scene-title {
+  margin: 0;
+  font-weight: 900;
+  font-size: clamp(34px, 4.6vw, 68px);
+  line-height: 1.03;
+  letter-spacing: -.026em;
+  text-wrap: balance;
+}
+
+.step-n {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 2.1em;
+  height: 2.1em;
+  border-radius: 50%;
+  background: var(--iris);
+  color: var(--sel-ink);
+  font-weight: 900;
+  font-size: .9em;
+}
+
+:is(.private-copy, .install-notes, .faq, .foot) a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: .22em;
+  text-decoration-color: var(--ink-faint);
+  transition: text-decoration-color 160ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  :is(.private-copy, .install-notes, .faq, .foot) a:hover {
+    text-decoration-color: currentColor;
+  }
+}
+
+/* Le film : un écran posé comme un objet, qui s'allume quand on arrive */
+
+.film {
+  background: linear-gradient(180deg, var(--sky-2) 0%, var(--film-bottom) 100%);
+  text-align: center;
+}
+
+.film .scene-title {
+  margin-bottom: clamp(32px, 6vh, 64px);
+}
+
+.screen {
+  width: min(100%, 980px);
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  padding: clamp(8px, 1.1vw, 14px);
+  border-radius: clamp(16px, 2vw, 26px);
+  background: var(--screen-frame);
+  box-shadow: 0 44px 90px -44px rgb(0 0 0 / .75), inset 0 0 0 1px rgb(255 255 255 / .12);
+  rotate: -1.6deg;
+}
+
+.screen-glass {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: clamp(10px, 1.3vw, 16px);
+  background:
+    radial-gradient(60% 70% at 50% 115%, rgb(184 161 238 / .4), rgb(184 161 238 / 0) 70%),
+    radial-gradient(40% 55% at 12% 0%, rgb(201 244 220 / .28), rgb(201 244 220 / 0) 70%),
+    linear-gradient(180deg, #0D0830, #22155B);
+  transition: opacity 1100ms ease, filter 1100ms ease;
+}
+
+html.js .screen:not(.is-seen) .screen-glass {
+  opacity: .3;
+  filter: saturate(.3) brightness(.7);
+}
+
+.screen-glass {
+  position: relative;
+}
+
+.film-video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #0D0830;
+}
+
+/* Le bouton de lecture : un morceau de lune, comme le bouton principal, posé dans le coin pour laisser voir l'image */
+.play {
+  position: absolute;
+  left: clamp(12px, 3%, 28px);
+  bottom: clamp(12px, 4.5%, 32px);
+  display: inline-flex;
+  align-items: center;
+  gap: .55em;
+  min-height: clamp(40px, 4.4vw, 52px);
+  padding: 0 1.2em 0 1em;
+  border: 0;
+  border-radius: 999px;
+  background: rgb(251 248 238 / .95);
+  color: #22155B;
+  box-shadow: 0 16px 36px -16px rgb(0 0 0 / .7);
+  font: inherit;
+  font-weight: 800;
+  font-size: clamp(14px, 1.2vw, 17px);
+  cursor: pointer;
+  transition:
+    transform 160ms var(--ease-out),
+    opacity 220ms ease;
+}
+
+.play svg {
+  width: 1.1em;
+  height: 1.1em;
+  fill: currentColor;
+}
+
+.play:active {
+  transform: scale(.97);
+}
+
+.play:focus-visible {
+  border-radius: 999px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .play:hover {
+    background: #FFFFFF;
+  }
+}
+
+/* Quand le film joue, l'écran se redresse et le bouton s'efface. */
+.screen {
+  transition: rotate 600ms var(--ease-out);
+}
+
+.screen.is-playing {
+  rotate: 0deg;
+}
+
+.screen.is-playing .play {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Comment ça marche : un faux bureau de Mac, dessiné, où l'on essaie pour de vrai */
+
+.how {
+  background:
+    radial-gradient(55% 45% at 0% 35%, var(--how-glow), transparent 70%),
+    linear-gradient(180deg, var(--film-bottom), var(--how-bottom));
+}
+
+.how-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  align-items: center;
+  gap: clamp(32px, 5vw, 80px);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.steps {
+  display: grid;
+  gap: 14px;
+  margin: clamp(24px, 4vh, 40px) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.steps li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-weight: 700;
+  font-size: clamp(18px, 1.5vw, 21px);
+}
+
+.key-small {
+  margin: 0 .25em;
+  font-size: .82em;
+  vertical-align: middle;
+}
+
+.how-try {
+  margin: 24px 0 0;
+  color: var(--ink-faint);
+  font-weight: 600;
+}
+
+.desk {
+  --hv-size: clamp(54px, 6.2vw, 92px);
+}
+
+.desk-screen {
+  position: relative;
+  aspect-ratio: 16 / 10.5;
+  overflow: hidden;
+  border-radius: 18px;
+  background: var(--desk-wallpaper);
+  box-shadow: 0 40px 80px -38px rgb(0 0 0 / .7), inset 0 0 0 1px rgb(255 255 255 / .12);
+}
+
+.desk-bar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height: 26px;
+  padding: 0 14px;
+  background: rgb(20 12 60 / .32);
+  color: rgb(255 255 255 / .92);
+  font-weight: 600;
+  font-size: 12px;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.desk-app {
+  font-weight: 800;
+}
+
+.desk-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.desk-hoova {
+  width: 15px;
+  height: 15px;
+}
+
+.desk-window {
+  position: absolute;
+  left: 7%;
+  top: 17%;
+  width: 72%;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #FBF8EE;
+  color: #22155B;
+  box-shadow: 0 26px 50px -26px rgb(0 0 0 / .6), 0 0 0 1px rgb(34 21 91 / .06);
+}
+
+.desk-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  height: 30px;
+  padding: 0 12px;
+  background: #F1ECE0;
+  color: rgb(34 21 91 / .6);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.desk-title i {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #E2D9CB;
+}
+
+.desk-title span {
+  margin-left: 8px;
+}
+
+.desk-page {
+  padding: clamp(14px, 2.4vw, 28px) clamp(16px, 2.6vw, 32px) clamp(6px, 1vw, 12px);
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: clamp(16px, 1.6vw, 22px);
+  line-height: 1.5;
+}
+
+.desk-page p {
+  margin: 0 0 .9em;
+}
+
+.say {
+  margin: 0 -.1em;
+  padding: 0 .1em;
+  border: 0;
+  border-radius: .18em;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline dotted rgb(34 21 91 / .5);
+  text-underline-offset: .2em;
+  cursor: pointer;
+  transition: background-color 160ms ease;
+}
+
+.say.is-lit {
+  background: #B8A1EE;
+  text-decoration-color: transparent;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .say:not(.is-lit):hover {
+    background: rgb(184 161 238 / .35);
+  }
+}
+
+.card,
+.desk-card {
+  color: #22155B;
+  background:
+    radial-gradient(120% 95% at 0% 0%, rgb(201 244 220 / .95), rgb(201 244 220 / 0) 62%),
+    radial-gradient(110% 90% at 100% 0%, rgb(206 190 255 / .95), rgb(206 190 255 / 0) 64%),
+    radial-gradient(120% 110% at 40% 125%, rgb(255 206 168 / .95), rgb(255 206 168 / 0) 66%),
+    #EFE8FA;
+}
+
+.desk-card {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: .7rem;
+  width: min(17.5rem, 80%);
+  padding: .8rem 1rem .95rem;
+  border-radius: 1.05rem;
+  box-shadow: 0 18px 40px -18px rgb(4 2 22 / .7), inset 0 0 0 1px rgb(255 255 255 / .6);
+  font-size: .9rem;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px) scale(.96);
+  transform-origin: 18% 0;
+  transition:
+    opacity 160ms ease-out,
+    transform 200ms var(--ease-out),
+    visibility 0s linear 200ms;
+}
+
+.desk.is-open .desk-card {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition:
+    opacity 180ms ease-out,
+    transform 260ms var(--ease-out),
+    visibility 0s;
+}
+
+.desk-card .card-context {
+  font-size: .76rem;
+}
+
+.desk-card .card-badge {
+  font-size: .72rem;
+}
+
+.desk-card .card-term {
+  font-size: 1.22rem;
+}
+
+.desk-card .card-text {
+  margin-top: .3rem;
+  font-size: .94rem;
+  line-height: 1.42;
+}
+
+.desk-pointer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 22px;
+  height: 22px;
+  fill: #FFFFFF;
+  stroke: #22155B;
+  stroke-width: 1.3;
+  stroke-linejoin: round;
+  opacity: 0;
+  pointer-events: none;
+  filter: drop-shadow(0 2px 3px rgb(0 0 0 / .35));
+}
+
+/* « Papers. Videos. Shopping. Any language. » : un mot par coupe, comme dans le film */
+.anything {
+  max-width: 1100px;
+  margin: clamp(88px, 14vh, 160px) auto 0;
+  font-weight: 900;
+  font-size: clamp(34px, 6.4vw, 96px);
+  line-height: 1.02;
+  letter-spacing: -.03em;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.any {
+  display: inline-block;
+}
+
+.any-last {
+  display: block;
+  margin-top: .14em;
+  color: var(--deep);
+}
+
+html.js .anything:not(.is-seen) .any {
+  opacity: 0;
+}
+
+.anything.is-seen .any {
+  --rise: .25em;
+  --blur: 8px;
+  animation: rise-in 700ms var(--ease-out) backwards;
+}
+
+.anything.is-seen .any:nth-child(2) {
+  animation-delay: 170ms;
+}
+
+.anything.is-seen .any:nth-child(3) {
+  animation-delay: 340ms;
+}
+
+.anything.is-seen .any:nth-child(4) {
+  animation-delay: 510ms;
+}
+
+.anything.is-seen .any:nth-child(5) {
+  animation-delay: 820ms;
+}
+
+/* Privé : la pleine lune, l'astre du modèle intégré dans l'accueil de l'app */
+
+.private {
+  background:
+    radial-gradient(42% 55% at 27% 50%, var(--private-glow), transparent 72%),
+    linear-gradient(180deg, var(--how-bottom) 0%, var(--private-mid) 50%, var(--private-bottom) 100%);
+}
+
+.private-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(32px, 6vw, 96px);
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.moon-stage {
+  --hv-size: clamp(76px, 8.4vw, 132px);
+  justify-self: center;
+  width: clamp(240px, 32vw, 440px);
+  aspect-ratio: 1;
+  margin-top: calc(var(--hv-size) * .7);
+}
+
+.big-moon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.moon-halo,
+.moon-face,
+.moon-craters {
+  transition: opacity 1400ms ease;
+}
+
+html.js .moon-stage:not(.is-seen) .moon-halo {
+  opacity: 0;
+}
+
+html.js .moon-stage:not(.is-seen) :is(.moon-face, .moon-craters) {
+  opacity: .22;
+}
+
+.private-copy .scene-title {
+  margin-bottom: .45em;
+}
+
+.private-copy p {
+  max-width: 34em;
+  margin: 1em 0 0;
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: clamp(17px, 1.4vw, 20px);
+  line-height: 1.55;
+}
+
+.private-copy strong {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+/* Installer, et les autorisations : des cartes calmes, translucides, au trait fin */
+
+.install {
+  background:
+    radial-gradient(50% 45% at 100% 25%, var(--install-glow), transparent 70%),
+    linear-gradient(180deg, var(--private-bottom), var(--install-bottom));
+}
+
+.install > * {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.install-stage {
+  --hv-size: clamp(70px, 7vw, 112px);
+  margin-top: clamp(40px, 7vh, 72px);
+}
+
+.install-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.install-card,
+.permissions dl > div {
+  border: 1px solid var(--card-line);
+  background: var(--card-glass);
+}
+
+.install-card {
+  padding: 22px 22px 26px;
+  border-radius: 22px;
+}
+
+.install-card p {
+  margin: 14px 0 0;
+  font-weight: 700;
+  font-size: clamp(17px, 1.35vw, 19px);
+  line-height: 1.45;
+}
+
+.install-notes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.install-notes p {
+  margin: 0;
+  padding: 0 4px;
+  color: var(--ink-soft);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.install-notes strong {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.permissions {
+  display: grid;
+  grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+  align-items: start;
+  gap: 18px 40px;
+  margin-top: clamp(56px, 9vh, 96px);
+}
+
+.permissions h3 {
+  margin: 0;
+  font-weight: 900;
+  font-size: clamp(26px, 2.6vw, 38px);
+  line-height: 1.08;
+  letter-spacing: -.016em;
+  text-wrap: balance;
+}
+
+.permissions dl {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+}
+
+.permissions dl > div {
+  padding: 16px 20px 18px;
+  border-radius: 18px;
+}
+
+.permissions dt {
+  font-weight: 900;
+  font-size: 1.08rem;
+}
+
+.permissions dd {
+  margin: 4px 0 0;
+  color: var(--ink-soft);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.permissions-end {
+  grid-column: 2;
+  margin: 2px 0 0;
+  font-weight: 800;
+}
+
+/* Les questions */
+
+.faq {
+  background:
+    radial-gradient(45% 40% at 0% 62%, var(--faq-glow), transparent 70%),
+    linear-gradient(180deg, var(--install-bottom), var(--faq-bottom));
+}
+
+.faq > * {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq-list {
+  margin-top: clamp(24px, 4vh, 40px);
+  border-top: 1px solid var(--card-line);
+}
+
+.faq details {
+  border-bottom: 1px solid var(--card-line);
+}
+
+.faq summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 22px 4px;
+  font-weight: 800;
+  font-size: clamp(19px, 1.7vw, 24px);
+  list-style: none;
+  cursor: pointer;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq summary::after {
+  content: "";
+  flex: none;
+  width: .5em;
+  height: .5em;
+  border-right: 2.5px solid currentColor;
+  border-bottom: 2.5px solid currentColor;
+  transform: translateY(-.15em) rotate(45deg);
+  transition: transform 200ms var(--ease-out);
+}
+
+.faq details[open] summary::after {
+  transform: translateY(.12em) rotate(-135deg);
+}
+
+.faq details p {
+  max-width: 40em;
+  margin: 0 4px 24px;
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: clamp(17px, 1.35vw, 19px);
+  line-height: 1.55;
+}
+
+/* La pleine lune : le ciel reprend ses couleurs, comme à la fin de l'accueil de l'app */
+
+.end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(180deg, var(--faq-bottom), var(--end-bottom));
+}
+
+.end-sky {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  /* Les couleurs s'effacent aux deux bords : pas de couture avec les questions ni avec le pied de page. */
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 16%, #000 70%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0%, #000 16%, #000 70%, transparent 100%);
+}
+
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(64px);
+  opacity: 0;
+  transition: opacity 1600ms ease;
+}
+
+.glow-mint {
+  left: -12%;
+  top: -18%;
+  width: 62%;
+  height: 70%;
+  background: rgb(201 244 220 / calc(.3 * var(--glow-boost)));
+}
+
+.glow-iris {
+  right: -12%;
+  top: -18%;
+  width: 62%;
+  height: 70%;
+  background: rgb(184 161 238 / calc(.4 * var(--glow-boost)));
+  transition-delay: 220ms;
+}
+
+.glow-peach {
+  left: 14%;
+  bottom: -32%;
+  width: 72%;
+  height: 62%;
+  background: rgb(255 196 140 / calc(.3 * var(--glow-boost)));
+  transition-delay: 440ms;
+}
+
+/* L'or de la pleine lune, haut dans le ciel, loin du texte */
+.glow-gold {
+  left: 82%;
+  top: 24%;
+  width: 22vmin;
+  height: 22vmin;
+  translate: -50% -50%;
+  background: rgb(255 204 61 / .42);
+  filter: blur(56px);
+  transition-delay: 760ms;
+}
+
+html:not(.js) .glow,
+.end.is-seen .glow {
+  opacity: 1;
+}
+
+.end-line .line,
+.scene-title .line {
+  display: block;
+  text-wrap: balance;
+}
+
+.end-line {
+  margin: 0;
+  font-weight: 900;
+  font-size: clamp(30px, 3.8vw, 56px);
+  line-height: 1.06;
+  letter-spacing: -.024em;
+  text-wrap: balance;
+}
+
+.end-mark {
+  --hv-size: clamp(80px, 9vw, 150px);
+  margin-top: clamp(64px, 12vh, 140px);
+  /* La place de Hoova, debout à droite du point : « hoova. » et lui restent centrés ensemble. */
+  padding-right: calc(var(--hv-size) * .8);
+}
+
+.end-word {
+  display: inline-block;
+  font-weight: 1000;
+  font-size: clamp(92px, 21vw, 330px);
+  line-height: .9;
+  letter-spacing: -.065em;
+}
+
+.end-dot {
+  display: inline-block;
+  width: .2em;
+  height: .2em;
+  margin-left: .035em;
+  border-radius: 50%;
+  background: var(--iris);
+}
+
+.end .cta {
+  margin-top: clamp(40px, 7vh, 72px);
+  padding-top: 0;
+}
+
+/* Le pied de page */
+
+.foot {
+  display: grid;
+  justify-items: center;
+  gap: 14px;
+  padding: 40px clamp(16px, 5vw, 72px) 52px;
+  background: var(--end-bottom);
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: .95rem;
+  text-align: center;
+}
+
+.foot-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
+}
+
+.foot-note {
+  margin: 0;
+  color: var(--ink-faint);
+  font-size: .86rem;
+}
+
+@media (max-width: 900px) {
+  .how-grid,
+  .private-grid,
+  .install-steps,
+  .install-notes,
+  .permissions {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .private-grid .moon-stage {
+    order: -1;
+  }
+
+  .permissions-end {
+    grid-column: auto;
+  }
+
+  /* Une carte sous l'autre : Hoova dépasse de la troisième dans l'espace au-dessus d'elle. */
+  #install-anyway {
+    margin-top: calc(var(--hv-size) * .45);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.is-in .hero :is(.aurora, .stars > *, .bar, .w, .reply, .tok, .after, .cta) {
+    animation: fade-in 500ms ease-out backwards;
+  }
+
+  .anything.is-seen .any {
+    animation: fade-in 500ms ease-out backwards;
+  }
+
+  .hv-aura *,
+  .hv-final-eyes circle,
+  .perch.is-floating .hv {
+    animation: none;
+  }
+
+  .card,
+  html.is-open .card,
+  .desk-card,
+  .desk.is-open .desk-card {
+    transform: none;
+  }
+
+  .screen {
+    rotate: none;
+  }
+}
+
+/* La page de confidentialité : la même nuit, une colonne à lire */
+
+.page {
+  min-height: 100vh;
+  background:
+    radial-gradient(60% 40% at 15% 0%, rgb(201 244 220 / .12), transparent 70%),
+    radial-gradient(55% 40% at 95% 5%, rgb(184 161 238 / .18), transparent 70%),
+    linear-gradient(180deg, var(--sky-0), var(--sky-1) 40%, var(--end-bottom));
+}
+
+.page-bar {
+  padding: clamp(18px, 3.4vh, 32px) clamp(16px, 5vw, 72px) 0;
+}
+
+.page-main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: clamp(48px, 10vh, 112px) clamp(16px, 5vw, 24px) clamp(64px, 12vh, 128px);
+}
+
+.page-title {
+  margin: 0;
+  font-weight: 900;
+  font-size: clamp(44px, 6vw, 80px);
+  line-height: 1;
+  letter-spacing: -.03em;
+}
+
+.page-lead {
+  margin: .9em 0 0;
+  font-weight: 800;
+  font-size: clamp(20px, 1.9vw, 26px);
+  line-height: 1.35;
+}
+
+.page-main h2 {
+  margin: 2.2em 0 0;
+  font-weight: 900;
+  font-size: 1.4rem;
+  letter-spacing: -.01em;
+}
+
+.page-main p {
+  margin: .6em 0 0;
+  color: var(--ink-soft);
+  font-weight: 600;
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+.page-main .page-lead {
+  color: var(--ink);
+}
+
+.page-main a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: .22em;
+  text-decoration-color: var(--ink-faint);
+}
+
+.page-main .page-back {
+  margin-top: 3em;
+}
+
+.page .foot {
+  background: transparent;
+}
+
+/* « Buy me a coffee » : un lien discret à côté du bouton, avec sa tasse */
+
+.coffee {
+  display: inline-flex;
+  align-items: center;
+  gap: .45em;
+}
+
+.cup {
+  flex: none;
+  width: 1.2em;
+  height: 1.2em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+@media (max-width: 640px) {
+  .play {
+    min-height: 34px;
+    padding: 0 .9em 0 .8em;
+    font-size: 13px;
+  }
+}
+
+/* Entre l'installation et les questions : les cinq lunes de l'accueil de l'app se remplissent l'une après l'autre,
+   et la cinquième devient d'or, comme à la fin de l'essai. Elles annoncent la pleine lune de la fin. */
+
+.scene.install {
+  padding-bottom: clamp(48px, 8vh, 96px);
+}
+
+.scene.faq {
+  padding-top: clamp(48px, 8vh, 96px);
+}
+
+.moons {
+  display: flex;
+  justify-content: center;
+  gap: clamp(18px, 3.2vw, 44px);
+  margin-bottom: clamp(64px, 11vh, 128px);
+}
+
+.moons svg {
+  width: clamp(28px, 3.4vw, 50px);
+  height: clamp(28px, 3.4vw, 50px);
+  overflow: visible;
+}
+
+.moon-rim {
+  fill: none;
+  stroke: var(--ink-faint);
+  stroke-width: 3;
+}
+
+.moon-lit {
+  fill: #C9F4DD;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition:
+    opacity 500ms ease,
+    transform 650ms var(--ease-out);
+  transition-delay: calc(var(--i) * 200ms);
+}
+
+.moon-gold .moon-lit {
+  fill: #FFCC3D;
+  filter: drop-shadow(0 0 10px rgb(255 204 61 / .65));
+}
+
+.moon-gold .moon-rim {
+  stroke: rgb(255 204 61 / .55);
+}
+
+@media (prefers-color-scheme: light) {
+  .moon-lit {
+    fill: #86D6AF;
+  }
+
+  .moon-gold .moon-lit {
+    fill: #F2B714;
+  }
+}
+
+html.js .moons:not(.is-seen) .moon-lit {
+  opacity: 0;
+  transform: scale(.55);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .moon-lit {
+    transition: none;
+  }
+}

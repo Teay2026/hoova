@@ -1,0 +1,93 @@
+[
+  {
+    "id": "fr-noyau-linux",
+    "source": "hoova",
+    "term": "noyau",
+    "context": "Depuis la mise à jour du noyau hier soir, mon Wi-Fi ne se connecte plus au démarrage. J'utilise Ubuntu sur un portable Dell.",
+    "textLanguage": "fr",
+    "readerLanguage": "fr",
+    "expected": "Le cœur du système d'exploitation (ici Linux, sous Ubuntu), qui gère le matériel comme la carte Wi-Fi.",
+    "difficulty": "plusieurs sens"
+  },
+  {
+    "id": "fr-noyau-atome",
+    "source": "hoova",
+    "term": "noyau",
+    "context": "Le noyau concentre presque toute la masse de l'atome, alors qu'il est environ 100 000 fois plus petit que lui.",
+    "textLanguage": "fr",
+    "readerLanguage": "fr",
+    "expected": "La partie centrale de l'atome, faite de protons et de neutrons, qui en contient presque toute la masse.",
+    "difficulty": "plusieurs sens"
+  },
+  {
+    "id": "fr-taux-directeur",
+    "source": "hoova",
+    "term": "directeur",
+    "context": "La BCE a abaissé son taux directeur de 0,25 point, une décision qui devrait se répercuter sur les crédits immobiliers dans les prochains mois.",
+    "textLanguage": "fr",
+    "readerLanguage": "fr",
+    "expected": "L'expression « taux directeur » : le taux d'intérêt fixé par la banque centrale, qui influence ceux des crédits.",
+    "difficulty": "expression"
+  },
+  {
+    "id": "fr-non-concurrence",
+    "source": "hoova",
+    "term": "clause de non-concurrence",
+    "context": "À l'issue du contrat, le salarié est soumis à une clause de non-concurrence d'une durée de 12 mois sur la région Île-de-France.",
+    "textLanguage": "fr",
+    "readerLanguage": "fr",
+    "expected": "Une clause qui interdit au salarié, après son départ, de travailler pour un concurrent ou de le devenir, pendant 12 mois et en Île-de-France.",
+    "difficulty": "jargon"
+  },
+  {
+    "id": "fr-bce-document",
+    "source": "hoova",
+    "term": "BCE",
+    "context": "La BCE a de nouveau baissé ses taux jeudi.",
+    "document": "Rapport annuel. La Banque centrale européenne (BCE) conduit la politique monétaire de la zone euro. […] La BCE a de nouveau baissé ses taux jeudi.",
+    "textLanguage": "fr",
+    "readerLanguage": "fr",
+    "expected": "La Banque centrale européenne, qui conduit la politique monétaire de la zone euro.",
+    "difficulty": "sigle"
+  },
+  {
+    "id": "fr-ebitda",
+    "source": "hoova",
+    "term": "EBITDA",
+    "context": "Malgré un chiffre d'affaires en recul, l'EBITDA du groupe progresse de 4 % grâce à la baisse des coûts logistiques.",
+    "textLanguage": "fr",
+    "readerLanguage": "fr",
+    "expected": "Un indicateur du bénéfice tiré de l'activité, avant intérêts, impôts, dépréciations et amortissements.",
+    "difficulty": "sigle"
+  },
+  {
+    "id": "fr-monoclonal",
+    "source": "hoova",
+    "term": "monoclonal",
+    "context": "Le patient a reçu un anticorps monoclonal dirigé contre la protéine HER2, en complément de la chimiothérapie.",
+    "textLanguage": "fr",
+    "readerLanguage": "fr",
+    "expected": "Un anticorps fabriqué en laboratoire à partir d'un seul type de cellule, qui vise une seule cible précise (ici la protéine HER2).",
+    "difficulty": "jargon"
+  },
+  {
+    "id": "fr-effet-de-levier",
+    "source": "hoova",
+    "term": "levier",
+    "context": "Grâce à l'effet de levier de la dette, le fonds a doublé la rentabilité de ses fonds propres.",
+    "textLanguage": "fr",
+    "readerLanguage": "fr",
+    "expected": "L'expression « effet de levier » : emprunter pour investir davantage, ce qui augmente la rentabilité de l'argent apporté (et le risque).",
+    "difficulty": "expression"
+  },
+  {
+    "id": "en-kernel",
+    "source": "hoova",
+    "term": "kernel",
+    "context": "The Linux kernel panicked right after the update, so the laptop kept rebooting in a loop.",
+    "textLanguage": "en",
+    "readerLanguage": "fr",
+    "expected": "Le noyau de Linux : le cœur du système d'exploitation, qui a planté après la mise à jour.",
+    "difficulty": "autre langue"
+  }
+]

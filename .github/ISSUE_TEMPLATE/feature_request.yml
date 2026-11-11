@@ -1,0 +1,20 @@
+name: Suggest a change
+description: An idea to make Hoova better.
+labels: [idea]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never paste an API key. Never attach a screenshot with private text.** Issues are public.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What gets in your way?
+      description: The situation, and what you'd like Hoova to do.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How it could work. Optional.

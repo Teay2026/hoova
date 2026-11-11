@@ -1,0 +1,74 @@
+[
+ {
+  "id": "fr-deadline-phrase",
+  "source": "hoova",
+  "term": "deadline",
+  "context": "Le deadline du projet est vendredi, pas de report possible.",
+  "title": "Équipe produit – Slack",
+  "before": "Point d'étape de lundi : la maquette est validée.\nIl reste les tests et la documentation.",
+  "after": "Merci de prévenir si quelque chose bloque.",
+  "textLanguage": "fr",
+  "expected": "La date limite pour rendre le projet : vendredi.",
+  "difficulty": "langue du contexte"
+ },
+ {
+  "id": "fr-selection-anglaise",
+  "source": "hoova",
+  "term": "garbage collector",
+  "context": "The garbage collector frees memory that is no longer used.",
+  "title": "Cours de Java – chapitre 4",
+  "before": "Dans ce chapitre, on voit comment Java gère la mémoire de vos programmes.\nVoici la définition donnée par la documentation officielle :",
+  "after": "Autrement dit, vous n'avez pas à libérer la mémoire vous-même, contrairement au C.",
+  "textLanguage": "fr",
+  "expected": "Le mécanisme qui libère automatiquement la mémoire que le programme n'utilise plus.",
+  "difficulty": "langue du contexte"
+ },
+ {
+  "id": "en-tete-a-tete",
+  "source": "hoova",
+  "term": "tête-à-tête",
+  "context": "We had a long tête-à-tête before the board meeting.",
+  "title": "Notes from the offsite",
+  "before": "Day one was mostly workshops.",
+  "after": "After that, the CEO presented the new roadmap.",
+  "textLanguage": "en",
+  "expected": "A private conversation between two people.",
+  "difficulty": "langue du contexte"
+ },
+ {
+  "id": "fr-ocr-court",
+  "source": "hoova",
+  "term": "Deadline",
+  "context": "Deadline : vendredi",
+  "title": "Trello",
+  "before": "Refonte du site vitrine\nResponsable : Julie",
+  "after": "Priorité haute\nAjouter les maquettes avant mercredi",
+  "textLanguage": "fr",
+  "expected": "La date limite : vendredi.",
+  "difficulty": "langue du contexte"
+ },
+ {
+  "id": "ja-api",
+  "source": "hoova",
+  "term": "API",
+  "context": "このAPIを使えば、天気のデータを簡単に取得できます。",
+  "title": "天気アプリの作り方",
+  "before": "まず、アカウントを作成してキーを取得します。",
+  "after": "無料プランでは一日に千回まで呼び出せます。",
+  "textLanguage": "ja",
+  "expected": "ほかのプログラムからデータや機能を使うための窓口のこと。",
+  "difficulty": "langue du contexte"
+ },
+ {
+  "id": "fr-citation-anglaise",
+  "source": "hoova",
+  "term": "throughput",
+  "context": "Our throughput doubled after the migration.",
+  "title": "Retour d'expérience : migration vers Kubernetes",
+  "before": "Dans son billet de blog, l'équipe d'infrastructure résume le résultat en une phrase :",
+  "after": "Concrètement, le service traite maintenant deux fois plus de requêtes par seconde.",
+  "textLanguage": "fr",
+  "expected": "Le débit : la quantité de travail traitée par le système en un temps donné, qui a doublé.",
+  "difficulty": "langue du contexte"
+ }
+]

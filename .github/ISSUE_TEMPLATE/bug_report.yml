@@ -1,0 +1,51 @@
+name: Report a bug
+description: Something doesn't work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never paste an API key. Never attach a screenshot with private text.** Issues are public.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what Hoova did instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to reproduce it
+      description: The app or website, and the steps. A public page is best.
+    validations:
+      required: true
+  - type: dropdown
+    id: model
+    attributes:
+      label: Which AI?
+      options:
+        - Gemma 4 E4B (built in)
+        - Gemma 4 E2B (built in)
+        - OpenAI
+        - Anthropic
+        - Gemini
+        - Mistral
+        - Ollama
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Hoova, macOS, and your Mac's chip and memory.
+      placeholder: Hoova 0.1, macOS 27.0, M3 with 16 GB
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (optional)
+      description: |
+        Lines from `/usr/bin/log stream --info --predicate 'subsystem == "com.teayouness.hoova"'`. Read them before you paste: remove anything private.
+      render: text

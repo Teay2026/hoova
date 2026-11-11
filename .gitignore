@@ -1,0 +1,10 @@
+.DS_Store
+.build/
+.swiftpm/
+build/
+bench/resultats/
+bench/.venv/
+__pycache__/
+
+# La vidéo de lancement : logos de tiers et musique sous licence, gardés hors du dépôt (docs/publication.md, partie 7).
+marketing/

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.teayouness.hoova</string>
+	<key>CFBundleName</key>
+	<string>Hoova</string>
+	<key>CFBundleDisplayName</key>
+	<string>Hoova</string>
+	<key>CFBundleExecutable</key>
+	<string>Hoova</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2026 Youness Tahiri El Alaoui</string>
+	<key>SUFeedURL</key>
+	<string>https://github.com/Teay2026/hoova/releases/latest/download/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>GI3rbqkW8VRvKD+9RYURnf6Nhe+5Ge0jlNS/++Knll4=</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>27.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>

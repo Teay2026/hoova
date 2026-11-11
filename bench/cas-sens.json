@@ -1,0 +1,3046 @@
+[
+  {
+    "id": "sens-en-01",
+    "source": "wikipedia:en:Inflation",
+    "term": "money",
+    "context": "In economics, inflation is an increase in the average price of goods and services in terms of money, though it originally referred to the increase of the money supply (monetary inflation) that can cause such a universal shift.",
+    "title": "Inflation",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Money (nickname)",
+        "description": "Money (nickname), a list of people known by the nickname"
+      },
+      {
+        "title": "Money",
+        "description": "Money, Object or record accepted as payment"
+      },
+      {
+        "title": "Eddie Money",
+        "description": "Eddie Money (1949–2019), American musician"
+      },
+      {
+        "title": "Money (financial website)",
+        "description": "Money (financial website), a personal finance website, United States"
+      },
+      {
+        "title": "Money Creek, Minnesota",
+        "description": "Money Creek, Minnesota, an unincorporated community, United States"
+      },
+      {
+        "title": "Money, Virginia",
+        "description": "Money, Virginia, an unincorporated community, United States"
+      },
+      {
+        "title": "Money, Mississippi",
+        "description": "Money, Mississippi, an unincorporated community, United States"
+      },
+      {
+        "title": "Money (surname)",
+        "description": "Money (surname), a list of people with the name"
+      }
+    ],
+    "answer": 1,
+    "senseSource": "wikipedia:en:Money (disambiguation)"
+  },
+  {
+    "id": "sens-en-02",
+    "source": "wikipedia:en:Inflation",
+    "term": "currency",
+    "context": "When the general price level rises, each unit of currency buys fewer goods and services; consequently, inflation corresponds to a reduction in the purchasing power of money.",
+    "title": "Inflation",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Virtual currency",
+        "description": "Virtual currency (or virtual money), a type of unregulated, digital money, which is issued and usually controlled by its developers, and used and accepted among the members of a specific virtual commu"
+      },
+      {
+        "title": "Digital currency",
+        "description": "Digital currency (or digital money or electronic currency or electronic money), a type of currency available only in digital, not physical, form (such as banknotes and coins)"
+      },
+      {
+        "title": "Banknote",
+        "description": "Banknotes, the paper or non-metal circulating medium of exchange of a country"
+      },
+      {
+        "title": "Money",
+        "description": "Money, any generally accepted medium of exchange, including non-physical media"
+      },
+      {
+        "title": "Currency (album)",
+        "description": "Currency (album), an album by the rapper Lil' Keke"
+      },
+      {
+        "title": "Complementary currency",
+        "description": "Complementary currency (or alternative currency), a currency or medium of exchange which is not a national currency (i.e., not legal tender), but which is thought of as supplementing or complementing "
+      },
+      {
+        "title": "Fiat money",
+        "description": "Fiat currency or fiat money, a currency without intrinsic value established as money, often by government regulation"
+      },
+      {
+        "title": "Currency",
+        "description": "Currency, Standardization of money"
+      }
+    ],
+    "answer": 7,
+    "senseSource": "wikipedia:en:Currency (disambiguation)"
+  },
+  {
+    "id": "sens-en-03",
+    "source": "wikipedia:en:Inflation",
+    "term": "deflation",
+    "context": "The opposite of inflation is deflation, a decrease in the general price level of goods and services.",
+    "title": "Inflation",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Deflation",
+        "description": "Deflation, Decrease in the general price level"
+      },
+      {
+        "title": "Deflation (film)",
+        "description": "Deflation (film), a 2001 short film"
+      },
+      {
+        "title": "Inflation (disambiguation)",
+        "description": "Inflation (disambiguation), the antonym of deflation"
+      },
+      {
+        "title": "Deflate",
+        "description": "Deflate, a widely used lossless compression algorithm originating from the program PKZIP"
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:en:Deflation (disambiguation)"
+  },
+  {
+    "id": "sens-en-04",
+    "source": "wikipedia:en:Interest rate",
+    "term": "interest",
+    "context": "An interest rate is the amount of interest due per period, as a proportion of the amount lent, deposited, or borrowed.",
+    "title": "Interest rate",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Hobby",
+        "description": "Hobby, a regular activity done for enjoyment"
+      },
+      {
+        "title": "Interest (economics)",
+        "description": "Interest (economics), payment from a borrower to a lender of an amount above repayment of the amount borrowed, at a particular rate"
+      },
+      {
+        "title": "Interest (emotion)",
+        "description": "Interest (emotion), a feeling that causes attention to focus on an object, event, or process"
+      },
+      {
+        "title": "Point of interest",
+        "description": "Point of interest, a specific point location that someone may find useful or interesting"
+      },
+      {
+        "title": "Government interest",
+        "description": "Government interest, a concept in law that allows governments to regulate a given matter"
+      },
+      {
+        "title": "National interest",
+        "description": "National interest, a country's goals and ambitions"
+      },
+      {
+        "title": "Controlling interest",
+        "description": "Controlling interest, majority of a corporation's voting shares"
+      },
+      {
+        "title": "Conflict of interest",
+        "description": "Conflict of interest, where serving one interest could involve working against another"
+      }
+    ],
+    "answer": 1,
+    "senseSource": "wikipedia:en:Interest"
+  },
+  {
+    "id": "sens-en-05",
+    "source": "wikipedia:en:Interest rate",
+    "term": "capital",
+    "context": "In debt financing, companies borrow capital from a bank, in the expectation that the borrowed capital may be used to generate a return on investment greater than the interest rates.",
+    "title": "Interest rate",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Capital letter",
+        "description": "Capital letter, an upper-case letter"
+      },
+      {
+        "title": "Capital (Marxism)",
+        "description": "Capital (Marxism), a central concept in Marxian critique of political economy"
+      },
+      {
+        "title": "Financial capital",
+        "description": "Financial capital, an economic resource measured in terms of money"
+      },
+      {
+        "title": "Capital city",
+        "description": "Capital city, a municipality of primary status Capital region, a metropolitan region containing the capital"
+      },
+      {
+        "title": "Capital (economics)",
+        "description": "Capital (economics), the durable produced goods used for further production"
+      },
+      {
+        "title": "The Capital (building)",
+        "description": "The Capital (building), a commercial building in Mumbai, India"
+      },
+      {
+        "title": "Capital (fortification)",
+        "description": "Capital (fortification), a proportion of a bastion"
+      },
+      {
+        "title": "Capital (architecture)",
+        "description": "Capital (architecture), the topmost member of a column or pilaster"
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:en:Capital"
+  },
+  {
+    "id": "sens-en-06",
+    "source": "wikipedia:en:Interest rate",
+    "term": "default",
+    "context": "Failure of a borrower to continue paying interest is an example of default, which may be followed by bankruptcy proceedings.",
+    "title": "Interest rate",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Default (computer science)",
+        "description": "Default (computer science), a preset setting or value that will be used if no choice is done during program use or installation and setup"
+      },
+      {
+        "title": "Defaults (software)",
+        "description": "defaults (software), a command line utility for plist (preference) files for macOS and GNUstep"
+      },
+      {
+        "title": "Default password",
+        "description": "Default password, allows the device to be accessed during its initial setup, or after resetting to factory defaults"
+      },
+      {
+        "title": "Default (law)",
+        "description": "Default (law), the failure to do something required by law Default (finance), failure to satisfy the terms of a loan obligation or failure to pay back a loan"
+      },
+      {
+        "title": "Default rule",
+        "description": "Default rule, a rule of law that can be overridden by a contract, trust, will, or other legally effective agreement"
+      },
+      {
+        "title": "Default judgment",
+        "description": "Default judgment, a binding judgment in favor of either party based on some failure to take action by the other party"
+      },
+      {
+        "title": "Default (Atoms for Peace song)",
+        "description": "\"Default\" (Atoms for Peace song), 2012"
+      },
+      {
+        "title": "Default (finance)",
+        "description": "Default (finance), Financial failure to meet legal conditions of a loan"
+      }
+    ],
+    "answer": 7,
+    "senseSource": "wikipedia:en:Default"
+  },
+  {
+    "id": "sens-en-07",
+    "source": "wikipedia:en:Interest rate",
+    "term": "discount rate",
+    "context": "\"Interest rate\" is also sometimes used synonymously with overnight rate, bank rate, base rate, discount rate, coupon rate, repo rate, prime rate, yield to maturity, and internal rate of return.",
+    "title": "Interest rate",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Pure time preference",
+        "description": "Pure time preference, or utility discount rate, the rate at which the weight given to future utility decreases in economic models"
+      },
+      {
+        "title": "Discounting",
+        "description": "Discount yield, a rate used in calculating cash flows"
+      },
+      {
+        "title": "Social discount rate",
+        "description": "Social discount rate (of consumption), the rate at which the weight given to future consumption decreases in economic models"
+      },
+      {
+        "title": "Annual effective discount rate",
+        "description": "Annual effective discount rate, an alternative measure of interest rates to the standard Annual Percentage Rate"
+      },
+      {
+        "title": "Bank rate",
+        "description": "Bank rate, the rate of interest a central bank charges on its loans to commercial banks"
+      }
+    ],
+    "answer": 1,
+    "senseSource": "wikipedia:en:Discount rate"
+  },
+  {
+    "id": "sens-en-08",
+    "source": "wikipedia:en:Photosynthesis",
+    "term": "plants",
+    "context": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy—typically from sunlight—into the chemical energy necessary to fuel their metabolism.",
+    "title": "Photosynthesis",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "The Plant (film)",
+        "description": "The Plant (film), a British television movie"
+      },
+      {
+        "title": "The Plant (novel)",
+        "description": "The Plant (novel), an unfinished serial novel by Stephen King"
+      },
+      {
+        "title": "Plants (Life)",
+        "description": "\"Plants\" (Life), BBC documentary episode"
+      },
+      {
+        "title": "The Plant (Schitt's Creek)",
+        "description": "\"The Plant\" (Schitt's Creek)"
+      },
+      {
+        "title": "Plant",
+        "description": "Plant, Kingdom of organisms"
+      },
+      {
+        "title": "Physical plant",
+        "description": "Physical plant, a facility's infrastructure"
+      },
+      {
+        "title": "Plant (song)",
+        "description": "\"Plant\" (song)"
+      },
+      {
+        "title": "Plant (control theory)",
+        "description": "Plant (control theory), the combination of process and actuator"
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:en:Plant (disambiguation)"
+  },
+  {
+    "id": "sens-en-09",
+    "source": "wikipedia:en:Photosynthesis",
+    "term": "sunlight",
+    "context": "Photosynthesis is a system of biological processes by which photopigment-bearing autotrophic organisms, such as most plants, algae and cyanobacteria, convert light energy—typically from sunlight—into the chemical energy necessary to fuel their metabolism.",
+    "title": "Photosynthesis",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Sunlight, Missouri",
+        "description": "Sunlight, Missouri, US, an unincorporated community"
+      },
+      {
+        "title": "Sunlight Peak (Wyoming)",
+        "description": "Sunlight Peak (Wyoming), a mountain"
+      },
+      {
+        "title": "Sunlight, West Virginia",
+        "description": "Sunlight, West Virginia, US, an unincorporated community"
+      },
+      {
+        "title": "Sunlight Peak",
+        "description": "Sunlight Peak, a mountain in Colorado"
+      },
+      {
+        "title": "Sunlight Ski Area",
+        "description": "Sunlight Ski Area, a ski area near Glenwood Springs, Colorado"
+      },
+      {
+        "title": "John Sunlight",
+        "description": "John Sunlight, a fictional nemesis of Doc Savage"
+      },
+      {
+        "title": "Sunlight",
+        "description": "Sunlight, Light emitted by the Sun"
+      },
+      {
+        "title": "Sunlight (Benson)",
+        "description": "Sunlight (Benson), a 1909 painting by Frank Weston Benson"
+      }
+    ],
+    "answer": 6,
+    "senseSource": "wikipedia:en:Sunlight (disambiguation)"
+  },
+  {
+    "id": "sens-en-10",
+    "source": "wikipedia:en:Photosynthesis",
+    "term": "carbon",
+    "context": "Photosynthetic organisms store the converted chemical energy within the bonds of intracellular organic compounds (complex compounds containing carbon), typically carbohydrates like sugars (mainly glucose, fructose and sucrose), starches, phytoglycogen and cellulose.",
+    "title": "Photosynthesis",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Carbon (2018 film)",
+        "description": "Carbon (2018 film), Indian Malayalam-language film"
+      },
+      {
+        "title": "Carbon (2017 film)",
+        "description": "Carbon (2017 film), French film"
+      },
+      {
+        "title": "Carbon (fiber)",
+        "description": "Carbon (fiber), can refer to carbon filament thread, or to felt or woven cloth made from those carbon filaments"
+      },
+      {
+        "title": "Carbon black",
+        "description": "Carbon black, a filler often used to improve the properties of rubber or plastic compounds"
+      },
+      {
+        "title": "Carbon",
+        "description": "Carbon, Chemical element with atomic number 6 (C)"
+      },
+      {
+        "title": "Carbon chauvinism",
+        "description": "Carbon chauvinism, a term meant to disparage the assumption that the molecules responsible for the mechanisms of life must be based on carbon"
+      },
+      {
+        "title": "Carbon (2022 Moldovan film)",
+        "description": "Carbon (2022 Moldovan film), Romanian-language film"
+      },
+      {
+        "title": "Carbon (2022 Indian film)",
+        "description": "Carbon (2022 Indian film), Tamil-language film"
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:en:Carbon (disambiguation)"
+  },
+  {
+    "id": "sens-en-11",
+    "source": "wikipedia:en:Leverage (finance)",
+    "term": "lever",
+    "context": "Financial leverage is named after a lever in physics, which amplifies a small input force into a greater output force.",
+    "title": "Leverage (finance)",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Lever",
+        "description": "Lever, Simple machine consisting of a beam pivoted at a fixed hinge"
+      },
+      {
+        "title": "Lever, Portugal",
+        "description": "Lever, Portugal, a former civil parish in Portugal"
+      },
+      {
+        "title": "Lever (song)",
+        "description": "\"Lever\" (song), a 1998 single by The Mavis's"
+      },
+      {
+        "title": "Lever action",
+        "description": "Lever action, a firearm action"
+      },
+      {
+        "title": "Lever (surname)",
+        "description": "Lever (surname), and persons with the name"
+      },
+      {
+        "title": "Levee (ceremony)",
+        "description": "Levee (ceremony), referred to in French as a lever"
+      },
+      {
+        "title": "The Lever (song)",
+        "description": "\"The Lever\" (song), a 2002 song by Silverchair"
+      },
+      {
+        "title": "The Lever",
+        "description": "The Lever, an American news outlet"
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:en:Lever (disambiguation)"
+  },
+  {
+    "id": "sens-en-12",
+    "source": "wikipedia:en:Leverage (finance)",
+    "term": "profit",
+    "context": "Financial leverage uses borrowed money to augment the available capital, thus increasing the funds available for (perhaps risky) investment. If successful this may generate large amounts of profit.",
+    "title": "Leverage (finance)",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Profit (TV series)",
+        "description": "Profit (TV series), U.S. TV series starring Adrian Pasdar"
+      },
+      {
+        "title": "Account of profits",
+        "description": "Account of profits, a type of equitable remedy in law (also known as an accounting)"
+      },
+      {
+        "title": "The Profit (film)",
+        "description": "The Profit (film), U.S. 2001 feature film by Peter N. Alexander"
+      },
+      {
+        "title": "The Profit (TV series)",
+        "description": "The Profit (TV series), U.S. TV series presented by Marcus Lemonis"
+      },
+      {
+        "title": "Profit (magazine)",
+        "description": "Profit (magazine), Canadian business magazine aimed at entrepreneurs"
+      },
+      {
+        "title": "Profit (real property)",
+        "description": "Profit (real property), a nonpossessory interest in land"
+      },
+      {
+        "title": "Profit (economics)",
+        "description": "Profit (economics), normal profit and economic profit"
+      },
+      {
+        "title": "Profit (accounting)",
+        "description": "Profit (accounting), the difference between the purchase price and the costs of bringing to market"
+      }
+    ],
+    "answer": 6,
+    "senseSource": "wikipedia:en:Profit"
+  },
+  {
+    "id": "sens-en-13",
+    "source": "wikipedia:en:Leverage (finance)",
+    "term": "futures",
+    "context": "Securities like options and futures are effectively leveraged bets between parties where the principal is implicitly borrowed and lent at interest rates of very short treasury bills.",
+    "title": "Leverage (finance)",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Futures (journal)",
+        "description": "Futures (journal), an academic journal covering futures studies"
+      },
+      {
+        "title": "Futures (album)",
+        "description": "Futures (album), a 2004 album released by Jimmy Eat World \"Futures\" (song), a single from the above album"
+      },
+      {
+        "title": "Futures studies",
+        "description": "Futures studies, multidisciplinary studies of patterns to determine the likelihood of future trends"
+      },
+      {
+        "title": "Futures (band)",
+        "description": "Futures (band), a London-based rock band"
+      },
+      {
+        "title": "Futures Tour",
+        "description": "Futures Tour, official developmental golf tour of the Ladies Professional Golf Association (LPGA)"
+      },
+      {
+        "title": "Futures exchange",
+        "description": "Futures exchange, a financial market where futures contracts are traded"
+      },
+      {
+        "title": "Futures contract",
+        "description": "Futures contract, a tradable financial derivatives contract"
+      },
+      {
+        "title": "Modern Trader",
+        "description": "Modern Trader, formerly Futures, an American finance magazine"
+      }
+    ],
+    "answer": 6,
+    "senseSource": "wikipedia:en:Futures"
+  },
+  {
+    "id": "sens-en-14",
+    "source": "wikipedia:en:Bank",
+    "term": "credit",
+    "context": "Banking in its modern sense evolved in the 14th century in the prosperous cities of Renaissance Italy but, in many ways, functioned as a continuation of ideas and concepts of credit and lending that have their roots in the ancient world.",
+    "title": "Bank",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Credit",
+        "description": "Credit, Financial term for the trust between parties in transactions with a deferred payment"
+      },
+      {
+        "title": "Opening credits",
+        "description": "Opening credits, a list of credits played at the beginning of a work"
+      },
+      {
+        "title": "Credit, Arkansas",
+        "description": "Credit, Arkansas, a ghost town"
+      },
+      {
+        "title": "Credit River",
+        "description": "Credit River, a river in Ontario, Canada"
+      },
+      {
+        "title": "Credit (creative arts)",
+        "description": "Credit (creative arts), acknowledging the ideas or other work of writers and contributors Closing credits, a list of credits played at the ending of a work"
+      },
+      {
+        "title": "Credit River, Minnesota",
+        "description": "Credit River, Minnesota, a city in the United States"
+      },
+      {
+        "title": "Credit River (Minnesota)",
+        "description": "Credit River (Minnesota), a river in the United States"
+      },
+      {
+        "title": "Credit (science fiction)",
+        "description": "Credit (science fiction), a form of currency in some fictional works"
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:en:Credit (disambiguation)"
+  },
+  {
+    "id": "sens-en-15",
+    "source": "wikipedia:en:Bond (finance)",
+    "term": "security",
+    "context": "In finance, a bond is a type of security under which the issuer (debtor) owes the holder (creditor) a debt, and is obliged – depending on the terms – to provide cash flow to the creditor; which usually consists of repaying the principal (the amount borrowed) of the bond at the maturity date, as well as interest (called the coupon) over a specified amount of time.",
+    "title": "Bond (finance)",
+    "textLanguage": "en",
+    "senses": [
+      {
+        "title": "Security (2017 film)",
+        "description": "Security (2017 film), an American action film"
+      },
+      {
+        "title": "Security interest",
+        "description": "Security interest in a financial transaction (in law and business)"
+      },
+      {
+        "title": "Security (finance)",
+        "description": "Security (finance), a financial instrument"
+      },
+      {
+        "title": "Security (song)",
+        "description": "\"Security\" (song), a song by Kanye West from his album Donda 2"
+      },
+      {
+        "title": "Security (album)",
+        "description": "Security (album), the U.S./Canada title for the self-titled 1982 studio album by Peter Gabriel"
+      },
+      {
+        "title": "Energy security",
+        "description": "Energy security Security (electrical grid), a real-time component of reliability"
+      },
+      {
+        "title": "Security (2021 film)",
+        "description": "Security (2021 film), an Italian thriller film"
+      },
+      {
+        "title": "Security of person",
+        "description": "Security of person, a human right as defined by the United Nations"
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:en:Security (disambiguation)"
+  },
+  {
+    "id": "sens-es-01",
+    "source": "wikipedia:es:Inflación",
+    "term": "mercado",
+    "context": "En economía, la inflación es el aumento sostenido y generalizado de los precios de los bienes y servicios en un mercado durante un período de tiempo, expresado en una determinada unidad monetaria.​ Cuando el nivel general de precios se incrementa, el poder adquisitivo de la moneda disminuye, ya que con la misma cantidad de dinero pueden adquirirse menos bienes y servicios.",
+    "title": "Inflación",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Mercado secundario",
+        "description": "Mercado secundario;"
+      },
+      {
+        "title": "Mercado de capitales",
+        "description": "Mercado de capitales;"
+      },
+      {
+        "title": "Mercado cautivo",
+        "description": "Mercado cautivo;"
+      },
+      {
+        "title": "Mercado (establecimiento)",
+        "description": "Mercado, un establecimiento comercial:"
+      },
+      {
+        "title": "Mercado bilateral",
+        "description": "Mercado bilateral;"
+      },
+      {
+        "title": "Mercado gris",
+        "description": "Mercado gris;"
+      },
+      {
+        "title": "Mercado",
+        "description": "Mercado, un concepto usado en economía: Mercados financieros; Mercado de bonos;"
+      },
+      {
+        "title": "Mercado de valores",
+        "description": "Mercado de valores;"
+      }
+    ],
+    "answer": 6,
+    "senseSource": "wikipedia:es:Mercado (desambiguación)"
+  },
+  {
+    "id": "sens-es-02",
+    "source": "wikipedia:es:Tasa de interés",
+    "term": "consumo",
+    "context": "En términos macroeconómicos, constituye una herramienta fundamental de la política monetaria, ya que influye sobre el nivel de inversión, consumo, inflación y crecimiento económico.​",
+    "title": "Tasa de interés",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Consumo humano",
+        "description": "Consumo humano (alimentación y otras formas de consumo)"
+      },
+      {
+        "title": "Impuesto de consumos",
+        "description": "Consumos (antiguo impuesto, y las protestas que generaba -motines de consumos-)"
+      },
+      {
+        "title": "Consumo de oxígeno",
+        "description": "Consumo de oxígeno, en fisiología"
+      },
+      {
+        "title": "Bienes de consumo",
+        "description": "Bienes de consumo, por oposición a bienes de inversión."
+      },
+      {
+        "title": "Autoconsumo fotovoltaico",
+        "description": "Autoconsumo fotovoltaico, producción individual de electricidad para el propio consumo, a través de paneles solares fotovoltaicos."
+      },
+      {
+        "title": "Consumo específico",
+        "description": "Consumo específico, en eficiencia de motores"
+      },
+      {
+        "title": "Wikcionario",
+        "description": "Wikcionario tiene definiciones y otra información sobre consumo."
+      },
+      {
+        "title": "Consumo",
+        "description": "Consumo (la actividad del consumidor)"
+      }
+    ],
+    "answer": 7,
+    "senseSource": "wikipedia:es:Consumo (desambiguación)"
+  },
+  {
+    "id": "sens-es-03",
+    "source": "wikipedia:es:Cifrado (criptografía)",
+    "term": "codificación",
+    "context": "En criptografía, el cifrado es el proceso de codificación de la información.",
+    "title": "Cifrado (criptografía)",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Código genético",
+        "description": "Codificación genética proceso de conversión de un sistema de datos de origen (ARN) a otro sistema de Datos (Proteína)."
+      },
+      {
+        "title": "Codificación digital",
+        "description": "Codificación digital, proceso de conversión de un sistema de datos de origen a otro sistema de datos de destino. Consiste en la traducción de los valores de tensión eléctrica analógicos que ya han sid"
+      },
+      {
+        "title": "Codificación (memoria)",
+        "description": "Codificación, que permite convertir los elementos percibidos en constructos que pueden ser almacenados en el cerebro y evocados posteriormente desde la memoria a corto plazo o la memoria a largo plazo"
+      },
+      {
+        "title": "Codificación jurídica",
+        "description": "Codificación jurídica, movimiento codificador moderno surgido en el siglo XIX."
+      },
+      {
+        "title": "Codificación de caracteres",
+        "description": "Codificación de caracteres, método que permite convertir un carácter de un lenguaje natural (como el de un alfabeto o silabario) en un símbolo de otro sistema de representación, como un número o una s"
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:es:Codificación"
+  },
+  {
+    "id": "sens-es-04",
+    "source": "wikipedia:es:Algoritmo",
+    "term": "cálculo",
+    "context": "En matemáticas, lógica, ciencias de la computación y disciplinas relacionadas, un algoritmo es un conjunto finito y ordenado de instrucciones o reglas precisas y no ambiguas que, aplicadas de manera lógica, permiten resolver un problema, realizar un cálculo, procesar datos o ejecutar diversas tareas.​ Partiendo de un estado inicial y una entrada determinada, la aplicación de los pasos sucesivos de",
+    "title": "Algoritmo",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Cálculo fraccional",
+        "description": "Cálculo fraccional Cálculo fraccional de conjuntos"
+      },
+      {
+        "title": "Calculadora",
+        "description": "Calculadora o máquinas de calcular."
+      },
+      {
+        "title": "Cálculo mental",
+        "description": "Cálculo mental o cálculos matemáticos efectuados sin instrumentos."
+      },
+      {
+        "title": "Coledocolitiasis",
+        "description": "Coledocolitiasis, presencia de cálculos en la vía biliar."
+      },
+      {
+        "title": "Cálculo",
+        "description": "Cálculo, El resultado correspondiente a la acción de calcular"
+      },
+      {
+        "title": "Cuenta (matemáticas)",
+        "description": "Cuenta o cómputo o cálculo matemático."
+      },
+      {
+        "title": "Calculadora humana",
+        "description": "Calculadora humana o calculadores prodigio."
+      },
+      {
+        "title": "Colelitiasis",
+        "description": "Colelitiasis, presencia de cálculos en la vesícula biliar."
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:es:Cálculo (desambiguación)"
+  },
+  {
+    "id": "sens-es-05",
+    "source": "wikipedia:es:Música",
+    "term": "pensamientos",
+    "context": "La música, como toda manifestación artística, es un producto cultural con múltiples finalidades, entre otras, la de suscitar una experiencia estética en el oyente, la de expresar sentimientos, emociones, circunstancias, pensamientos o ideas, y cada vez más, cumplir una importante función terapéutica a través de la musicoterapia.",
+    "title": "Música",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Pensamiento",
+        "description": "Pensamiento, actividad y creación de la mente. Pensamientos intrusivos, pensamientos no deseados que pueden convertirse en obsesiones."
+      },
+      {
+        "title": "Pensamientos (obra de Pascal)",
+        "description": "Pensamientos, obra de Blaise Pascal."
+      },
+      {
+        "title": "Pensamientos disfuncionales",
+        "description": "Pensamientos disfuncionales."
+      },
+      {
+        "title": "Pensamientos (álbum)",
+        "description": "Pensamientos, álbum de Juan Gabriel."
+      },
+      {
+        "title": "Pensamientos suicidas",
+        "description": "Pensamientos suicidas, pensamientos que planean el suicidio."
+      },
+      {
+        "title": "Pensamientos mortales",
+        "description": "Pensamientos mortales, película de 1991 de Alan Rudolph."
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:es:Pensamientos"
+  },
+  {
+    "id": "sens-es-06",
+    "source": "wikipedia:es:Cocción",
+    "term": "hornos",
+    "context": "Las técnicas de cocción y los ingredientes varían mucho, desde asar los alimentos sobre un fuego abierto hasta utilizar hornillos eléctricos, pasando por hornear en diversos tipos de hornos, según las condiciones locales.",
+    "title": "Cocción",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Hornos de Peal",
+        "description": "Hornos de Peal, aldea perteneciente al municipio de Peal de Becerro, en la misma provincia;"
+      },
+      {
+        "title": "Manuel Hornos",
+        "description": "Manuel Hornos (1807-1871), militar argentino."
+      },
+      {
+        "title": "General Hornos",
+        "description": "General Hornos, localidad en el partido de General Las Heras, provincia de Buenos Aires;"
+      },
+      {
+        "title": "Los Hornos",
+        "description": "Los Hornos, barrio en La Plata, provincia de Buenos Aires, Argentina;"
+      },
+      {
+        "title": "Horno",
+        "description": "Horno, dispositivo que genera calor y que lo mantiene dentro de un compartimento cerrado"
+      },
+      {
+        "title": "Hornos",
+        "description": "Hornos, también conocido como Hornos de Segura, municipio en la provincia de Jaén, España;"
+      },
+      {
+        "title": "Los Hornos (Sonora)",
+        "description": "Los Hornos, localidad en el estado de Sonora, México;"
+      },
+      {
+        "title": "Isla de Hornos",
+        "description": "Isla de Hornos, perteneciente al archipiélago de Tierra del Fuego, Chile."
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:es:Hornos (desambiguación)"
+  },
+  {
+    "id": "sens-es-07",
+    "source": "wikipedia:es:Pan",
+    "term": "masa",
+    "context": "El pan, del latín panis, es una comida que se suele preparar mediante el horneado de una masa elaborada fundamentalmente con cereal, agua y sal.",
+    "title": "Pan",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Masa",
+        "description": "Masa, concepto físico con diferentes significados."
+      },
+      {
+        "title": "Comunicación de masas",
+        "description": "Comunicación de masas y medios de comunicación de masas."
+      },
+      {
+        "title": "Masa crítica",
+        "description": "Masa crítica, que a su vez tiene otros significados."
+      },
+      {
+        "title": "Coordinadora Revolucionaria de Masas",
+        "description": "Coordinadora Revolucionaria de Masas, en El Salvador."
+      },
+      {
+        "title": "Ley de masas",
+        "description": "Ley de masas o ley de acción de masas"
+      },
+      {
+        "title": "Masa (alimento)",
+        "description": "Masa, mezcla de harina, agua, sal y usualmente levadura."
+      },
+      {
+        "title": "Masa invariante",
+        "description": "Masa invariante o masa propia."
+      },
+      {
+        "title": "Masas",
+        "description": "Masas o las masas hace referencia a un grupo social, especialmente para describir formas de comportamiento gregario, en oposición al comportamiento individual, y en oposición al concepto de las élites"
+      }
+    ],
+    "answer": 5,
+    "senseSource": "wikipedia:es:Masa (desambiguación)"
+  },
+  {
+    "id": "sens-es-08",
+    "source": "wikipedia:es:Pan",
+    "term": "agua",
+    "context": "El pan, del latín panis, es una comida que se suele preparar mediante el horneado de una masa elaborada fundamentalmente con cereal, agua y sal.",
+    "title": "Pan",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Agua de coco",
+        "description": "Agua de coco, líquido que se encuentra de forma natural en el hueco interior del coco."
+      },
+      {
+        "title": "Agua de cebada",
+        "description": "Agua de cebada, bebida refrescante típica de los cafés de Madrid."
+      },
+      {
+        "title": "Agua",
+        "description": "Agua, compuesto cuyas moléculas están formadas por dos átomos de hidrógeno y uno de oxígeno"
+      },
+      {
+        "title": "Agua potable",
+        "description": "Agua potable, agua para consumo humano."
+      },
+      {
+        "title": "Agua de Jamaica",
+        "description": "Agua de Jamaica o agua de flor de Jamaica; infusión de cálices de la rosa de Jamaica."
+      },
+      {
+        "title": "Panela",
+        "description": "Agua de panela, preparado a partir del caldo, jarabe o jugo no destilado de la caña de azúcar."
+      },
+      {
+        "title": "Agua mineral",
+        "description": "Agua mineral, la que contiene minerales que le dan un valor terapéutico."
+      },
+      {
+        "title": "Agua carbonatada",
+        "description": "Agua carbonatada, agua de soda o agua con gas."
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:es:Agua (desambiguación)"
+  },
+  {
+    "id": "sens-es-09",
+    "source": "wikipedia:es:Pan",
+    "term": "sal",
+    "context": "El pan, del latín panis, es una comida que se suele preparar mediante el horneado de una masa elaborada fundamentalmente con cereal, agua y sal.",
+    "title": "Pan",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Sal marina",
+        "description": "Sal marina, procedente de la evaporación del agua de mar."
+      },
+      {
+        "title": "Cloruro de sodio",
+        "description": "Cloruro de sodio, compuesto químico conocido comúnmente como sal."
+      },
+      {
+        "title": "Sal común",
+        "description": "Sal común, un condimento alimenticio usado desde la antigüedad."
+      },
+      {
+        "title": "Halita",
+        "description": "Halita, sal gema o sal de roca; mineral sedimentario que puede formarse por la evaporación de agua salada, en depósitos sedimentarios y domos salinos."
+      },
+      {
+        "title": "Sal (química)",
+        "description": "Sal (química), cualquier compuesto químico eléctricamente neutro, formado por cationes y aniones."
+      },
+      {
+        "title": "Sal kosher",
+        "description": "Sal kosher, de grano grueso."
+      },
+      {
+        "title": "Sociedad anónima laboral",
+        "description": "Sociedad anónima laboral, figura jurídica española."
+      },
+      {
+        "title": "Sal ácida",
+        "description": "Sal ácida, una clase de sal que produce una solución ácida después de ser disuelta en un disolvente."
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:es:Sal (desambiguación)"
+  },
+  {
+    "id": "sens-es-10",
+    "source": "wikipedia:es:Pan",
+    "term": "trigo",
+    "context": "El cereal más utilizado para la elaboración del pan es la harina de trigo, aunque también se utiliza el centeno, la cebada, el maíz y el arroz.",
+    "title": "Pan",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "El Trigo",
+        "description": "El Trigo, localidad del partido de Las Flores, en la provincia de Buenos Aires."
+      },
+      {
+        "title": "Haza del Trigo",
+        "description": "Haza del Trigo, localidad del municipio de Polopos, en la provincia de Granada."
+      },
+      {
+        "title": "Monte do Trigo",
+        "description": "Monte do Trigo, freguesia del municipio de Portel, en el distrito de Évora."
+      },
+      {
+        "title": "Trigo",
+        "description": "Trigo, género de plantas de la familia de las Gramíneas, con espigas terminales compuestas de cuatro o más carreras de granos, de los cuales, triturados, se saca la harina con que se hace el pan y otr"
+      },
+      {
+        "title": "Ramón Trigo",
+        "description": "Ramón Trigo, localidad del departamento de Cerro Largo."
+      },
+      {
+        "title": "La Tierra del Trigo",
+        "description": "La Tierra del Trigo, localidad del municipio de Los Silos, en la provincia de Santa Cruz de Tenerife."
+      },
+      {
+        "title": "Felipe Trigo",
+        "description": "Felipe Trigo (1864-1916), militar y escritor español."
+      },
+      {
+        "title": "Guadalupe Trigo",
+        "description": "Guadalupe Trigo (1941-1982), compositor, cantante y actor mexicano."
+      }
+    ],
+    "answer": 3,
+    "senseSource": "wikipedia:es:Trigo (desambiguación)"
+  },
+  {
+    "id": "sens-es-11",
+    "source": "wikipedia:es:Pan",
+    "term": "arroz",
+    "context": "El cereal más utilizado para la elaboración del pan es la harina de trigo, aunque también se utiliza el centeno, la cebada, el maíz y el arroz.",
+    "title": "Pan",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Arroz con liebre",
+        "description": "Arroz con liebre, un plato típico de la cocina tradicional castellana."
+      },
+      {
+        "title": "Arroz frito",
+        "description": "Arroz frito, un componente muy popular de la cocina china."
+      },
+      {
+        "title": "Arroz (California)",
+        "description": "Arroz, localidad de California, Estados Unidos."
+      },
+      {
+        "title": "Arroz inflado",
+        "description": "Arroz inflado, un tipo de grano inflado elaborado a partir de arroz, normalmente calentando los centros de los granos de arroz."
+      },
+      {
+        "title": "Arroz",
+        "description": "Arroz, cereal considerado como alimento básico en muchas culturas culinarias. Arroz con leche, un postre."
+      },
+      {
+        "title": "Arroz glutinoso",
+        "description": "Arroz glutinoso (Oryza sativa var. glutinosa) también denominado arroz pegajoso, arroz dulce, arroz cerulento, arroz botan, arroz mochi, y arroz de perlas, es un tipo de arroz de grano corto que se vu"
+      },
+      {
+        "title": "Wikcionario",
+        "description": "Wikcionario tiene definiciones y otra información sobre arroz."
+      },
+      {
+        "title": "Oryza sativa",
+        "description": "Oryza sativa, la planta de arroz."
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:es:Arroz (desambiguación)"
+  },
+  {
+    "id": "sens-es-12",
+    "source": "wikipedia:es:Pan",
+    "term": "huevos",
+    "context": "Existen muchos tipos de pan que pueden contener otros ingredientes; si son grasas de diferentes tipos —aceite, mantequilla, tocino de cerdo o de vaca—, se llama pan lactal; también puede incorporar huevos, azúcar, especias, frutas, frutos secos —como por ejemplo pasas—, verduras como la cebolla y el ajo, o semillas diversas.",
+    "title": "Pan",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Huevo (biología)",
+        "description": "Huevo, el sustento y protección del embrión en los animales ovíparos. Huevo pedunculado, huevo de insecto (u otro animal) que está adherido a un pedúnculo"
+      },
+      {
+        "title": "Huevo de dinosaurio",
+        "description": "Huevo de dinosaurio, huevos puestos por los dinosaurios que han llegado a nosotros en forma de fósiles"
+      },
+      {
+        "title": "Huevo de insecto",
+        "description": "Huevo de insecto, estadio de vida del insecto que comienza dentro del aparato reproductor de la madre"
+      },
+      {
+        "title": "Huevo frito",
+        "description": "Huevo frito, forma de hacer una fritura de un huevo"
+      },
+      {
+        "title": "Huevo (alimento)",
+        "description": "Huevo como alimento. Huevo hilado, alimento en forma de finos hilos amarillos"
+      },
+      {
+        "title": "Cigoto",
+        "description": "Huevo o cigoto, célula resultante de la unión del gameto masculino con el gameto femenino en la reproducción sexual de los organismos."
+      },
+      {
+        "title": "Huevo duro",
+        "description": "Huevo duro, huevo cocido o huevo sancochado, es un huevo hervido"
+      },
+      {
+        "title": "Testículo",
+        "description": "Testículo, como referencia malsonante."
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:es:Huevo"
+  },
+  {
+    "id": "sens-es-13",
+    "source": "wikipedia:es:Pan",
+    "term": "azúcar",
+    "context": "Existen muchos tipos de pan que pueden contener otros ingredientes; si son grasas de diferentes tipos —aceite, mantequilla, tocino de cerdo o de vaca—, se llama pan lactal; también puede incorporar huevos, azúcar, especias, frutas, frutos secos —como por ejemplo pasas—, verduras como la cebolla y el ajo, o semillas diversas.",
+    "title": "Pan",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Azúcar moreno",
+        "description": "Azúcar moreno, azúcar de sacarosa que tiene un color marrón característico debido a la presencia de melaza."
+      },
+      {
+        "title": "Wikcionario",
+        "description": "Wikcionario tiene definiciones y otra información sobre azúcar."
+      },
+      {
+        "title": "Azúcar de caña",
+        "description": "Azúcar de caña, el producido a partir de la caña de azúcar."
+      },
+      {
+        "title": "Azúcar Moreno",
+        "description": "Azúcar Moreno, dúo musical."
+      },
+      {
+        "title": "Azúcar",
+        "description": "Azúcar o azúcar común o azúcar de mesa, es la sacarosa, cuya fórmula química es C12H22O11."
+      },
+      {
+        "title": "Azúcar (serie de televisión de 2016)",
+        "description": "Azúcar (serie de televisión de 2016) adaptación moderna de la versión de 1989"
+      },
+      {
+        "title": "Azúcar Buena (La Mesa)",
+        "description": "Azúcar Buena (La Mesa), corregimiento del municipio de Valledupar, Colombia."
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:es:Azúcar (desambiguación)"
+  },
+  {
+    "id": "sens-es-14",
+    "source": "wikipedia:es:Pan",
+    "term": "cebolla",
+    "context": "Existen muchos tipos de pan que pueden contener otros ingredientes; si son grasas de diferentes tipos —aceite, mantequilla, tocino de cerdo o de vaca—, se llama pan lactal; también puede incorporar huevos, azúcar, especias, frutas, frutos secos —como por ejemplo pasas—, verduras como la cebolla y el ajo, o semillas diversas.",
+    "title": "Pan",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Encaminamiento cebolla",
+        "description": "Encaminamiento cebolla, en informática."
+      },
+      {
+        "title": "Wikcionario",
+        "description": "Wikcionario tiene definiciones y otra información sobre cebolla."
+      },
+      {
+        "title": "Cristian Rodríguez",
+        "description": "Cristian «Cebolla» Rodríguez (1985-), futbolista uruguayo"
+      },
+      {
+        "title": "Cebolla (Toledo)",
+        "description": "Cebolla (Toledo), municipio en la provincia de Toledo;"
+      },
+      {
+        "title": "Allium cepa",
+        "description": "Allium cepa, especie de planta"
+      },
+      {
+        "title": "Música cebolla",
+        "description": "Música cebolla, estilo musical propio de América Latina, cercano al Schlager."
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:es:Cebolla (desambiguación)"
+  },
+  {
+    "id": "sens-es-15",
+    "source": "wikipedia:es:Pan",
+    "term": "ajo",
+    "context": "Existen muchos tipos de pan que pueden contener otros ingredientes; si son grasas de diferentes tipos —aceite, mantequilla, tocino de cerdo o de vaca—, se llama pan lactal; también puede incorporar huevos, azúcar, especias, frutas, frutos secos —como por ejemplo pasas—, verduras como la cebolla y el ajo, o semillas diversas.",
+    "title": "Pan",
+    "textLanguage": "es",
+    "senses": [
+      {
+        "title": "Allium odorum",
+        "description": "Ajo de montaña (Allium odorum)."
+      },
+      {
+        "title": "Ajo cabañil",
+        "description": "Ajo cabañil: Se trata de una salsa emulsionada típica de la cocina murciana."
+      },
+      {
+        "title": "Ajo Mataero",
+        "description": "Ajo mataero: Plato típico de Albacete elaborado básicamente con hígado y pan."
+      },
+      {
+        "title": "Ajo negro",
+        "description": "Ajo negro: un tipo de fermentación en el ajo empleado como condimento en la cocina asiática."
+      },
+      {
+        "title": "Sopa de ajo",
+        "description": "Ajo (Sopa): Un tipo de sopa que contienen fundamentalmente agua o caldo, pan que suele ser pan duro que ha sobrado de días anteriores, pimentón, laurel, ajo y grasa (tocino de cerdo)."
+      },
+      {
+        "title": "Allium sativum",
+        "description": "Ajo (Allium sativum): El ajo es una hortaliza cuyo bulbo se emplea comúnmente en la cocina mediterránea."
+      },
+      {
+        "title": "Allium sphaerocephalon",
+        "description": "Allium sphaerocephalon - \"ajo de cigüeña\", \"ajo de cabeza redonda\", \"ajo montesino\", o \"ajo perruno\"."
+      },
+      {
+        "title": "Ajo caliente",
+        "description": "Ajo caliente: Es un plato típico del campo andaluz."
+      }
+    ],
+    "answer": 5,
+    "senseSource": "wikipedia:es:Ajo (desambiguación)"
+  },
+  {
+    "id": "sens-fr-01",
+    "source": "wikipedia:fr:Système d'exploitation",
+    "term": "anglais",
+    "context": "En informatique, un système d'exploitation (souvent appelé OS — de l'anglais operating system — ou parfois SE — en français) est un ensemble de programmes qui dirige l'utilisation des ressources d'un ordinateur par des logiciels applicatifs.",
+    "title": "Système d'exploitation",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Rivière aux Anglais",
+        "description": "Rivière aux Anglais, un affluent de la Côte-Nord du Québec, au Canada ;"
+      },
+      {
+        "title": "Anglais",
+        "description": "Anglais, langue germanique occidentale"
+      },
+      {
+        "title": "Rivière des Anglais",
+        "description": "Rivière des Anglais, un affluent de la rivière Châteauguay coulant dans la municipalité de Très-Saint-Sacrement, dans la MRC de Le Haut-Saint-Laurent, en Montérégie, au Québec, au Canada."
+      },
+      {
+        "title": "Lac de la Rivière aux Anglais",
+        "description": "Lac de la Rivière aux Anglais, un plan d'eau de la rivière aux Anglais, coulant dans Rivière-aux-Outardes, MRC Manicouagan, Côte-Nord, au Québec, au Canada ;"
+      },
+      {
+        "title": "Anglais (salle de cinéma)",
+        "description": "Anglais, une salle de cinéma de Stockholm, en Suède ;"
+      },
+      {
+        "title": "Baie des Anglais",
+        "description": "Baie des Anglais, baie de Colombie-Britannique à Vancouver ;"
+      },
+      {
+        "title": "Les Anglais (Haïti)",
+        "description": "Les Anglais, commune de Haïti"
+      }
+    ],
+    "answer": 1,
+    "senseSource": "wikipedia:fr:Anglais (homonymie)"
+  },
+  {
+    "id": "sens-fr-02",
+    "source": "wikipedia:fr:Système d'exploitation",
+    "term": "français",
+    "context": "En informatique, un système d'exploitation (souvent appelé OS — de l'anglais operating system — ou parfois SE — en français) est un ensemble de programmes qui dirige l'utilisation des ressources d'un ordinateur par des logiciels applicatifs.",
+    "title": "Système d'exploitation",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Anne Français",
+        "description": "Anne Français (1909-1995), peintre, aquarelliste, pastelliste et lithographe française ;"
+      },
+      {
+        "title": "Jacques Frédéric Français",
+        "description": "Jacques Frédéric Français (1775-1833), capitaine du génie, français ;"
+      },
+      {
+        "title": "Antoine Français de Nantes",
+        "description": "Antoine Français de Nantes (1756-1836), haut fonctionnaire, écrivain et personnalité politique française ;"
+      },
+      {
+        "title": "Français (peuple)",
+        "description": "Français, ressortissant de France ;"
+      },
+      {
+        "title": "François Français",
+        "description": "Joseph-François Français (1768-1810), artilleur et mathématicien français, frère de Jacques Frédéric Français ;"
+      },
+      {
+        "title": "Louis Français",
+        "description": "Louis Français (1814-1897), peintre paysagiste français ;"
+      },
+      {
+        "title": "Français",
+        "description": "français, langue indo-européenne originaire de France ;"
+      },
+      {
+        "title": "Jacques Français",
+        "description": "Jacques Français (1923-2004), luthier français ;"
+      }
+    ],
+    "answer": 6,
+    "senseSource": "wikipedia:fr:Français (homonymie)"
+  },
+  {
+    "id": "sens-fr-03",
+    "source": "wikipedia:fr:Système d'exploitation",
+    "term": "ressources",
+    "context": "En informatique, un système d'exploitation (souvent appelé OS — de l'anglais operating system — ou parfois SE — en français) est un ensemble de programmes qui dirige l'utilisation des ressources d'un ordinateur par des logiciels applicatifs.",
+    "title": "Système d'exploitation",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Ressource (informatique)",
+        "description": "Ressource, composant matériel ou logiciel connecté à un ordinateur."
+      },
+      {
+        "title": "Ressource non renouvelable",
+        "description": "Ressource non renouvelable, ressource naturelle dont la vitesse de consommation/utilisation/destruction dépasse sa vitesse de création naturelle."
+      },
+      {
+        "title": "Ressource du World Wide Web",
+        "description": "Ressource du World Wide Web, entité de base du web, identifiée par une URI."
+      },
+      {
+        "title": "Gestion des ressources humaines",
+        "description": "Ressources humaines ou capital humain, personnes impliquées dans l'activité d'une organisation."
+      },
+      {
+        "title": "Ressource naturelle",
+        "description": "Ressource naturelle, substance, organisme ou objet présent dans la nature et qui fait l'objet d'une utilisation. Ressource minérale, concentration de matériaux présent naturellement dans la croûte ter"
+      },
+      {
+        "title": "Ressource génétique",
+        "description": "Ressource génétique, matériel génétique ayant une valeur effective ou potentielle."
+      },
+      {
+        "title": "Ressource renouvelable",
+        "description": "Ressource renouvelable, ressource naturelle dont le stock peut se reconstituer sur une période courte à l'échelle humaine."
+      },
+      {
+        "title": "Ressource pulsée",
+        "description": "Ressource pulsée, ressource uniquement disponible de manière massive et intermittente."
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:fr:Ressource"
+  },
+  {
+    "id": "sens-fr-04",
+    "source": "wikipedia:fr:Système d'exploitation",
+    "term": "périphériques",
+    "context": "Il reçoit des demandes d'utilisation des ressources de l'ordinateur — ressources de stockage des mémoires (par exemple des accès à la mémoire vive, aux mémoires de masse), ressources de calcul du processeur central, ressources de communication vers des périphériques (pour parfois demander des ressources de calcul au GPU par exemple ou toute autre carte d'extension) ou via le réseau — de la part de",
+    "title": "Système d'exploitation",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Périphériques (entreprise)",
+        "description": "Périphériques, une agence d'architecture parisienne."
+      },
+      {
+        "title": "Ceinture périphérique",
+        "description": "ceinture périphérique, une route encerclant partiellement ou complètement une ville ou une agglomération ;"
+      },
+      {
+        "title": "Périphérique nul",
+        "description": "périphérique nul ;"
+      },
+      {
+        "title": "Périphériques (recueil)",
+        "description": "Périphériques, un recueil de textes de Maurice G. Dantec ;"
+      },
+      {
+        "title": "Périphériques, les mondes de Flynne",
+        "description": "Périphériques, les mondes de Flynne (2022- ), série télévisée diffusée sur Amazon Prime."
+      },
+      {
+        "title": "Vision périphérique",
+        "description": "vision périphérique."
+      },
+      {
+        "title": "Périphérique de sortie",
+        "description": "périphérique de sortie ;"
+      },
+      {
+        "title": "Périphérique informatique",
+        "description": "périphérique informatique, un type de matériel informatique ; périphérique d'entrée ;"
+      }
+    ],
+    "answer": 7,
+    "senseSource": "wikipedia:fr:Périphérique"
+  },
+  {
+    "id": "sens-fr-05",
+    "source": "wikipedia:fr:Musique",
+    "term": "gammes",
+    "context": "Elle utilise généralement certaines règles ou systèmes de composition, des plus simples aux plus complexes (souvent les notes de musique, les gammes et autres).",
+    "title": "Musique",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Gamme de Shepard",
+        "description": "gamme de Shepard ;"
+      },
+      {
+        "title": "Gamme tempérée",
+        "description": "gamme tempérée ;"
+      },
+      {
+        "title": "Gamme blues",
+        "description": "gamme blues ;"
+      },
+      {
+        "title": "Gamme (musique)",
+        "description": "gamme musicale, suite de notes conjointes d'une échelle. Il en existe plusieurs sortes, notamment : gamme naturelle ;"
+      },
+      {
+        "title": "Gamme pentatonique",
+        "description": "gamme pentatonique ;"
+      },
+      {
+        "title": "Gamme hexatonique",
+        "description": "gamme hexatonique ;"
+      },
+      {
+        "title": "Gamme de Bohlen–Pierce",
+        "description": "gamme de Bohlen–Pierce ;"
+      },
+      {
+        "title": "Gamme par tons",
+        "description": "gamme par tons ;"
+      }
+    ],
+    "answer": 3,
+    "senseSource": "wikipedia:fr:Gamme"
+  },
+  {
+    "id": "sens-fr-06",
+    "source": "wikipedia:fr:Musique",
+    "term": "corps",
+    "context": "Elle peut utiliser divers objets, le corps, mais aussi des instruments de musique spécialement conçus, et de plus en plus tous les sons (concrets, de synthèses, abstraits…).",
+    "title": "Musique",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Corps gras",
+        "description": "Corps gras, en chimie organique, substance composée de molécules ayant des propriétés hydrophobes"
+      },
+      {
+        "title": "Corps calleux",
+        "description": "Corps calleux, structure du cerveau"
+      },
+      {
+        "title": "Corps chimique",
+        "description": "Corps chimique, molécule en chimie :"
+      },
+      {
+        "title": "Corps (biologie)",
+        "description": "Corps, tout biologique chez l'homme (le corps humain) comme chez l'animal"
+      },
+      {
+        "title": "Corps humain",
+        "description": "Corps humain, en anatomie humaine et en droit"
+      },
+      {
+        "title": "Corps allate",
+        "description": "Corps allate, glande endocrine du cerveau des insectes"
+      },
+      {
+        "title": "Corps cardiaque",
+        "description": "Corps cardiaque, glande endocrine du cerveau des insectes"
+      },
+      {
+        "title": "Cadavre",
+        "description": "Corps, cadavre d'une personne décédée"
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:fr:Corps"
+  },
+  {
+    "id": "sens-fr-07",
+    "source": "wikipedia:fr:Cuisson des aliments",
+    "term": "chaleur",
+    "context": "La cuisson des aliments est l'opération par laquelle un aliment est transformé ou modifié, sur le plan physico-chimique, sous l'effet de la chaleur à une température minimum qui dépasse 80 °C.",
+    "title": "Cuisson des aliments",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Chaleurs (film, 1971)",
+        "description": "Chaleurs, film franco-belge de Daniel Daërt sorti en 1971."
+      },
+      {
+        "title": "Baie des Chaleurs",
+        "description": "baie des Chaleurs, un bras du golfe du Saint-Laurent séparant la péninsule gaspésienne au Québec du Nouveau-Brunswick ;"
+      },
+      {
+        "title": "Transfert thermique",
+        "description": "Transfert thermique, transfert d'énergie thermique"
+      },
+      {
+        "title": "La Chaleur (film)",
+        "description": "La Chaleur, film franco-italien de Stéphane Demoustier et sorti en 2026."
+      },
+      {
+        "title": "Chaleur (Nouveau-Brunswick)",
+        "description": "Chaleur, un district de services locaux dans la province du Nouveau-Brunswick, au Canada ;"
+      },
+      {
+        "title": "Chaleur (district rural)",
+        "description": "Chaleur, un gouvernement local du Nouveau-Brunswick ;"
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:fr:Chaleur"
+  },
+  {
+    "id": "sens-fr-08",
+    "source": "wikipedia:fr:Pain",
+    "term": "sel",
+    "context": "Sa mention remonte, en France, à des manuscrits datant du Moyen Âge. Il est fabriqué à partir de farine et d'eau et contient généralement du sel.",
+    "title": "Pain",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Rosa Sels",
+        "description": "Rosa Sels (1943-) : coureuse cycliste belge"
+      },
+      {
+        "title": "Système d'échange local",
+        "description": "Système d'échange local (Sel), en économie."
+      },
+      {
+        "title": "Marcel Sel",
+        "description": "Marcel Sel : écrivain et journaliste belge"
+      },
+      {
+        "title": "Coupe Sels",
+        "description": "Coupe Sels : épreuve cycliste belge"
+      },
+      {
+        "title": "Véronique Sels",
+        "description": "Véronique Sels (1958-) : femme de lettres belge"
+      },
+      {
+        "title": "Edward Sels",
+        "description": "Edward Sels (1941-) : coureur cycliste belge"
+      },
+      {
+        "title": "Matz Sels",
+        "description": "Matz Sels (1992-) : footballeur belge"
+      },
+      {
+        "title": "Sel alimentaire",
+        "description": "Sel alimentaire, minéral cristallin utilisé comme condiment ou comme conservateur alimentaire, principalement composé de chlorure de sodium"
+      }
+    ],
+    "answer": 7,
+    "senseSource": "wikipedia:fr:Sel"
+  },
+  {
+    "id": "sens-fr-09",
+    "source": "wikipedia:fr:Pain",
+    "term": "boulanger",
+    "context": "Le pain est obtenu par cuisson de la pâte, au four traditionnel, ou four à pain, ou par d'autres méthodes (pierres chaudes par exemple). La fabrication du pain (panification) est le métier du boulanger.",
+    "title": "Pain",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "André Boulanger",
+        "description": "André Boulanger (1886-1958), latiniste, professeur de lettres ;"
+      },
+      {
+        "title": "Amédée Boulanger",
+        "description": "Amédée Boulanger (1812-1893), homme politique français ;"
+      },
+      {
+        "title": "Anthony Boulanger",
+        "description": "Anthony Boulanger (né en 1985), auteur et novelliste français ;"
+      },
+      {
+        "title": "Annie Boulanger",
+        "description": "Annie Boulanger (née en 1978), artiste multidisciplinaire canadienne ;"
+      },
+      {
+        "title": "Boulanger",
+        "description": "Boulanger, spécialiste de la fabrication de pain et de la viennoiserie"
+      },
+      {
+        "title": "Auguste Boulanger",
+        "description": "Auguste Boulanger (1866-1923), polytechnicien, professeur de mécanique français ;"
+      },
+      {
+        "title": "Benoît Boulanger",
+        "description": "Benoît Boulanger (né en 1961), physicien français ;"
+      },
+      {
+        "title": "Charles Boulanger de Boisfrémont",
+        "description": "Charles Boulanger de Boisfrémont (1773-1838), peintre français ;"
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:fr:Boulanger (homonymie)"
+  },
+  {
+    "id": "sens-fr-10",
+    "source": "wikipedia:fr:Vin",
+    "term": "raisin",
+    "context": "Le vin est une boisson alcoolisée obtenue par la fermentation du raisin, fruit de la vigne viticole.",
+    "title": "Vin",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Raisin",
+        "description": "Raisin, fruit de la vigne"
+      },
+      {
+        "title": "Marcel Raisin",
+        "description": "Marcel Raisin (1890-1949), homme politique suisse ;"
+      },
+      {
+        "title": "Les Raisins de la colère (roman)",
+        "description": "Les Raisins de la colère, roman de John Steinbeck, 1939."
+      },
+      {
+        "title": "Denis Raisin Dadre",
+        "description": "Denis Raisin Dadre (1956-2025), joueur de flûte à bec et d'anches français ;"
+      },
+      {
+        "title": "Les Raisins de la colère (film)",
+        "description": "Les Raisins de la colère, film de John Ford, 1940, d'après le roman."
+      },
+      {
+        "title": "Raisin (métro de Toulouse)",
+        "description": "Raisin, une station du métro de Toulouse dont l'ouverture est prévue en 2028, et le quartier du même nom."
+      },
+      {
+        "title": "Jean-Baptiste Raisin",
+        "description": "Jean-Baptiste Raisin, surnommé « le petit Molière » (1655-1693), acteur français ;"
+      },
+      {
+        "title": "Saul Raisin",
+        "description": "Saul Raisin (1983-), cycliste américain."
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:fr:Raisin (homonymie)"
+  },
+  {
+    "id": "sens-fr-11",
+    "source": "wikipedia:fr:Vin",
+    "term": "oranges",
+    "context": "Ainsi, ils peuvent donner des vins rouges, oranges, rosés ou blancs, mais aussi des vins avec un taux de sucre résiduel variant (secs ou doux), ou une effervescence variante (tranquilles ou effervescents).",
+    "title": "Vin",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Orange (Connecticut)",
+        "description": "Orange dans le Connecticut ;"
+      },
+      {
+        "title": "Orange (Australie)",
+        "description": "Orange, ville de Nouvelle-Galles du Sud."
+      },
+      {
+        "title": "Orange (Californie)",
+        "description": "Orange en Californie, qui fait partie du comté d'Orange ;"
+      },
+      {
+        "title": "Orange (couleur)",
+        "description": "Orange, couleur qui tire son nom du fruit."
+      },
+      {
+        "title": "Ville d'Orange",
+        "description": "Ville d'Orange (City of Orange), zone d'administration locale de Nouvelle-Galles du Sud."
+      },
+      {
+        "title": "Vin orange",
+        "description": "Vin orange, vin blanc élaboré par macération prolongée des peaux, donnant une couleur ambrée-orangée et des tanins"
+      },
+      {
+        "title": "Orange (fruit)",
+        "description": "Orange, fruit appartenant à la famille des agrumes."
+      },
+      {
+        "title": "État libre d'Orange",
+        "description": "État libre d'Orange, ancienne république boer (1854-1902). Depuis 1995, cette entité se nomme province de l'État-Libre."
+      }
+    ],
+    "answer": 5,
+    "senseSource": "wikipedia:fr:Orange"
+  },
+  {
+    "id": "sens-fr-12",
+    "source": "wikipedia:fr:Café",
+    "term": "variétés",
+    "context": "Le café est une boisson énergisante psychotrope stimulante, obtenue à partir des graines torréfiées de diverses variétés de caféiers, des arbustes du genre Coffea.",
+    "title": "Café",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Variété (pièce de théâtre)",
+        "description": "Variété, une pièce de théâtre écrite et jouée par Anne-Lise Heimburger, Florent Hubert et Sarah Le Picard, créée le 20 novembre 2019 au théâtre musical La Pop, à Paris."
+      },
+      {
+        "title": "Théâtre des Variétés",
+        "description": "Théâtre des Variétés, salle de théâtre et de spectacles à Paris."
+      },
+      {
+        "title": "Variétés (film, 1935)",
+        "description": "Variétés, film français de Nicolas Farkas, sorti en 1935 ;"
+      },
+      {
+        "title": "Variétés (film, 1925)",
+        "description": "Variétés (Varieté), film allemand d'Ewald André Dupont, sorti en 1925 ;"
+      },
+      {
+        "title": "Variété (groupe)",
+        "description": "Variété, groupe de new wave polonais, originaire de Bydgoszcz."
+      },
+      {
+        "title": "Liste de variétés de caféier",
+        "description": "Liste de variétés de caféier, page de liste de Wikimédia"
+      },
+      {
+        "title": "Variétés (film, 1989)",
+        "description": "Variétés, film documentaire français d'Alain Guesnier, sorti en 1989."
+      }
+    ],
+    "answer": 5,
+    "senseSource": "wikipedia:fr:Variété"
+  },
+  {
+    "id": "sens-fr-13",
+    "source": "wikipedia:fr:Café",
+    "term": "thé",
+    "context": "C'est l'une des trois boissons contenant de la caféine les plus consommées dans le monde, avec le thé et le maté.",
+    "title": "Café",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Thé du Mexique",
+        "description": "thé du Mexique ;"
+      },
+      {
+        "title": "Thé",
+        "description": "Thé, boisson"
+      },
+      {
+        "title": "Thé d'Aubrac",
+        "description": "thé d'Aubrac, Clinopodium grandiflorum ;"
+      },
+      {
+        "title": "Marius Thé",
+        "description": "Marius Thé (1971-1915), coureur cycliste français."
+      },
+      {
+        "title": "Thé des Jésuites",
+        "description": "thé des Jésuites ;"
+      }
+    ],
+    "answer": 1,
+    "senseSource": "wikipedia:fr:Thé (homonymie)"
+  },
+  {
+    "id": "sens-fr-14",
+    "source": "wikipedia:fr:Mémoire (psychologie)",
+    "term": "esprit",
+    "context": "En psychologie, la mémoire est la faculté de l'esprit d'enregistrer, conserver et rappeler les expériences passées.",
+    "title": "Mémoire (psychologie)",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Esprit (revue)",
+        "description": "Esprit, revue française fondée en 1932 par Emmanuel Mounier ;"
+      },
+      {
+        "title": "European Strategic Program on Research in Information Technology",
+        "description": "ESPRIT, nom d’un programme de financement de la recherche scientifique de l’Union européenne ;"
+      },
+      {
+        "title": "Esprit",
+        "description": "Esprit, combinaison de facultés cognitives qui assure la conscience, la pensée, le raisonnement, la perception et le jugement chez les humains et potentiellement d'autres formes de vie"
+      },
+      {
+        "title": "Esprit Holdings",
+        "description": "Esprit Holdings, fabricant de vêtements, joaillerie, parfums, accessoires, chaussures et linge de maison diffusés sous la marque Esprit ;"
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:fr:Esprit (homonymie)"
+  },
+  {
+    "id": "sens-fr-15",
+    "source": "wikipedia:fr:Langage",
+    "term": "cartographie",
+    "context": "Le langage est la capacité d'exprimer une pensée et de communiquer au moyen d'un système de signes (vocaux, gestuels, graphiques, tactiles, olfactifs) doté d'une sémantique, et le plus souvent d'une syntaxe — mais ce n'est pas systématique (la cartographie est un exemple de langage non syntaxique).",
+    "title": "Langage",
+    "textLanguage": "fr",
+    "senses": [
+      {
+        "title": "Cartographie",
+        "description": "Cartographie, Discipline de la réalisation de cartes géographiques"
+      },
+      {
+        "title": "Cartographie sémantique",
+        "description": "cartographie sémantique, cartographie d’un espace informationnel basée sur sa sémantique ;"
+      },
+      {
+        "title": "Cartographie (robotique)",
+        "description": "cartographie, en robotique, vise à rendre un robot autonome capable de construire (ou utiliser) une carte de son environnement et de s'y situer ;"
+      },
+      {
+        "title": "Cartographie UV",
+        "description": "cartographie UV, processus de modélisation tridimensionnelle."
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:fr:Cartographie (homonymie)"
+  },
+  {
+    "id": "sens-de-01",
+    "source": "wikipedia:de:Inflation",
+    "term": "Staat",
+    "context": "Unter einer Inflation (lateinisch inflare, „aufblähen“, „anschwellen lassen“; oder Preissteigerung, Teuerung) wird in der Volkswirtschaftslehre und Wirtschaft der Anstieg einzelner Preise oder des Preisniveaus in einem Staat innerhalb eines bestimmten Zeitraums verstanden, ohne dass dies auf Mengen- oder Qualitätsveränderungen der Güter und Dienstleistungen zurückzuführen ist.",
+    "title": "Inflation",
+    "textLanguage": "de",
+    "senses": [
+      {
+        "title": "Diana Staat",
+        "description": "Diana Staat (* 1982), deutsche Fußballspielerin"
+      },
+      {
+        "title": "Eusozialität",
+        "description": "Staat (Biologie), arbeitsteilige Gemeinschaft von Tieren einer Art"
+      },
+      {
+        "title": "Staat",
+        "description": "Staat, ein politisches Gebilde (Land)"
+      },
+      {
+        "title": "Gliedstaat",
+        "description": "Gliedstaat, Bestandteil eines übergeordneten föderalen Staates"
+      },
+      {
+        "title": "Hymenopterenstaat",
+        "description": "Hymenopterenstaat, Insektenstaat von Hautflüglern"
+      },
+      {
+        "title": "Sascha Staat",
+        "description": "Sascha Staat (* 1980), deutscher Autor und Journalist"
+      },
+      {
+        "title": "Der Staat",
+        "description": "Der Staat, deutsche interdisziplinäre Fachzeitschrift"
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:de:Staat (Begriffsklärung)"
+  },
+  {
+    "id": "sens-de-02",
+    "source": "wikipedia:de:Inflation",
+    "term": "Güter",
+    "context": "Unter einer Inflation (lateinisch inflare, „aufblähen“, „anschwellen lassen“; oder Preissteigerung, Teuerung) wird in der Volkswirtschaftslehre und Wirtschaft der Anstieg einzelner Preise oder des Preisniveaus in einem Staat innerhalb eines bestimmten Zeitraums verstanden, ohne dass dies auf Mengen- oder Qualitätsveränderungen der Güter und Dienstleistungen zurückzuführen ist.",
+    "title": "Inflation",
+    "textLanguage": "de",
+    "senses": [
+      {
+        "title": "Gutshof",
+        "description": "Gutshof, landwirtschaftlicher Betrieb"
+      },
+      {
+        "title": "Gut (Familienname)",
+        "description": "Gut (Familienname), Familienname, zu Namensträgern siehe dort"
+      },
+      {
+        "title": "Rittergut",
+        "description": "Rittergut, Landgut mit Vorrechten"
+      },
+      {
+        "title": "Rechtsgut",
+        "description": "Rechtsgut, in den Rechtswissenschaften ein Wertgegenstand"
+      },
+      {
+        "title": "Transportgut",
+        "description": "Transportgut, zu transportierende Gegenstände"
+      },
+      {
+        "title": "Gut (Wirtschaftswissenschaft)",
+        "description": "Gut (Wirtschaftswissenschaft), Mittel zur Bedürfnisbefriedigung"
+      },
+      {
+        "title": "Ethisches Gut",
+        "description": "Ethisches Gut, ideeller positiver Wert"
+      },
+      {
+        "title": "Wirtschaftsgut (Steuerlehre)",
+        "description": "Wirtschaftsgut (Steuerlehre), Bewertungsobjekte im Betriebsvermögen"
+      }
+    ],
+    "answer": 5,
+    "senseSource": "wikipedia:de:Gut"
+  },
+  {
+    "id": "sens-de-03",
+    "source": "wikipedia:de:Inflation",
+    "term": "Deflation",
+    "context": "Sofern das Gegenteil passiert und die Preise in einer Volkswirtschaft fallen, spricht man von Deflation, bleiben sie konstant von Preisniveaustabilität.",
+    "title": "Inflation",
+    "textLanguage": "de",
+    "senses": [
+      {
+        "title": "Deflation (Geomorphologie)",
+        "description": "Deflation (Geomorphologie), Vorgang der Auswehung von Lockermaterial durch den Wind"
+      },
+      {
+        "title": "Deflation (Mathematik)",
+        "description": "Deflation (Mathematik), Technik aus der numerischen Mathematik"
+      },
+      {
+        "title": "Deflation",
+        "description": "Deflation, wirtschaftliches Phänomen"
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:de:Deflation (Begriffsklärung)"
+  },
+  {
+    "id": "sens-de-04",
+    "source": "wikipedia:de:Zinssatz",
+    "term": "Preis",
+    "context": "Der Zinssatz (auch Zinsfuß) ist in der Wirtschaft der in Prozent ausgedrückte Preis für Geld oder Kapital (bei zinsgebundenen Finanzprodukten wie Krediten oder Kapitalanlagen), ausgedrückt als Prozentangabe des Zinses.",
+    "title": "Zinssatz",
+    "textLanguage": "de",
+    "senses": [
+      {
+        "title": "Preis (Wirtschaft)",
+        "description": "Preis (Wirtschaft), beim Erwerb einer Ware oder Dienstleistung zu zahlender Betrag"
+      },
+      {
+        "title": "Caspar Preis",
+        "description": "Caspar Preis (?–1667), deutscher Chronist"
+      },
+      {
+        "title": "Wissenschaftspreis",
+        "description": "Wissenschaftspreis, meist mit Geldzuwendung verbunden"
+      },
+      {
+        "title": "Alfred Preis",
+        "description": "Alfred Preis (1911–1994), österreichisch-amerikanischer Architekt"
+      },
+      {
+        "title": "Albert Preis",
+        "description": "Albert Preis (* 1937), deutscher Fußballspieler"
+      },
+      {
+        "title": "Preis (Gewinn)",
+        "description": "Preis (Gewinn), Gewinn in einem Wettbewerb oder Preisausschreiben"
+      },
+      {
+        "title": "Constantin Preis",
+        "description": "Constantin Preis (* 1998), deutscher Leichtathlet"
+      },
+      {
+        "title": "Auszeichnung (Ehrung)",
+        "description": "Auszeichnung (Ehrung), gelegentlich mit Geldpreis verbunden"
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:de:Preis"
+  },
+  {
+    "id": "sens-de-05",
+    "source": "wikipedia:de:Zinssatz",
+    "term": "Geld",
+    "context": "Der Zinssatz (auch Zinsfuß) ist in der Wirtschaft der in Prozent ausgedrückte Preis für Geld oder Kapital (bei zinsgebundenen Finanzprodukten wie Krediten oder Kapitalanlagen), ausgedrückt als Prozentangabe des Zinses.",
+    "title": "Zinssatz",
+    "textLanguage": "de",
+    "senses": [
+      {
+        "title": "Das Geld (Zola)",
+        "description": "Das Geld (Zola), Roman von Émile Zola (1890/1891)"
+      },
+      {
+        "title": "Geldkurs",
+        "description": "Geldkurs im Börsenhandel"
+      },
+      {
+        "title": "Hendrik van der Geld",
+        "description": "Hendrik van der Geld (1838–1914), niederländischer Bildhauer"
+      },
+      {
+        "title": "Das Geld (1928)",
+        "description": "Das Geld (1928), französischer Film von Marcel L’Herbier"
+      },
+      {
+        "title": "Tom van der Geld",
+        "description": "Tom van der Geld (* 1947), US-amerikanischer Jazzmusiker"
+      },
+      {
+        "title": "Geld",
+        "description": "Geld, Zahlungsmittel"
+      },
+      {
+        "title": "Das Geld (1983)",
+        "description": "Das Geld (1983), französischer Film von Robert Bresson"
+      },
+      {
+        "title": "Geld (Film)",
+        "description": "Geld (Film), deutscher Film von Doris Dörrie (1989)"
+      }
+    ],
+    "answer": 5,
+    "senseSource": "wikipedia:de:Geld (Begriffsklärung)"
+  },
+  {
+    "id": "sens-de-06",
+    "source": "wikipedia:de:Zinssatz",
+    "term": "Kapital",
+    "context": "Der Zinssatz (auch Zinsfuß) ist in der Wirtschaft der in Prozent ausgedrückte Preis für Geld oder Kapital (bei zinsgebundenen Finanzprodukten wie Krediten oder Kapitalanlagen), ausgedrückt als Prozentangabe des Zinses.",
+    "title": "Zinssatz",
+    "textLanguage": "de",
+    "senses": [
+      {
+        "title": "Kapitalband (Buchbinderei)",
+        "description": "Kapitalband (Buchbinderei), das Bändchen zwischen Buchrücken und Buchblock"
+      },
+      {
+        "title": "Das Kapital",
+        "description": "Das Kapital, Hauptwerk von Karl Marx"
+      },
+      {
+        "title": "Kapital (Marxismus)",
+        "description": "Kapital (Marxismus), Begriff der marxistischen Theorie"
+      },
+      {
+        "title": "Kapital",
+        "description": "Kapital, wirtschafts- und sozialwissenschaftliche Größe"
+      },
+      {
+        "title": "Kapital (Roman)",
+        "description": "Kapital (Roman), Werk von John Lanchester"
+      }
+    ],
+    "answer": 3,
+    "senseSource": "wikipedia:de:Kapital (Begriffsklärung)"
+  },
+  {
+    "id": "sens-de-07",
+    "source": "wikipedia:de:Zentralbank",
+    "term": "englisch",
+    "context": "Eine Zentralbank (oder Notenbank, Zentralnotenbank, zentrale Notenbank, Nationalbank, Staatsbank, Währungsbehörde; englisch central bank) ist eine nationale oder supranationale Behörde oder Institution, die meist vom Staat oder von einem Staatenverbund errichtet wurde und mit Hoheitsrechten auf dem Gebiet der Geld- und Währungspolitik ausgestattet ist.",
+    "title": "Zentralbank",
+    "textLanguage": "de",
+    "senses": [
+      {
+        "title": "Englische Eröffnung",
+        "description": "englische Eröffnung im Schachspiel"
+      },
+      {
+        "title": "Englische Sprache",
+        "description": "englische Sprache, weitest verbreitete westgermanische Sprache"
+      },
+      {
+        "title": "Andreas Englisch",
+        "description": "Andreas Englisch (* 1963), deutscher Journalist"
+      },
+      {
+        "title": "Berthold Englisch",
+        "description": "Berthold Englisch (1851–1897), österreichischer Schachspieler"
+      },
+      {
+        "title": "Brigitte Englisch",
+        "description": "Brigitte Englisch (* 1964), deutsche Historikerin und Hochschullehrerin"
+      },
+      {
+        "title": "Eugen Englisch",
+        "description": "Eugen Englisch (1869–1905), deutscher Photochemiker"
+      },
+      {
+        "title": "England",
+        "description": "England, größter Landesteil im Vereinigten Königreich Großbritannien und Nordirland"
+      },
+      {
+        "title": "Anglistik",
+        "description": "Anglistik als Studienfach"
+      }
+    ],
+    "answer": 1,
+    "senseSource": "wikipedia:de:Englisch (Begriffsklärung)"
+  },
+  {
+    "id": "sens-de-08",
+    "source": "wikipedia:de:Atomkern",
+    "term": "Masse",
+    "context": "Dabei hat der Atomkern zwar einen 20.000 bis 150.000 Mal kleineren Durchmesser als die Atomhülle, beherbergt aber mehr als 99,9 Prozent der Masse des gesamten Atoms.",
+    "title": "Atomkern",
+    "textLanguage": "de",
+    "senses": [
+      {
+        "title": "Masse (Elektronik)",
+        "description": "Masse (Elektronik), elektrisches Bezugspotential"
+      },
+      {
+        "title": "Masse (Physik)",
+        "description": "Masse (Physik), Ursache von Gravitation, Trägheit und Raumkrümmung"
+      },
+      {
+        "title": "Masse (Sozialwissenschaften)",
+        "description": "Masse (Sozialwissenschaften), große Ansammlung von Menschen"
+      },
+      {
+        "title": "Masse (Schwarza)",
+        "description": "Masse (Schwarza), linker Nebenfluss der Schwarza, Thüringen"
+      },
+      {
+        "title": "Masse (Lebensmittel)",
+        "description": "Masse (Lebensmittel), Zwischenprodukt bei der Lebensmittelherstellung"
+      },
+      {
+        "title": "Masse (Vert)",
+        "description": "Masse (Vert), Fluss im Département Lot, Frankreich"
+      },
+      {
+        "title": "Masse (Parascha)",
+        "description": "Masse (Parascha), Leseabschnitt der Tora"
+      },
+      {
+        "title": "Masse d’Agen",
+        "description": "Masse d’Agen, Fluss im Département Lot-et-Garonne, Frankreich"
+      }
+    ],
+    "answer": 1,
+    "senseSource": "wikipedia:de:Masse"
+  },
+  {
+    "id": "sens-de-09",
+    "source": "wikipedia:de:Anleihe",
+    "term": "zins",
+    "context": "Eine Anleihe (auch festverzinsliches Wertpapier, Rentenpapier, Schuldverschreibung oder Obligation, englisch Bond oder debenture bond) ist ein zins­tragendes Wertpapier, das dem Gläubiger das Recht auf Rückzahlung sowie auf Zahlung vereinbarter Zinsen einräumt.",
+    "title": "Anleihe",
+    "textLanguage": "de",
+    "senses": [
+      {
+        "title": "Jaffa Zins",
+        "description": "Jaffa Zins (1928–2019), israelische Schriftstellerin"
+      },
+      {
+        "title": "Zins",
+        "description": "Zins, Entgelt für vorübergehend überlassenes Kapital"
+      },
+      {
+        "title": "Voldemārs Žins",
+        "description": "Voldemārs Žins (1905–1962), lettischer Fußballspieler"
+      },
+      {
+        "title": "Günther Zins",
+        "description": "Günther Zins (* 1951), deutscher Bildhauer"
+      }
+    ],
+    "answer": 1,
+    "senseSource": "wikipedia:de:Zins (Begriffsklärung)"
+  },
+  {
+    "id": "sens-de-10",
+    "source": "wikipedia:de:Mathematik",
+    "term": "Muster",
+    "context": "Für Mathematik gibt es keine allgemein anerkannte Definition; heute wird sie üblicherweise als eine Wissenschaft beschrieben, die selbstgeschaffene abstrakte Strukturen entsprechend der Logik auf ihre Eigenschaften und Muster untersucht.",
+    "title": "Mathematik",
+    "textLanguage": "de",
+    "senses": [
+      {
+        "title": "Peter Muster",
+        "description": "Peter Muster (* 1952), Schweizer Leichtathlet"
+      },
+      {
+        "title": "Thilo Muster",
+        "description": "Thilo Muster (* 1965), deutsch-schweizerischer Organist"
+      },
+      {
+        "title": "Muster (Struktur)",
+        "description": "Muster (Struktur), Oberflächenzeichnung oder -struktur"
+      },
+      {
+        "title": "Miki Muster",
+        "description": "Miki Muster (1925–2018), slowenischer Bildhauer, Zeichner und Filmregisseur"
+      },
+      {
+        "title": "Kirsten Muster",
+        "description": "Kirsten Muster (* 1960), deutsche Politikerin (Werteunion)"
+      },
+      {
+        "title": "Michael Muster",
+        "description": "Michael Muster (* 1946), deutscher Jurist und Politiker (Werteunion)"
+      },
+      {
+        "title": "Muster",
+        "description": "Muster, Struktur, die durch erneutes Auftreten erkannt wird"
+      },
+      {
+        "title": "Flugzeugmuster",
+        "description": "Flugzeugmuster, als Kurzform, Synonym für Flugzeugtyp"
+      }
+    ],
+    "answer": 6,
+    "senseSource": "wikipedia:de:Muster (Begriffsklärung)"
+  },
+  {
+    "id": "sens-pt-01",
+    "source": "wikipedia:pt:Sistema operativo",
+    "term": "processador",
+    "context": "Sistema operativo ou sistema operacional é um software que gerencia os recursos de um dispositivo, como a memória e o processamento, permite a execução de programas e aplicativos, define qual programa recebe atenção do processador, cria um sistema de arquivos, e fornece uma interface entre o computador e o usuário ou utilizador.",
+    "title": "Sistema operativo",
+    "textLanguage": "pt",
+    "senses": [
+      {
+        "title": "Varinha mágica (electrodoméstico)",
+        "description": "Varinha mágica (electrodoméstico) - processador de alimentos;"
+      },
+      {
+        "title": "Processador multinúcleo",
+        "description": "Processador multinúcleo - uma parte do sistema computacional que tem mais de um núcleo de processamento."
+      },
+      {
+        "title": "Unidade de processamento gráfico",
+        "description": "Unidade de processamento gráfico (GPU) - microprocessador especializado em processar gráficos em computadores pessoais, estações de trabalho ou videogames;"
+      },
+      {
+        "title": "Microprocessador",
+        "description": "Microprocessador - circuito integrado que realiza as funções de cálculo e tomada de decisão de um computador;"
+      },
+      {
+        "title": "Processador de texto",
+        "description": "Processador de texto - um programa usado para escrever no computador;"
+      },
+      {
+        "title": "DSP",
+        "description": "DSP - microprocessadores especializados em processamento digital de sinal usados para processar sinais de áudio, vídeo, etc., quer em tempo real quer em off-line;"
+      },
+      {
+        "title": "Processamento de sinal",
+        "description": "Processamento de sinal - análise e/ou modificação de sinais;"
+      },
+      {
+        "title": "Unidade central de processamento",
+        "description": "Unidade central de processamento - parte de um sistema computacional, que realiza as instruções de um programa de computador;"
+      }
+    ],
+    "answer": 7,
+    "senseSource": "wikipedia:pt:Processador"
+  },
+  {
+    "id": "sens-pt-02",
+    "source": "wikipedia:pt:Sistema operativo",
+    "term": "usuário",
+    "context": "Sistema operativo ou sistema operacional é um software que gerencia os recursos de um dispositivo, como a memória e o processamento, permite a execução de programas e aplicativos, define qual programa recebe atenção do processador, cria um sistema de arquivos, e fornece uma interface entre o computador e o usuário ou utilizador.",
+    "title": "Sistema operativo",
+    "textLanguage": "pt",
+    "senses": [
+      {
+        "title": "Usuário",
+        "description": "Usuário, pessoas ou organizações que se utilizam de algum tipo de serviço"
+      },
+      {
+        "title": "Usuário (álbum)",
+        "description": "Usuário (álbum), de Planet Hemp"
+      },
+      {
+        "title": "Usuário (computação)",
+        "description": "Usuário (computação), uma pessoa ou software que utiliza um sistema de informação"
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:pt:Usuário (desambiguação)"
+  },
+  {
+    "id": "sens-pt-03",
+    "source": "wikipedia:pt:Anticorpo monoclonal",
+    "term": "clone",
+    "context": "Anticorpos monoclonais ou mAb (do inglês Monoclonal antibodies) são anticorpos produzidos por um único clone de um único linfócito B parental, que é clonado e imortalizado, produzindo sempre os mesmos anticorpos, em resposta a um agente patogénico.",
+    "title": "Anticorpo monoclonal",
+    "textLanguage": "pt",
+    "senses": [
+      {
+        "title": "Clone (biologia das células B)",
+        "description": "Clone (biologia das células B) — Processo de maturação imunológica das células B"
+      },
+      {
+        "title": "Clone",
+        "description": "Clonagem — a produção de indivíduos geneticamente iguais (clones)"
+      },
+      {
+        "title": "Clones de NES",
+        "description": "Clones de NES — cópias de hardware concebidos para replicar o funcionamento do console Nintendo Entertainment System"
+      },
+      {
+        "title": "Clone (informática)",
+        "description": "Clone (informática) — sistema de hardware ou software concebido para funcionar de forma idêntica a outro sistema"
+      },
+      {
+        "title": "Clonagem humana",
+        "description": "Clonagem humana — produção artificial de seres humanos geneticamente idênticos (clones humanos)"
+      },
+      {
+        "title": "Clone Hero",
+        "description": "Clone Hero — jogo de ritmo concebido para replicar o gameplay da série Guitar Hero"
+      },
+      {
+        "title": "Clone de Grand Theft Auto",
+        "description": "Clone de Grand Theft Auto — jogos eletrônicos que se assemelham aos da série Grand Theft Auto"
+      },
+      {
+        "title": "Clone de jogo eletrônico",
+        "description": "Clone de jogo eletrônico — jogos eletrônicos muito similares ou inspirados por outros jogos"
+      }
+    ],
+    "answer": 1,
+    "senseSource": "wikipedia:pt:Clone (desambiguação)"
+  },
+  {
+    "id": "sens-pt-04",
+    "source": "wikipedia:pt:Pintura",
+    "term": "arte",
+    "context": "Em um sentido mais específico, é a arte de pintar uma superfície, tais como papel, tela, ou uma parede (pintura mural ou afrescos).",
+    "title": "Pintura",
+    "textLanguage": "pt",
+    "senses": [
+      {
+        "title": "Arte",
+        "description": "Arte - O conhecimento usado para realizar determinadas habilidades ou beleza transcendente de um produto de actividade humana;"
+      },
+      {
+        "title": "Artes liberais",
+        "description": "Artes - como eram conhecidas no passado as artes liberais;"
+      },
+      {
+        "title": "Arte (canal de televisão)",
+        "description": "Arte (canal de televisão) - Canal televisivo franco-alemão distribuído por cabo e satélite;"
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:pt:Arte (desambiguação)"
+  },
+  {
+    "id": "sens-pt-05",
+    "source": "wikipedia:pt:Pintura",
+    "term": "cor",
+    "context": "Diferencia-se do desenho pelo uso dos pigmentos líquidos e do uso constante da cor, enquanto aquele apropria-se principalmente de materiais secos.",
+    "title": "Pintura",
+    "textLanguage": "pt",
+    "senses": [
+      {
+        "title": "As Cores",
+        "description": "As Cores - álbum da banda Cine"
+      },
+      {
+        "title": "Cores e tons que avançam e retrocedem",
+        "description": "Cores e tons que avançam e retrocedem - Percepção visual"
+      },
+      {
+        "title": "Cor",
+        "description": "Cor - propriedade da luz Anexo:Lista de cores"
+      },
+      {
+        "title": "Cor (álbum)",
+        "description": "Cor (álbum) - álbum da dupla Anavitória"
+      },
+      {
+        "title": "Coração",
+        "description": "Coração, na expressão \"de cor\". (Pronúncia: cór)"
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:pt:Cor (desambiguação)"
+  },
+  {
+    "id": "sens-it-01",
+    "source": "wikipedia:it:Inflazione",
+    "term": "latino",
+    "context": "Con inflazione (dal latino inflatio «enfiamento, gonfiatura», derivato da inflāre «gonfiare»), in economia, si indica l'aumento del livello generale dei prezzi di beni e servizi in un determinato periodo di tempo.",
+    "title": "Inflazione",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Latino (figlio di Circe)",
+        "description": "Latino (Λατῖνος) – figlio della maga Circe e dell'eroe Odisseo (Ὀδυσσεύς). Assieme ai fratelli Agrio (Ἄγριος) e Telegono (Τηλέγονος) regnarono sui Tirreni."
+      },
+      {
+        "title": "Latino medievale",
+        "description": "Latino medievale – forma della lingua latina usata nel Medioevo"
+      },
+      {
+        "title": "Alfabeto latino",
+        "description": "Alfabeto latino – sistema di scrittura Latino – sostantivo e aggettivo riferito alle lingue romanze, la gente, rispettive culture"
+      },
+      {
+        "title": "Lingua latina",
+        "description": "Latino – antica lingua indoeuropea latino-falisca Latino arcaico – forma della lingua latina precedente il latino classico"
+      },
+      {
+        "title": "Latino (zona di Roma)",
+        "description": "Latino – zona urbanistica 9e del comune di Roma"
+      },
+      {
+        "title": "Latino volgare",
+        "description": "Latino volgare – forma parlata, in particolare tardoantica, della lingua latina"
+      },
+      {
+        "title": "Latino sine flexione",
+        "description": "Latino sine flexione – lingua artificiale inventata nel 1903 dal matematico italiano Giuseppe Peano"
+      },
+      {
+        "title": "Appio-Latino",
+        "description": "Appio-Latino – quartiere Q.IX del comune di Roma"
+      }
+    ],
+    "answer": 3,
+    "senseSource": "wikipedia:it:Latino"
+  },
+  {
+    "id": "sens-it-02",
+    "source": "wikipedia:it:Inflazione",
+    "term": "beni",
+    "context": "Con inflazione (dal latino inflatio «enfiamento, gonfiatura», derivato da inflāre «gonfiare»), in economia, si indica l'aumento del livello generale dei prezzi di beni e servizi in un determinato periodo di tempo.",
+    "title": "Inflazione",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "El Beni",
+        "description": "El Beni o Beni – dipartimento della Bolivia."
+      },
+      {
+        "title": "Antonio Beni",
+        "description": "Antonio Beni (1866-1941) – pittore e architetto italiano"
+      },
+      {
+        "title": "Beni (fiume)",
+        "description": "Beni – fiume della Bolivia."
+      },
+      {
+        "title": "Bene (economia)",
+        "description": "Bene (economia), bene, materiale o immateriale, che può essere oggetto di scambio"
+      },
+      {
+        "title": "Alfredo Beni",
+        "description": "Alfredo Beni (1931-1977) – militare italiano"
+      },
+      {
+        "title": "Beni (Repubblica Democratica del Congo)",
+        "description": "Beni – città della regione del Nord Kivu nella Repubblica Democratica del Congo (ex Zaire), dotata di aeroporto (codice BNC)."
+      },
+      {
+        "title": "Banū",
+        "description": "Beni... – \"figli (di)...\" elemento comune negli antroponimi arabi"
+      },
+      {
+        "title": "Beni (cognome)",
+        "description": "Beni – cognome italiano"
+      }
+    ],
+    "answer": 3,
+    "senseSource": "wikipedia:it:Beni"
+  },
+  {
+    "id": "sens-it-03",
+    "source": "wikipedia:it:Inflazione",
+    "term": "moneta",
+    "context": "L'aumento dei prezzi riduce il potere d'acquisto della moneta: con lo stesso importo monetario si potranno cioè acquistare meno beni e servizi.",
+    "title": "Inflazione",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Moneta da Cremona",
+        "description": "Moneta da Cremona – inquisitore domenicano italiano"
+      },
+      {
+        "title": "Ernesto Teodoro Moneta",
+        "description": "Ernesto Teodoro Moneta – giornalista e patriota italiano"
+      },
+      {
+        "title": "Moneta",
+        "description": "Moneta – mezzo di pagamento"
+      },
+      {
+        "title": "Moneta (Iowa)",
+        "description": "Moneta – centro abitato della contea di O'Brien, Iowa"
+      },
+      {
+        "title": "Andrea Moneta",
+        "description": "Andrea Moneta – carabiniere italiano"
+      },
+      {
+        "title": "Gina Moneta",
+        "description": "Gina Moneta – attrice italiana"
+      },
+      {
+        "title": "Moneta (Wyoming)",
+        "description": "Moneta – centro abitato della contea di Fremont, Wyoming"
+      },
+      {
+        "title": "Claudio Moneta",
+        "description": "Claudio Moneta – attore e doppiatore italiano"
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:it:Moneta (disambigua)"
+  },
+  {
+    "id": "sens-it-04",
+    "source": "wikipedia:it:Tasso d'interesse",
+    "term": "interesse",
+    "context": "Il tasso o saggio d'interesse effettivo è la percentuale dell'interesse su un prestito, ossia la remunerazione del mutuante.",
+    "title": "Tasso d'interesse",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Interesse (scienza politica)",
+        "description": "Interesse – in scienza politica, attitudine durevole di individui, gruppi sociali o collettività politiche, che nasce dalla loro posizione sociale e si manifesta come aspirazione all'acquisizione o al"
+      },
+      {
+        "title": "Interesse legittimo",
+        "description": "Interesse legittimo – interesse di un privato, risultato dell'affievimento di un diritto di fronte al pubblico interesse, che la pubblica amministrazione italiana eserciti un potere pubblico in confor"
+      },
+      {
+        "title": "Interesse (matematica finanziaria)",
+        "description": "Interesse – nozione matematica della somma dovuta come compenso per ottenere la disponibilità di un capitale per un certo periodo di tempo"
+      },
+      {
+        "title": "Tasso d'interesse",
+        "description": "Tasso d'interesse – percentuale dell'interesse su un prestito e l'importo della remunerazione spettante al prestatore"
+      },
+      {
+        "title": "Interesse finanziario",
+        "description": "Interesse finanziario – nozione giuridica della somma dovuta come compenso per ottenere la disponibilità di un capitale per un certo periodo di tempo"
+      },
+      {
+        "title": "Interesse soggettivo (diritto)",
+        "description": "Interesse soggettivo – nozione giuridica degli interessi di un soggetto tutelati dalla legge"
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:it:Interesse"
+  },
+  {
+    "id": "sens-it-05",
+    "source": "wikipedia:it:Tasso d'interesse",
+    "term": "prestito",
+    "context": "Il tasso o saggio d'interesse effettivo è la percentuale dell'interesse su un prestito, ossia la remunerazione del mutuante.",
+    "title": "Tasso d'interesse",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Prestito (finanza)",
+        "description": "Prestito – in finanza, cessione di un capitale o di un bene contro l'impegno alla restituzione di capitali o beni nella stessa misura o in misura maggiore"
+      },
+      {
+        "title": "Prestito linguistico",
+        "description": "Prestito – in linguistica, parola di una certa lingua che viene acquisita da un'altra lingua o lo stesso processo di acquisizione"
+      },
+      {
+        "title": "Prestito (sport)",
+        "description": "Prestito – nello sport, cessione temporanea di un giocatore ad un'altra squadra"
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:it:Prestito"
+  },
+  {
+    "id": "sens-it-06",
+    "source": "wikipedia:it:Tasso d'interesse",
+    "term": "tempo",
+    "context": "In matematica finanziaria, viene espresso come una percentuale per un dato periodo di tempo e indica quanta parte della somma prestata debba essere corrisposta come interesse al termine del tempo considerato o, da un altro punto di vista, indica il costo del denaro.",
+    "title": "Tasso d'interesse",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Tempi (rivista)",
+        "description": "Tempi – rivista di ispirazione cattolica fondata nel 1994"
+      },
+      {
+        "title": "Tempo (musica)",
+        "description": "Tempo – velocità di esecuzione di un brano"
+      },
+      {
+        "title": "Movimento (musica)",
+        "description": "Tempo – termine usato per riferirsi al movimento (es. un movimento in una misura)"
+      },
+      {
+        "title": "Tempo (periodico)",
+        "description": "Tempo – periodico edito da Mondadori, pubblicato dal 1939 al 1976"
+      },
+      {
+        "title": "Tempo (linguistica)",
+        "description": "Tempo – in linguistica, categoria grammaticale relativa alla coniugazione verbale"
+      },
+      {
+        "title": "Tempo",
+        "description": "Tempo – grandezza fisica relativa allo scorrere degli eventi"
+      },
+      {
+        "title": "Tempo (meteorologia)",
+        "description": "Tempo – in meteorologia, condizioni atmosferiche"
+      },
+      {
+        "title": "Metro (musica)",
+        "description": "Tempo – termine usato per riferirsi al metro (es. tempo semplice/composto)"
+      }
+    ],
+    "answer": 5,
+    "senseSource": "wikipedia:it:Tempo (disambigua)"
+  },
+  {
+    "id": "sens-it-07",
+    "source": "wikipedia:it:Apprendimento automatico",
+    "term": "programmazione",
+    "context": "Nell'ambito dell'informatica, l'apprendimento automatico è una variante alla programmazione tradizionale nella quale in una macchina si predispone l'abilità di apprendere qualcosa dai dati in maniera autonoma, senza istruzioni esplicite.",
+    "title": "Apprendimento automatico",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Programmazione lineare",
+        "description": "Programmazione lineare - branca della ricerca operativa che si occupa di studiare algoritmi di risoluzione per problemi di ottimizzazione lineari"
+      },
+      {
+        "title": "Programmatore (musica)",
+        "description": "Programmazione – in musica, la produzione di melodie o suoni di vario genere servendosi di dispositivi elettronici, spesso sequencer, drum machine, vocoder, sintetizzatori e campionatori"
+      },
+      {
+        "title": "Programmazione (mass media)",
+        "description": "Programmazione – la strategia organizzativa adottata dall'editore di una emittente televisiva o radiofonica nel mettere in onda i diversi programmi"
+      },
+      {
+        "title": "Ottimizzazione (matematica)",
+        "description": "Programmazione matematica – branca della matematica applicata che studia teoria e metodi per la ricerca dei punti di massimo e minimo di una funzione matematica all'interno di un dominio specificato"
+      },
+      {
+        "title": "Programmazione (informatica)",
+        "description": "Programmazione – in informatica, fase implementativa dell'intero ciclo di sviluppo del software"
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:it:Programmazione"
+  },
+  {
+    "id": "sens-it-08",
+    "source": "wikipedia:it:Rete di computer",
+    "term": "hardware",
+    "context": "Una rete di computer o rete informatica è un tipo di rete di telecomunicazioni a commutazione di pacchetto caratterizzata da un insieme di apparati e dispositivi hardware con opportuni software di commutazione, ossia nodi di commutazione collegati l'uno con l'altro da appositi canali di comunicazione (link), tali da fornire un servizio di comunicazione che permette lo scambio e la condivisione di ",
+    "title": "Rete di computer",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Hardware - Metallo letale",
+        "description": "Hardware - Metallo letale – film del 1990 diretto da Richard Stanley"
+      },
+      {
+        "title": "Hardware",
+        "description": "Hardware – parte fisica di un computer"
+      },
+      {
+        "title": "Hardware (serie televisiva)",
+        "description": "Hardware – sitcom britannica del 2003-2004"
+      },
+      {
+        "title": "Hardware (album)",
+        "description": "Hardware – album dei Krokus del 1981"
+      }
+    ],
+    "answer": 1,
+    "senseSource": "wikipedia:it:Hardware (disambigua)"
+  },
+  {
+    "id": "sens-it-09",
+    "source": "wikipedia:it:Rete di computer",
+    "term": "host",
+    "context": "Una rete di computer o rete informatica è un tipo di rete di telecomunicazioni a commutazione di pacchetto caratterizzata da un insieme di apparati e dispositivi hardware con opportuni software di commutazione, ossia nodi di commutazione collegati l'uno con l'altro da appositi canali di comunicazione (link), tali da fornire un servizio di comunicazione che permette lo scambio e la condivisione di ",
+    "title": "Rete di computer",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Host",
+        "description": "Host – terminale collegato, attraverso link di comunicazione, ad una rete informatica Virtual host – metodo per ospitare (hosting) più siti web sullo stesso server"
+      },
+      {
+        "title": "Host (album)",
+        "description": "Host – album in studio del gruppo musicale britannico Paradise Lost, pubblicato nel 1999 dalla EMI"
+      },
+      {
+        "title": "Host - Chiamata mortale",
+        "description": "Host - Chiamata mortale (Host) – film del 2020 diretto da Rob Savage"
+      }
+    ],
+    "answer": 0,
+    "senseSource": "wikipedia:it:Host (disambigua)"
+  },
+  {
+    "id": "sens-it-10",
+    "source": "wikipedia:it:Rete di computer",
+    "term": "body",
+    "context": "Una rete di computer o rete informatica è un tipo di rete di telecomunicazioni a commutazione di pacchetto caratterizzata da un insieme di apparati e dispositivi hardware con opportuni software di commutazione, ossia nodi di commutazione collegati l'uno con l'altro da appositi canali di comunicazione (link), tali da fornire un servizio di comunicazione che permette lo scambio e la condivisione di ",
+    "title": "Rete di computer",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Holly Body",
+        "description": "Holly Body, pseudonimo di Rochelle Trevis (1970) – ex attrice pornografica statunitense"
+      },
+      {
+        "title": "Body (Loud Luxury)",
+        "description": "Body – singolo dei Loud Luxury del 2017"
+      },
+      {
+        "title": "Body (The Jacksons)",
+        "description": "Body – singolo dei The Jacksons del 1984"
+      },
+      {
+        "title": "Body (Russ Millions e Tion Wayne)",
+        "description": "Body – singolo di Russ Millions e Tion Wayne del 2021"
+      },
+      {
+        "title": "János Bódy",
+        "description": "János Bódy (1932) – ex pentatleta ungherese"
+      },
+      {
+        "title": "Carico utile (informatica)",
+        "description": "Carico utile (informatica), parte effettiva di dati trasmessi"
+      },
+      {
+        "title": "Body (Ja Rule)",
+        "description": "Body – singolo di Ja Rule del 2007"
+      },
+      {
+        "title": "Body (informatica)",
+        "description": "Body – oggetto dell'XML DOM"
+      }
+    ],
+    "answer": 5,
+    "senseSource": "wikipedia:it:Body (disambigua)"
+  },
+  {
+    "id": "sens-it-11",
+    "source": "wikipedia:it:Agricoltura",
+    "term": "specie",
+    "context": "L'agricoltura (dal latino agricultura, ager campi, e cultura coltivazione) è l'attività umana che consiste nella coltivazione di specie vegetali, da parte dell'agricoltore.",
+    "title": "Agricoltura",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Specie (filosofia)",
+        "description": "Specie – in filosofia e nella logica tradizionale, classe di individui che partecipano delle stesse caratteristiche essenziali, subordinata al più universale genere"
+      },
+      {
+        "title": "Specie chimica",
+        "description": "Specie chimica – struttura di natura chimica, considerata a prescindere dal numero di entità molecolari che la compongono"
+      },
+      {
+        "title": "Specie",
+        "description": "Specie – in biologia, il livello tassonomico obbligatorio gerarchicamente più basso"
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:it:Specie (disambigua)"
+  },
+  {
+    "id": "sens-it-12",
+    "source": "wikipedia:it:Acqua",
+    "term": "liquido",
+    "context": "In condizioni di temperatura e pressione normali si presenta come un sistema bifase, costituito da un liquido incolore e insapore (che viene chiamato \"acqua\" in senso stretto) e da un vapore incolore (detto vapore acqueo).",
+    "title": "Acqua",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Liquido (gruppo musicale)",
+        "description": "Liquido – gruppo musicale tedesco"
+      },
+      {
+        "title": "Liquido (album)",
+        "description": "Liquido – album dell'omonimo gruppo musicale"
+      },
+      {
+        "title": "Liquido",
+        "description": "Liquido – stato della materia"
+      }
+    ],
+    "answer": 2,
+    "senseSource": "wikipedia:it:Liquido (disambigua)"
+  },
+  {
+    "id": "sens-it-13",
+    "source": "wikipedia:it:Acqua",
+    "term": "solido",
+    "context": "Si presenta allo stato solido (detto ghiaccio) nel caso in cui la temperatura sia uguale o inferiore alla temperatura di congelamento.",
+    "title": "Acqua",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Solido (moneta)",
+        "description": "Solido (solidus) – moneta"
+      },
+      {
+        "title": "Geometria solida",
+        "description": "Solido – in geometria, termine che indica una figura tridimensionale"
+      },
+      {
+        "title": "Solido (azienda)",
+        "description": "Solido – azienda francese operante nel settore del modellismo in pressofusione"
+      },
+      {
+        "title": "Solido",
+        "description": "Solido – in fisica e chimica, uno stato di aggregazione della materia"
+      }
+    ],
+    "answer": 3,
+    "senseSource": "wikipedia:it:Solido (disambigua)"
+  },
+  {
+    "id": "sens-it-14",
+    "source": "wikipedia:it:Acqua",
+    "term": "ghiaccio",
+    "context": "Si presenta allo stato solido (detto ghiaccio) nel caso in cui la temperatura sia uguale o inferiore alla temperatura di congelamento.",
+    "title": "Acqua",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Ghiaccio (personaggio)",
+        "description": "Ghiaccio (Ice) – personaggio dei fumetti DC Comics"
+      },
+      {
+        "title": "Ghiaccio",
+        "description": "Ghiaccio – nome comune usato per designare l'acqua allo stato solido"
+      },
+      {
+        "title": "Ghiaccio (film)",
+        "description": "Ghiaccio – film del 2022 diretto da Fabrizio Moro e Alessio De Leonardis"
+      }
+    ],
+    "answer": 1,
+    "senseSource": "wikipedia:it:Ghiaccio (disambigua)"
+  },
+  {
+    "id": "sens-it-15",
+    "source": "wikipedia:it:Musica",
+    "term": "moderna",
+    "context": "Musica preistorica · antica · medievale · rinascimentale · barocca · classica · romantica · moderna · contemporanea",
+    "title": "Musica",
+    "textLanguage": "it",
+    "senses": [
+      {
+        "title": "Modernità",
+        "description": "Modernità – concetto sociologico"
+      },
+      {
+        "title": "Filosofia moderna",
+        "description": "Filosofia moderna – periodo filosofico che va dall'Umanesimo a Immanuel Kant"
+      },
+      {
+        "title": "Moderna",
+        "description": "Moderna – azienda farmaceutica statunitense"
+      },
+      {
+        "title": "Musica moderna",
+        "description": "Musica moderna, cambiamenti nella forma musicale all'inizio del XX secolo"
+      },
+      {
+        "title": "Età moderna",
+        "description": "Età moderna – periodo storico compreso tra la fine del XV secolo e l'inizio del XIX secolo"
+      },
+      {
+        "title": "Modernizzazione",
+        "description": "Modernizzazione – processo di cambiamento su larga scala finalizzato a introdurre innovazioni radicali"
+      },
+      {
+        "title": "Arte moderna",
+        "description": "Arte moderna – produzione artistica compresa tra la metà del XIX secolo e la metà del XX secolo"
+      }
+    ],
+    "answer": 3,
+    "senseSource": "wikipedia:it:Moderna (disambigua)"
+  },
+  {
+    "id": "sens-zh-01",
+    "source": "wikipedia:zh:操作系统",
+    "term": "计算机",
+    "context": "操作系统（英語：Operating system，operations system，operation system，縮寫：OS）是一组主管并控制计算机操作、运用和运行硬件、软件資源和提供公共服务来组织用户交互的相互关联的系统软件程序，同时也是计算机系统的核心与基石。",
+    "title": "操作系统",
+    "textLanguage": "zh",
+    "senses": [
+      {
+        "title": "小算盤",
+        "description": "计算器 (Windows)，Windows的计算软件"
+      },
+      {
+        "title": "电子计算器",
+        "description": "电子计算器（英語：calculator），小型手持电子产品，用於生活或工程中简单的数学运算 科學計算機"
+      },
+      {
+        "title": "机械计算机",
+        "description": "机械计算机，历史上一系列用机械运动原理处理数据的裝置，较普遍的是手摇式计算机"
+      },
+      {
+        "title": "量子计算机",
+        "description": "量子计算机，研发中用量子物理学原理计算的裝置"
+      },
+      {
+        "title": "軟件計算機",
+        "description": "软件计算器：作为计算机程序实现的计算器 计算器 (苹果公司)，Mac OS X的計算軟件"
+      },
+      {
+        "title": "服务器",
+        "description": "服务器，用于大型储存的计算机工具"
+      },
+      {
+        "title": "电子计算机",
+        "description": "电子计算机（英語：computer），一種按指令處理数据的电子裝置 個人電腦（英語：personal computer，PC），适合一人用的电脑"
+      },
+      {
+        "title": "計算機 (任天堂Switch)",
+        "description": "计算器 (任天堂Switch)，任天堂Switch上发行的计算软件"
+      }
+    ],
+    "answer": 6,
+    "senseSource": "wikipedia:zh:計算機"
+  },
+  {
+    "id": "sens-zh-02",
+    "source": "wikipedia:zh:操作系统",
+    "term": "网络",
+    "context": "操作系统（英語：Operating system，operations system，operation system，縮寫：OS）是一组主管并控制计算机操作、运用和运行硬件、软件資源和提供公共服务来组织用户交互的相互关联的系统软件程序，同时也是计算机系统的核心与基石。 操作系统需要处理如管理與配置内存、決定系統資源供需的優先次序、控制輸入與輸出裝置、操作网络與管理文件系统等基本事務。",
+    "title": "操作系统",
+    "textLanguage": "zh",
+    "senses": [
+      {
+        "title": "网络流",
+        "description": "网络流，每条边都有容量并且每条边都接收流量的有向图"
+      },
+      {
+        "title": "小世界网络",
+        "description": "小世界网络，大多数节点不是邻居，但具有共同邻居的数学图"
+      },
+      {
+        "title": "生物网络",
+        "description": "生物网络，适用于生物系统的任何网络"
+      },
+      {
+        "title": "人工神经网络",
+        "description": "人工神经网络，受动物大脑启发的计算系统"
+      },
+      {
+        "title": "计算机网络",
+        "description": "计算机网络, 採用單一技術相互連接的自治電腦"
+      },
+      {
+        "title": "神经回路",
+        "description": "神经网络，神经元的网络或电路"
+      },
+      {
+        "title": "网络科学",
+        "description": "网络科学，研究复杂网络的学术领域"
+      },
+      {
+        "title": "网络理论",
+        "description": "网络理论，研究图作为离散对象之间关系的表示"
+      }
+    ],
+    "answer": 4,
+    "senseSource": "wikipedia:zh:网络"
+  },
+  {
+    "id": "sens-zh-03",
+    "source": "wikipedia:zh:数学",
+    "term": "空间",
+    "context": "数学是研究數量、结构以及空间等概念及其变化的一門学科，屬於形式科學的一種。",
+    "title": "数学",
+    "textLanguage": "zh",
+    "senses": [
+      {
+        "title": "網誌空間",
+        "description": "網誌空間，存放網志的地方"
+      },
+      {
+        "title": "外层空间",
+        "description": "外层空间，航天概念，简称空间、外空或太空"
+      },
+      {
+        "title": "空間",
+        "description": "空间 (物理)，经典物理學中，物质实体的所處"
+      },
+      {
+        "title": "空间 (数学)",
+        "description": "空间 (数学)，具有特殊性质及额外结构的集合"
+      },
+      {
+        "title": "网络空间",
+        "description": "網絡空間，互联网上存放資訊的地方 網頁空間，存放網頁的地方"
+      },
+      {
+        "title": "構圖",
+        "description": "構圖概念：包含物體四周、上方、下方、側邊、之間及內部的二度與三度空間區域"
+      }
+    ],
+    "answer": 3,
+    "senseSource": "wikipedia:zh:空间 (消歧义)"
+  }
+]

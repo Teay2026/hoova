@@ -1,0 +1,1905 @@
+{
+  "sourceLanguage" : "fr",
+  "strings" : {
+    "%@ (conseillé)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (recommended)"
+          }
+        }
+      }
+    },
+    "%@ (pour les Mac de 8 Go)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (for 8 GB Macs)"
+          }
+        }
+      }
+    },
+    "%@ : %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ : %2$@"
+          }
+        }
+      }
+    },
+    "%@ : %@ sur %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@: %2$@ of %3$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ : %2$@ sur %3$@"
+          }
+        }
+      }
+    },
+    "%@ : lourd pour %lld Go" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, a lot for %2$lld GB of memory"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ : lourd pour %2$lld Go"
+          }
+        }
+      }
+    },
+    "%@ a renvoyé une erreur (%lld)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ sent back an error (%2$lld)."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ a renvoyé une erreur (%2$lld)."
+          }
+        }
+      }
+    },
+    "%@ depuis Hugging Face (%@). Hoova n'en garde que la partie texte, et la mascotte de la barre des menus montre l'avancement." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ from Hugging Face (%2$@). Hoova only keeps the text part, and the mascot in the menu bar shows how it's going."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ depuis Hugging Face (%2$@). Hoova n'en garde que la partie texte, et la mascotte de la barre des menus montre l'avancement."
+          }
+        }
+      }
+    },
+    "%@ n'a pas pu aller à la corbeille" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't move %@ to the Trash"
+          }
+        }
+      }
+    },
+    "%@ n'a pas pu être utilisé" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't use %@"
+          }
+        }
+      }
+    },
+    "%@ ne répond pas pour l'instant." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ isn't responding right now."
+          }
+        }
+      }
+    },
+    "%@ puis %@, vite, comme on frappe à une porte." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ then %2$@, quick, like knocking on a door."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ puis %2$@, vite, comme on frappe à une porte."
+          }
+        }
+      }
+    },
+    "%@ refuse la clé API." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ didn't accept the API key."
+          }
+        }
+      }
+    },
+    "%@ refuse pour l'instant : trop de demandes, ou crédit épuisé." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ is turning requests away for now. You may have sent too many, or run out of credit."
+          }
+        }
+      }
+    },
+    "%@ sur ce Mac" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ on this Mac"
+          }
+        }
+      }
+    },
+    "%@ sur ton Mac" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ on your Mac"
+          }
+        }
+      }
+    },
+    "%@ à télécharger" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ download"
+          }
+        }
+      }
+    },
+    "%@ à télécharger, %@ déjà là" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ download, %2$@ already here"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ à télécharger, %2$@ déjà là"
+          }
+        }
+      }
+    },
+    "%@, %@ depuis Hugging Face, une seule fois. Il te reste %@ de libre." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, a one-time %2$@ download from Hugging Face. You have %3$@ free."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@ depuis Hugging Face, une seule fois. Il te reste %3$@ de libre."
+          }
+        }
+      }
+    },
+    "%@, libérés au repos" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@, freed when idle"
+          }
+        }
+      }
+    },
+    "%lld %%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%%"
+          }
+        }
+      }
+    },
+    "%lld %%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld%%"
+          }
+        }
+      }
+    },
+    "Accessibilité" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accessibility"
+          }
+        }
+      }
+    },
+    "Annuler" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "Autoriser l'accessibilité…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow Accessibility Access…"
+          }
+        }
+      }
+    },
+    "Autoriser l'enregistrement de l'écran…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow Screen Recording…"
+          }
+        }
+      }
+    },
+    "Autorisée" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allowed"
+          }
+        }
+      }
+    },
+    "Bienvenue dans Hoova" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to Hoova"
+          }
+        }
+      }
+    },
+    "C'est ce geste qui m'appelle : survole un mot, ou sélectionne-le, puis %@ %@. Je te l'explique dans son contexte." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "That's how you call me: hover over a word or select it, then tap %1$@ %2$@. I'll explain it in context."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "C'est ce geste qui m'appelle : survole un mot, ou sélectionne-le, puis %1$@ %2$@. Je te l'explique dans son contexte."
+          }
+        }
+      }
+    },
+    "C'est lui qui écrit mes explications. Choisis-en un : tu pourras en changer dans les réglages." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "That's what writes my explanations. Pick one, and switch anytime in Settings."
+          }
+        }
+      }
+    },
+    "C'est prêt : %@ est sur ton Mac." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All set! %@ is on your Mac."
+          }
+        }
+      }
+    },
+    "Choisir…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose…"
+          }
+        }
+      }
+    },
+    "Choisis d'abord un modèle : menu de Hoova, « Terminer l'installation »." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick a model first. Open the Hoova menu and choose Finish Setup."
+          }
+        }
+      }
+    },
+    "Chut… je dors encore" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shh… still sleeping"
+          }
+        }
+      }
+    },
+    "Clé API" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "API Key"
+          }
+        }
+      }
+    },
+    "Colle ta clé API ici" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paste your API key here"
+          }
+        }
+      }
+    },
+    "Coller" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paste"
+          }
+        }
+      }
+    },
+    "Conseillé" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended"
+          }
+        }
+      }
+    },
+    "Conseillée" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended"
+          }
+        }
+      }
+    },
+    "Continuer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        }
+      }
+    },
+    "Copier" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy"
+          }
+        }
+      }
+    },
+    "Couper" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cut"
+          }
+        }
+      }
+    },
+    "Dans la langue de ce que tu lis" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the language you're reading"
+          }
+        }
+      }
+    },
+    "Dans les nuages, avec ta clé" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the clouds, with your key"
+          }
+        }
+      }
+    },
+    "Dans quelle langue je t'explique ?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What language should I explain in?"
+          }
+        }
+      }
+    },
+    "Dans « " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In “"
+          }
+        }
+      }
+    },
+    "Deux clés pour lire" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I need two keys"
+          }
+        }
+      }
+    },
+    "Dictionnaire" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dictionary"
+          }
+        }
+      }
+    },
+    "Document" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Document"
+          }
+        }
+      }
+    },
+    "Double appui sur" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Double-tap"
+          }
+        }
+      }
+    },
+    "Déjà sur ton Mac : rien à télécharger." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Already on your Mac. Nothing to download."
+          }
+        }
+      }
+    },
+    "Démarrage" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Startup"
+          }
+        }
+      }
+    },
+    "Enregistrement de l'écran" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Screen Recording"
+          }
+        }
+      }
+    },
+    "Essaie l'autre phrase. Et explique deux mots de suite… tu verras." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Now try the other sentence. Then explain two words in a row… you'll see."
+          }
+        }
+      }
+    },
+    "Fournisseur" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Provider"
+          }
+        }
+      }
+    },
+    "Gratuit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Free"
+          }
+        }
+      }
+    },
+    "Hugging Face ne donne pas le modèle pour l'instant (erreur %lld). Réessaie plus tard." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hugging Face isn't serving the model right now (error %lld). Try again later."
+          }
+        }
+      }
+    },
+    "IA" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI"
+          }
+        }
+      }
+    },
+    "IA externe, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "External AI, %@"
+          }
+        }
+      }
+    },
+    "IA locale, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local AI, %@"
+          }
+        }
+      }
+    },
+    "IA, à vérifier" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI, double-check"
+          }
+        }
+      }
+    },
+    "Il faut une clé API : tu la trouves dans ton compte %@, rubrique des clés API." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You'll need an API key. You can find it in your %@ account, under API keys."
+          }
+        }
+      }
+    },
+    "Il manque %@ sur le disque pour %@. Libère de la place, puis réessaie." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ needs another %1$@ of disk space. Free up some space and try again."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Il manque %1$@ sur le disque pour %2$@. Libère de la place, puis réessaie."
+          }
+        }
+      }
+    },
+    "Il te faut %@ de libre, il t'en reste %@ : fais de la place, ou choisis un esprit plus léger." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This needs %1$@ of free space and you have %2$@. Free up some room, or pick a lighter mind."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Il te faut %1$@ de libre, il t'en reste %2$@ : fais de la place, ou choisis un esprit plus léger."
+          }
+        }
+      }
+    },
+    "Indisponible" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unavailable"
+          }
+        }
+      }
+    },
+    "Je lis…" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading…"
+          }
+        }
+      }
+    },
+    "Je me réveille…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waking up…"
+          }
+        }
+      }
+    },
+    "Je me réveille… Quelques secondes, j'arrive." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waking up… Give me a few seconds."
+          }
+        }
+      }
+    },
+    "Je n'ai pas de réponse pour ce mot." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I don't have an answer for this one."
+          }
+        }
+      }
+    },
+    "Je n'ai pas réussi" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "That didn't work"
+          }
+        }
+      }
+    },
+    "Je ne peux pas lire cette image" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I can't read this image"
+          }
+        }
+      }
+    },
+    "Je ne vois pas de texte ici" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I can't see any text here"
+          }
+        }
+      }
+    },
+    "Je peux t'expliquer un mot dans la langue de la page, ou toujours dans la même." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I can explain words in the page's own language, or always in one language."
+          }
+        }
+      }
+    },
+    "Je vérifie ta clé…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Checking your key…"
+          }
+        }
+      }
+    },
+    "Je vérifie…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Checking…"
+          }
+        }
+      }
+    },
+    "La pleine lune, le plus juste" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full moon, the most accurate"
+          }
+        }
+      }
+    },
+    "Langue" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        }
+      }
+    },
+    "Langue des explications" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explanation Language"
+          }
+        }
+      }
+    },
+    "Langue du texte" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Same as the text"
+          }
+        }
+      }
+    },
+    "Le crédit est épuisé chez %@." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You're out of credit with %@."
+          }
+        }
+      }
+    },
+    "Le disque est plein. Libère de la place, puis réessaie : le téléchargement reprendra là où il en était." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your disk is full. Free up some space and try again. The download will pick up where it left off."
+          }
+        }
+      }
+    },
+    "Le double appui commence à lire dès le premier appui : c'est le plus rapide." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Double-tap is the fastest: I start reading on your first tap."
+          }
+        }
+      }
+    },
+    "Le modèle « %@ » n'existe pas chez %@." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$@ has no model called “%1$@”."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Le modèle « %1$@ » n'existe pas chez %2$@."
+          }
+        }
+      }
+    },
+    "Le même mot, deux sens : je lis la phrase autour." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Same word, two meanings. I read the sentence around it."
+          }
+        }
+      }
+    },
+    "Le plus juste" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Most accurate"
+          }
+        }
+      }
+    },
+    "Le quartier, plus léger" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Half moon, lighter"
+          }
+        }
+      }
+    },
+    "Le texte lu part chez le fournisseur" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What you read goes to the provider"
+          }
+        }
+      }
+    },
+    "Le texte lu part chez le fournisseur choisi, avec ta clé API." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What you read goes to the provider you choose, with your API key."
+          }
+        }
+      }
+    },
+    "Le téléchargement s'est arrêté : la connexion à Internet est coupée. Réessaie : il reprendra là où il en était." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The download stopped because your Internet connection dropped. Try again and it'll pick up where it left off."
+          }
+        }
+      }
+    },
+    "Lecture partout (écran)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Screen Reading"
+          }
+        }
+      }
+    },
+    "Ma lune se remplit encore (%@) : tu pourras essayer dans un instant." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My moon is still filling up (%@). You can try in a moment."
+          }
+        }
+      }
+    },
+    "Ma lune se remplit… %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filling my moon… %@"
+          }
+        }
+      }
+    },
+    "Ma lune éclaire aussi les images, maintenant." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Now my moon lights up images too."
+          }
+        }
+      }
+    },
+    "Me revoilà !" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I'm back!"
+          }
+        }
+      }
+    },
+    "Mettre à la corbeille" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move to Trash"
+          }
+        }
+      }
+    },
+    "Modèle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Model"
+          }
+        }
+      }
+    },
+    "Modèle externe" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "External model"
+          }
+        }
+      }
+    },
+    "Obligatoire" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Required"
+          }
+        }
+      }
+    },
+    "Ollama fait tourner le modèle sur ce Mac." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ollama runs the model right on this Mac."
+          }
+        }
+      }
+    },
+    "Ollama fait tourner le modèle sur ce Mac. Indique un modèle déjà téléchargé dans Ollama." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ollama runs the model right on this Mac. Enter a model you've already downloaded in Ollama."
+          }
+        }
+      }
+    },
+    "Ollama ne répond pas : ouvre-le sur ce Mac, puis réessaie." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ollama isn't responding. Open it on this Mac and try again."
+          }
+        }
+      }
+    },
+    "On reprend là où on en était." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let's pick up where we left off."
+          }
+        }
+      }
+    },
+    "Ou un raccourci" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Or use a shortcut"
+          }
+        }
+      }
+    },
+    "Ouvrir Hoova au démarrage du Mac" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Hoova at login"
+          }
+        }
+      }
+    },
+    "Ouvrir le réglage" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open System Settings"
+          }
+        }
+      }
+    },
+    "Où vit mon esprit ?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Where should my mind live?"
+          }
+        }
+      }
+    },
+    "Pas assez de place" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Enough Disk Space"
+          }
+        }
+      }
+    },
+    "Pas de connexion à Internet : %@ est injoignable." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Can't reach %@. Check your Internet connection."
+          }
+        }
+      }
+    },
+    "Passer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip"
+          }
+        }
+      }
+    },
+    "Pleine lune !" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full moon!"
+          }
+        }
+      }
+    },
+    "Pour chaque explication, Hoova enverra à %@ le terme, le passage autour et le titre de la page. Ta clé reste dans le trousseau de ce Mac." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Each time you ask, Hoova sends %@ the word, the text around it, and the page title. Your key stays in this Mac's keychain."
+          }
+        }
+      }
+    },
+    "Pour lire le texte des apps et sentir ton geste." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "So I can read text in your apps and notice your gesture."
+          }
+        }
+      }
+    },
+    "Pour me réveiller, tape deux fois sur %@." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap %@ twice to wake me up."
+          }
+        }
+      }
+    },
+    "Pour que ma lune éclaire tout : images, PDF scannés, vidéos sous-titrées." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "So my moon can light up everything: images, scanned PDFs, subtitled videos."
+          }
+        }
+      }
+    },
+    "Pour son divorce, Léa a pris un bon avocat." : {
+      "comment" : "Essai de l'accueil : la première phrase, avec le mot à deux sens.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On Friday, Lea has a date with Sam at the movies."
+          }
+        }
+      }
+    },
+    "Pratique pour lire une langue que tu apprends." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Great for reading a language you're learning."
+          }
+        }
+      }
+    },
+    "Premier mot en %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First word in %@"
+          }
+        }
+      }
+    },
+    "Presque rien" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next to nothing"
+          }
+        }
+      }
+    },
+    "Prête" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready"
+          }
+        }
+      }
+    },
+    "Quelques secondes, j'arrive." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Give me a few seconds."
+          }
+        }
+      }
+    },
+    "Quitter Hoova" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit Hoova"
+          }
+        }
+      }
+    },
+    "Raccourci" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shortcut"
+          }
+        }
+      }
+    },
+    "Rechercher des mises à jour…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check for Updates…"
+          }
+        }
+      }
+    },
+    "Relancer Hoova" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Relaunch Hoova"
+          }
+        }
+      }
+    },
+    "Reprendre" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resume"
+          }
+        }
+      }
+    },
+    "Retour" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back"
+          }
+        }
+      }
+    },
+    "Rien à télécharger" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing to download"
+          }
+        }
+      }
+    },
+    "Réessaie avec %@." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try again with %@."
+          }
+        }
+      }
+    },
+    "Réessayer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try Again"
+          }
+        }
+      }
+    },
+    "Réglages de Hoova" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoova Settings"
+          }
+        }
+      }
+    },
+    "Réglages…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings…"
+          }
+        }
+      }
+    },
+    "Rétablir" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redo"
+          }
+        }
+      }
+    },
+    "Salut, je suis " : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hi, I'm "
+          }
+        }
+      }
+    },
+    "Salut, je suis %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hi, I'm %@"
+          }
+        }
+      }
+    },
+    "Se charge…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading…"
+          }
+        }
+      }
+    },
+    "Se prépare… %lld %%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preparing… %lld%%"
+          }
+        }
+      }
+    },
+    "Se trompe plus souvent" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makes more mistakes"
+          }
+        }
+      }
+    },
+    "Selon le fournisseur" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Depends on the provider"
+          }
+        }
+      }
+    },
+    "Selon ton réseau" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Depends on your connection"
+          }
+        }
+      }
+    },
+    "Si c'est une vidéo protégée (Netflix, Udemy…), survole plutôt ses sous-titres ou sa transcription." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If it's a protected video (Netflix, Udemy…), try hovering over its subtitles or transcript instead."
+          }
+        }
+      }
+    },
+    "Survole ou sélectionne un mot, puis %@." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hover over a word or select it, then %@."
+          }
+        }
+      }
+    },
+    "Survole un mot, puis %@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hover over a word, then tap %1$@ %2$@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Survole un mot, puis %1$@ %2$@"
+          }
+        }
+      }
+    },
+    "Survole « %@ », puis tape deux fois sur %@." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hover over “%1$@”, then tap %2$@ twice."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Survole « %1$@ », puis tape deux fois sur %2$@."
+          }
+        }
+      }
+    },
+    "Ta clé reste dans le trousseau de ce Mac." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your key stays in this Mac's keychain."
+          }
+        }
+      }
+    },
+    "Terminer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        }
+      }
+    },
+    "Terminer l'installation…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finish Setup…"
+          }
+        }
+      }
+    },
+    "Touche du double appui" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Double-tap key"
+          }
+        }
+      }
+    },
+    "Toujours en" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Always in"
+          }
+        }
+      }
+    },
+    "Tout reste sur ton Mac" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everything stays on your Mac"
+          }
+        }
+      }
+    },
+    "Tout sélectionner" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select All"
+          }
+        }
+      }
+    },
+    "Très juste" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Very accurate"
+          }
+        }
+      }
+    },
+    "Tu pourras aussi choisir un raccourci dans les réglages." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can also set a shortcut in Settings."
+          }
+        }
+      }
+    },
+    "Tu sais tout. Je t'attends là-haut, dans la barre des menus." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You're all set. I'll be waiting up in the menu bar."
+          }
+        }
+      }
+    },
+    "Télécharger" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download"
+          }
+        }
+      }
+    },
+    "Télécharger %@ ?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download %@?"
+          }
+        }
+      }
+    },
+    "Télécharger…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download…"
+          }
+        }
+      }
+    },
+    "Un fichier du modèle est arrivé abîmé. Réessaie : il sera téléchargé de nouveau." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A model file got damaged on the way. Try again and I'll download it fresh."
+          }
+        }
+      }
+    },
+    "Une autre touche ?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prefer another key?"
+          }
+        }
+      }
+    },
+    "Une page en anglais ? Je t'explique en anglais." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A page in French? I'll explain in French."
+          }
+        }
+      }
+    },
+    "Utiliser" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use"
+          }
+        }
+      }
+    },
+    "Utiliser %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use %@"
+          }
+        }
+      }
+    },
+    "Utilisé" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In use"
+          }
+        }
+      }
+    },
+    "Utilisé : %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using %@"
+          }
+        }
+      }
+    },
+    "avocat" : {
+      "comment" : "Essai de l'accueil : le mot à deux sens, écrit comme dans les deux phrases.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "date"
+          }
+        }
+      }
+    },
+    "déjà enregistrée" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Already saved"
+          }
+        }
+      }
+    },
+    "encore %lld min environ" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "about %lld min left"
+          }
+        }
+      }
+    },
+    "encore moins d'une minute" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "less than a minute left"
+          }
+        }
+      }
+    },
+    "la pleine lune" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "the full moon"
+          }
+        }
+      }
+    },
+    "le quartier de lune" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "the half moon"
+          }
+        }
+      }
+    },
+    "macOS me les confie avec ton accord. Je ne lis que quand tu me le demandes." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS only hands them over with your OK. And I only read when you ask."
+          }
+        }
+      }
+    },
+    "macOS peut te redemander l'enregistrement de l'écran une fois par mois : c'est normal, garde-le." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS may ask about Screen Recording again once a month. That's normal, just keep it on."
+          }
+        }
+      }
+    },
+    "macOS te propose de relancer Hoova : accepte, je reviens ici. %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When macOS offers to relaunch Hoova, say yes. I'll be right back. %@"
+          }
+        }
+      }
+    },
+    "menu.annuler" : {
+      "comment" : "Menu Édition : annuler la dernière action.",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Undo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Annuler"
+          }
+        }
+      }
+    },
+    " »" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”"
+          }
+        }
+      }
+    },
+    "À choisir" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not set up"
+          }
+        }
+      }
+    },
+    "À l'apéro, elle a coupé un avocat bien mûr." : {
+      "comment" : "Essai de l'accueil : la seconde phrase, avec le même mot dans son autre sens.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With her tea, she ate a sweet, sticky date."
+          }
+        }
+      }
+    },
+    "À propos de Hoova" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About Hoova"
+          }
+        }
+      }
+    },
+    "À toi de jouer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your turn"
+          }
+        }
+      }
+    },
+    "Édition" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit"
+          }
+        }
+      }
+    },
+    "Étape %lld sur 5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Step %lld of 5"
+          }
+        }
+      }
+    },
+    "à coller ici" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paste your key here"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
