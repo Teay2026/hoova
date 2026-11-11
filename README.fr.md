@@ -1,6 +1,6 @@
 # Hoova
 
-*[Read in English](README.md)*
+*[Read in English](README.md)* · [teay2026.github.io/hoova](https://teay2026.github.io/hoova/)
 
 Sélectionne un mot ou une phrase que tu ne comprends pas (ou survole simplement un mot), puis **tape deux fois sur ⌃ (Control)** : un pop-up t'explique ce qu'il veut dire **dans ce contexte**, en une ou deux phrases simples. Avec le modèle intégré, tout reste sur ton Mac.
 
