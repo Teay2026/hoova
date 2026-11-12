@@ -1,6 +1,6 @@
 # Hoova
 
-*[Lire en français](README.fr.md)* · [teay2026.github.io/hoova](https://teay2026.github.io/hoova/)
+*[Lire en français](README.fr.md)* · [hoova-app.github.io](https://hoova-app.github.io)
 
 Point at a word you don't get, or select a sentence, then **tap ⌃ (Control) twice**. Hoova tells you what it means **right here**, in one or two plain sentences.
 
