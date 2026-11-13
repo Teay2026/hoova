@@ -31,7 +31,7 @@ Sélectionne un mot ou une phrase que tu ne comprends pas (ou survole simplement
 open build/Hoova.app
 ```
 
-Le script signe l'app avec le certificat de distribution de Hoova s'il est dans le trousseau, sinon avec ton certificat de développement Apple : macOS garde ainsi les autorisations d'un build à l'autre. Sans certificat, `SIGN_IDENTITY=- ./scripts/build-app.sh` la signe sans identité, et macOS redemande les autorisations à chaque build. Pour une version, `./scripts/build-dmg.sh` fabrique ensuite `build/Hoova.dmg`, signé pareil, avec son empreinte SHA-256.
+Le script signe l'app avec un certificat Developer ID s'il est dans le trousseau, sinon avec ton certificat de développement Apple : macOS garde ainsi les autorisations d'un build à l'autre. Sans certificat, `SIGN_IDENTITY=- ./scripts/build-app.sh` la signe sans identité, et macOS redemande les autorisations à chaque build. Pour une version, `./scripts/build-dmg.sh` fabrique ensuite `build/Hoova.dmg`, signé pareil, avec son empreinte SHA-256. Avec un certificat Developer ID, il l'envoie aussi à Apple pour la notarisation : macOS ouvre alors Hoova sans le bloquer. Les identifiants de notarisation se rangent une fois dans le trousseau, comme l'explique le script.
 
 Au premier lancement, l'accueil guide l'installation : il fait autoriser Hoova dans **Réglages Système → Confidentialité et sécurité**, puis choisir le modèle et la langue, et propose d'essayer le geste. `open --env HOOVA_SETUP=1 build/Hoova.app` le rouvre depuis le début.
 - **Accessibilité** : obligatoire (double ⌃ et lecture du texte) ;

@@ -18,8 +18,7 @@ Point at a word you don't get, or select a sentence, then **tap ⌃ (Control) tw
 ## Install
 
 1. Download `Hoova.dmg` from the [latest release](https://github.com/Teay2026/hoova/releases/latest), open it, and drag Hoova to Applications.
-2. Open it. macOS says it can't check the app: Apple's signature costs $99 a year, and Hoova is free.
-3. Open System Settings → Privacy & Security, click **Open Anyway**, then **Open**. You only do this once.
+2. Open Hoova. macOS asks if you want to open an app downloaded from the internet: click **Open**.
 
 On first launch, Hoova asks for its permissions, one at a time, and lets you pick your AI and try the gesture.
 
@@ -47,7 +46,7 @@ xcodebuild -downloadComponent MetalToolchain
 open build/Hoova.app
 ```
 
-The script signs Hoova with your Apple Development certificate, so macOS keeps its permissions from one build to the next. Without one, `SIGN_IDENTITY=- ./scripts/build-app.sh` signs it ad hoc, and macOS asks for the permissions again after each build.
+The script signs Hoova with a Developer ID certificate if your keychain has one, otherwise with your Apple Development certificate, so macOS keeps its permissions from one build to the next. Without a certificate, `SIGN_IDENTITY=- ./scripts/build-app.sh` signs it ad hoc, and macOS asks for the permissions again after each build.
 
 ## How it works
 

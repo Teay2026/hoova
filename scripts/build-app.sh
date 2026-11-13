@@ -66,11 +66,23 @@ xcrun actool "$PWD/Resources/AppIcon.icon" --compile "$APP/Contents/Resources" -
   --platform macosx --target-device mac --minimum-deployment-target 27.0 \
   --output-partial-info-plist "$DERIVED/AppIcon.plist" --errors >/dev/null
 
-# Toujours la même signature, pour que macOS garde les autorisations d'un build à l'autre : le certificat de
-# distribution de Hoova s'il est dans le trousseau (auto-signé, docs/decisions.md, 10 novembre 2026), sinon
-# « Apple Development ». SIGN_IDENTITY en choisit une autre, et « - » signe sans identité.
-if [[ -z ${SIGN_IDENTITY:-} ]] && security find-identity -p codesigning | grep -q '"Youness Tahiri El Alaoui"'; then
-  SIGN_IDENTITY="Youness Tahiri El Alaoui"
+# Always the same signature, so macOS keeps the permissions from one build to the next: the Developer ID certificate
+# if it's in the keychain, otherwise "Apple Development". SIGN_IDENTITY picks another one, and "-" signs without an
+# identity. Every piece gets the hardened runtime, and a Developer ID signature also gets a secure timestamp:
+# notarization requires both.
+if [[ -z ${SIGN_IDENTITY:-} ]] && security find-identity -v -p codesigning | grep -q '"Developer ID Application: '; then
+  SIGN_IDENTITY="Developer ID Application"
 fi
-codesign --force --deep --sign "${SIGN_IDENTITY:-Apple Development}" "$APP"
-echo "→ $APP"
+SIGN_IDENTITY=${SIGN_IDENTITY:-Apple Development}
+SIGN=(codesign --force --sign "$SIGN_IDENTITY" --options runtime)
+[[ $SIGN_IDENTITY == "Developer ID Application"* ]] && SIGN+=(--timestamp)
+# From the inside out, without --deep, as Sparkle's documentation shows: its helpers, Sparkle, then Hoova.
+SPARKLE="$APP/Contents/Frameworks/Sparkle.framework"
+"${SIGN[@]}" "$SPARKLE/Versions/B/XPCServices/Installer.xpc"
+"${SIGN[@]}" --preserve-metadata=entitlements "$SPARKLE/Versions/B/XPCServices/Downloader.xpc"
+"${SIGN[@]}" "$SPARKLE/Versions/B/Autoupdate"
+"${SIGN[@]}" "$SPARKLE/Versions/B/Updater.app"
+"${SIGN[@]}" "$SPARKLE"
+"${SIGN[@]}" "$APP"
+codesign --verify --deep --strict "$APP"
+echo "→ $APP ($SIGN_IDENTITY)"
