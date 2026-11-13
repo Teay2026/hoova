@@ -1,14 +1,39 @@
-# Hoova
+<p align="center">
+  <img src=".github/assets/icon.png" width="128" height="128" alt="Hoova's icon: a small lavender mascot with a crescent moon">
+</p>
 
-*[Lire en français](README.fr.md)* · [hoova-app.github.io](https://hoova-app.github.io)
+<h1 align="center">Hoova</h1>
+
+<p align="center">
+  <b>Point at a word. Tap ⌃ twice. Read what it means, right where it is.</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Teay2026/hoova/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/Teay2026/hoova?label=release&color=8b7cf6"></a>
+  <img alt="macOS 27 or later, on Apple Silicon" src="https://img.shields.io/badge/macOS-27%2B_%C2%B7_Apple_Silicon-1f1a3d?logo=apple&logoColor=white">
+  <img alt="Notarized by Apple" src="https://img.shields.io/badge/notarized-by_Apple-1f1a3d">
+  <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-3ccf91"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Teay2026/hoova/releases/latest/download/Hoova.dmg"><b>Download for Mac</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://hoova-app.github.io">Website</a>
+  &nbsp;·&nbsp;
+  <a href="README.fr.md">Lire en français</a>
+</p>
+
+<p align="center">
+  <img src=".github/assets/demo.gif" width="720" alt="In a ChatGPT answer, the pointer is on “plaque”: two taps on Control, and a card under the word explains it">
+</p>
 
 Point at a word you don't get, or select a sentence, then **tap ⌃ (Control) twice**. Hoova tells you what it means **right here**, in one or two plain sentences.
 
-- **It reads the context.** Hoova reads the sentence, the text around it and the page title. "Python" in a care guide is a snake; in a tutorial, it's a language.
-- **Private by default.** Its built-in AI, Gemma 4, runs on your Mac. Nothing leaves it.
-- **Or your own AI.** OpenAI, Anthropic, Gemini or Mistral, with your API key. Or Ollama, on your Mac.
-- **Almost everywhere.** In apps, web pages and PDFs, through macOS Accessibility, or by reading the screen on your Mac when an app keeps its text to itself.
-- **Free.** No account, no ads, no tracking.
+- 🧠 **It reads the context.** Hoova reads the sentence, the text around it and the page title. "Python" in a care guide is a snake; in a tutorial, it's a language.
+- 🔒 **Private by default.** Its built-in AI, Gemma 4, runs on your Mac. Nothing leaves it.
+- 🔑 **Or your own AI.** OpenAI, Anthropic, Gemini or Mistral, with your API key. Or Ollama, on your Mac.
+- 🌍 **Almost everywhere.** In apps, web pages and PDFs, through macOS Accessibility, or by reading the screen on your Mac when an app keeps its text to itself.
+- 🎁 **Free.** No account, no ads, no tracking.
 
 ## What you need
 

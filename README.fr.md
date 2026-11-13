@@ -1,6 +1,31 @@
-# Hoova
+<p align="center">
+  <img src=".github/assets/icon.png" width="128" height="128" alt="L'icône de Hoova : une petite mascotte lavande, avec un croissant de lune">
+</p>
 
-*[Read in English](README.md)* · [hoova-app.github.io](https://hoova-app.github.io)
+<h1 align="center">Hoova</h1>
+
+<p align="center">
+  <b>Pointe un mot. Tape deux fois sur ⌃. Lis ce qu'il veut dire, là où il est.</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Teay2026/hoova/releases/latest"><img alt="Dernière version" src="https://img.shields.io/github/v/release/Teay2026/hoova?label=version&color=8b7cf6"></a>
+  <img alt="macOS 27 ou plus récent, sur Apple Silicon" src="https://img.shields.io/badge/macOS-27%2B_%C2%B7_Apple_Silicon-1f1a3d?logo=apple&logoColor=white">
+  <img alt="Notarisée par Apple" src="https://img.shields.io/badge/notaris%C3%A9e-par_Apple-1f1a3d">
+  <a href="LICENSE"><img alt="Licence MIT" src="https://img.shields.io/badge/licence-MIT-3ccf91"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Teay2026/hoova/releases/latest/download/Hoova.dmg"><b>Télécharger pour Mac</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://hoova-app.github.io">Site</a>
+  &nbsp;·&nbsp;
+  <a href="README.md">Read in English</a>
+</p>
+
+<p align="center">
+  <img src=".github/assets/demo.gif" width="720" alt="Dans une réponse de ChatGPT, la souris est sur « plaque » : deux appuis sur Control, et une carte sous le mot l'explique">
+</p>
 
 Sélectionne un mot ou une phrase que tu ne comprends pas (ou survole simplement un mot), puis **tape deux fois sur ⌃ (Control)** : un pop-up t'explique ce qu'il veut dire **dans ce contexte**, en une ou deux phrases simples. Avec le modèle intégré, tout reste sur ton Mac.
 
