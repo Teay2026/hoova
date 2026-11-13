@@ -708,6 +708,16 @@
         }
       }
     },
+    "J'apprends à lire ton écran…" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learning to read your screen…"
+          }
+        }
+      }
+    },
     "Je lis…" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -815,6 +825,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Full moon, the most accurate"
+          }
+        }
+      }
+    },
+    "La première fois, ou devant une nouvelle écriture, ça peut prendre une minute. Ensuite, c'est instantané." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The first time, or with a new alphabet, it can take a minute. After that, it's instant."
           }
         }
       }

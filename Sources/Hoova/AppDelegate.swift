@@ -37,6 +37,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     private var modelStatus = ModelStatus.loading
     private var reading: Task<Capture?, Never>?
     private var explaining: Task<Void, Never>?
+    /// The card of the explanation being read, and where: it says so when the screen reading takes long.
+    private var pending: (model: PopupModel, point: CGPoint)?
     /// La sélection lue au moment où elle a été faite, et l'app où elle l'a été.
     private var remembered: (capture: Capture, pid: pid_t)?
     /// La lecture commencée au premier ⌃, avec l'endroit et le moment où elle a commencé.
@@ -70,6 +72,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             openSetup()
         }
         startTriggerWhenAllowed()
+        NotificationCenter.default.addObserver(forName: .screenReadingIsPreparing, object: nil, queue: .main) {
+            [weak self] _ in MainActor.assumeIsolated { self?.readingIsPreparing() }
+        }
         Task.detached { await ScreenOCRReader.prewarm() }
         Task { await loadModel() }
         if debug { listenForTests() }
@@ -153,8 +158,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         let opensAtOnce = given == nil && (remembered != nil || (!selectionLikely && !onlyCopy))
         if opensAtOnce {
             popup.show(model, at: point)
+            model.isShown = true
             log.notice("Carte ouverte au second ⌃, pendant la lecture")
         }
+        pending = (model, point)
         // Le modèle n'est pas en mémoire au premier lancement, ni après une pause : la mascotte se réveille.
         let modelReady = if case .ready = modelStatus { modelLoaded } else { false }
         let debug = debug
@@ -172,7 +179,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
                 let blank = await ScreenOCRReader.isBlank(around: point)
                 guard !Task.isCancelled else { return }
                 model.phase = blank ? .blank : .nothingFound
-                if !opensAtOnce { popup.show(model, at: point) }
+                if !model.isShown { popup.show(model, at: point) }
                 log.notice(
                     "Rien lu sous la souris (\(read, privacy: .public))\(blank ? " · zone d'une seule couleur : vidéo protégée ?" : "", privacy: .public)"
                 )
@@ -186,7 +193,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             model.title = capture.title
             model.phase = modelReady ? .writing : .waitingModel
             // Ouverte dès le second ⌃, la carte reste où elle est : le mot s'allume quand `anchor` arrive.
-            if !opensAtOnce { popup.show(model, at: point) }
+            if !model.isShown { popup.show(model, at: point) }
             var firstWord: Duration?
             do {
                 for try await explanation in explainer.explain(capture) {
@@ -216,6 +223,18 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
                 model.phase = .failed(error.localizedDescription)
             }
         }
+    }
+
+    /// The screen reading takes long: macOS is still preparing it, about a minute the very first time. The card says so,
+    /// and opens if it was waiting for the text.
+    private func readingIsPreparing() {
+        guard let pending, pending.model.phase == .reading, pending.model.term.isEmpty else { return }
+        pending.model.phase = .preparingReading
+        if !pending.model.isShown {
+            popup.show(pending.model, at: pending.point)
+            pending.model.isShown = true
+        }
+        log.notice("Screen reading still being prepared by macOS: the card says so")
     }
 
     /// Premier ⌃ : on commence déjà à lire sous la souris, sans ⌘C, pour gagner le temps du second appui. Si le texte

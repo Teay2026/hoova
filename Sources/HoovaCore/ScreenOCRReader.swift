@@ -9,6 +9,13 @@ import os
 
 private let log = Logger(subsystem: "com.teayouness.hoova", category: "lecture")
 
+extension Notification.Name {
+    /// A screen reading has taken more than a second: macOS is still preparing its text recognition. About a minute the
+    /// very first time, half a minute the first time it meets a new script (Arabic, Hindi), and perhaps again after a
+    /// macOS update. Every slow reading says so, not only the first one (the user's decision, 13 November 2026).
+    public static let screenReadingIsPreparing = Notification.Name("com.teayouness.hoova.screenReadingIsPreparing")
+}
+
 /// Lit le texte sous la souris par capture d'écran + lecture de document (Vision, sur le Neural Engine).
 /// Marche partout : images, vidéos, PDF scannés, apps qui n'exposent rien.
 public enum ScreenOCRReader {
@@ -41,7 +48,7 @@ public enum ScreenOCRReader {
         let rect = zone(around: point)
         guard let image = try? await screen(in: rect),
             let pixels = Pixels(image),
-            let document = try? await request().perform(on: image).first?.document
+            let document = await readDocument(image)
         else { return nil }
         let colors = highlightColors()
 
@@ -168,7 +175,7 @@ public enum ScreenOCRReader {
     }
 
     static func recognize(_ image: CGImage, in rect: CGRect, at point: CGPoint) async -> Capture? {
-        guard let document = try? await request().perform(on: image).first?.document else { return nil }
+        guard let document = await readDocument(image) else { return nil }
         // La souris, en coordonnées Vision : de 0 à 1, origine en bas à gauche.
         let target = CGPoint(x: (point.x - rect.minX) / rect.width, y: 1 - (point.y - rect.minY) / rect.height)
 
@@ -289,6 +296,17 @@ public enum ScreenOCRReader {
         guard let file = CGImageDestinationCreateWithURL(url as CFURL, "public.png" as CFString, 1, nil) else { return }
         CGImageDestinationAddImage(file, marked, nil)
         CGImageDestinationFinalize(file)
+    }
+
+    /// The document in `image`. A reading takes about 0.3 s: past one second, macOS is still preparing its text
+    /// recognition, and the app is told, so the card can say so.
+    private static func readDocument(_ image: CGImage) async -> DocumentObservation.Container? {
+        let slow = Task {
+            try await Task.sleep(for: .seconds(1))
+            NotificationCenter.default.post(name: .screenReadingIsPreparing, object: nil)
+        }
+        defer { slow.cancel() }
+        return try? await request().perform(on: image).first?.document
     }
 
     private static func request() -> RecognizeDocumentsRequest {

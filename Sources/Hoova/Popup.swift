@@ -11,6 +11,9 @@ private let log = Logger(subsystem: "com.teayouness.hoova", category: "pop-up")
 final class PopupModel {
     enum Phase: Equatable {
         case reading, waitingModel, writing, done, nothingFound
+        /// The screen reading takes long: macOS is still preparing it, about a minute the very first time, and half a
+        /// minute the first time it meets a new script.
+        case preparingReading
         /// Rien sous la souris qu'une seule couleur : sans doute une vidéo protégée contre la copie.
         case blank
         case failed(String)
@@ -36,11 +39,13 @@ final class PopupModel {
     var flying = false
     /// Cette explication compte dans la série (elle n'en sort que si elle échoue).
     @ObservationIgnored var inStreak = false
+    /// The card is on screen: from the second ⌃, or as soon as the screen reading turns out to take long.
+    @ObservationIgnored var isShown = false
 
     /// Une explication, et non un message (rien sous le pointeur, vidéo protégée, erreur).
     var isExplanation: Bool {
         switch phase {
-        case .reading, .waitingModel, .writing, .done: true
+        case .reading, .preparingReading, .waitingModel, .writing, .done: true
         case .nothingFound, .blank, .failed: false
         }
     }
@@ -48,7 +53,7 @@ final class PopupModel {
     /// Hoova lit ou écrit encore.
     var isWorking: Bool {
         switch phase {
-        case .reading, .waitingModel, .writing: true
+        case .reading, .preparingReading, .waitingModel, .writing: true
         case .done, .nothingFound, .blank, .failed: false
         }
     }
@@ -475,6 +480,10 @@ private struct PopupCard: View {
         switch model.phase {
         case .reading, .writing, .done: explanation
         case .waitingModel: message("Je me réveille…", "Quelques secondes, j'arrive.")
+        case .preparingReading:
+            message(
+                "J'apprends à lire ton écran…",
+                "La première fois, ou devant une nouvelle écriture, ça peut prendre une minute. Ensuite, c'est instantané.")
         case .nothingFound:
             message("Je ne vois pas de texte ici", "Survole ou sélectionne un mot, puis\u{00A0}\(Self.gesture).")
         case .blank:
@@ -496,7 +505,7 @@ private struct PopupCard: View {
     /// L'expression de la mascotte : elle lit, puis réagit à la réponse et à sa source.
     private var mood: Mascot.Mood {
         switch model.phase {
-        case .reading, .writing: .reading
+        case .reading, .preparingReading, .writing: .reading
         case .waitingModel: .sleepy
         case .nothingFound: .searching
         case .blank: .squinting
